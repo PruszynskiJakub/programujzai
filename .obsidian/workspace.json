@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d0a9882a80bbba82",
+        "id": "851272699389ff17",
         "type": "tabs",
         "children": [
           {
-            "id": "36ec15a9fb835ba3",
+            "id": "b4449736cb6b1896",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Nowa Era Programowania"
             }
           },
           {
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Nowa Era Programowania"
             }
           },
           {
@@ -136,12 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Nowa Era Programowania"
             }
           },
           {
@@ -169,9 +172,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "36ec15a9fb835ba3",
-  "lastOpenFiles": []
+  "active": "b4449736cb6b1896",
+  "lastOpenFiles": [
+    "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
+    "course/modules/1. hello_ai_world/Narzędzia - wprowadzenie.md",
+    "course/modules/1. hello_ai_world/Ewolucja przepływu wiedzy w IT.md"
+  ]
 }
