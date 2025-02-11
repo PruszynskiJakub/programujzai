@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"e4d7a206dc59393b","type":"group","x":-1200,"y":-960,"width":1770,"height":580,"label":"User story driven flow"},
+		{"id":"7602c05a0b1bdc16","type":"group","x":-1200,"y":-220,"width":1990,"height":500,"label":"Context file on the fly"},
+		{"id":"e57b8581d321d357","type":"group","x":-680,"y":-800,"width":400,"height":400,"label":"Założenia"},
+		{"id":"1a83af84b1f1d9ac","type":"group","x":-695,"y":-140,"width":400,"height":400,"label":"Założenia"},
+		{"id":"25493566b75b5399","type":"text","text":"Dobrze ustruktoryzowane user story","x":-660,"y":-780,"width":340,"height":60},
+		{"id":"ae588ceecaff35dc","type":"text","text":"Używanie user story jako readonly do kontekstu","x":-660,"y":-680,"width":340,"height":60},
+		{"id":"42005cac1fe7132c","type":"text","text":"Świadome orkiestrowanie LLM-a zamiast prośba o po prostu o implementacje","x":-180,"y":-750,"width":340,"height":100},
+		{"id":"dc77a5f4a0f09f52","type":"text","text":"Weryfikacja co jakiś czas z wymaganiami","x":300,"y":-730,"width":250,"height":60},
+		{"id":"db2f380875d70063","type":"file","file":"launch_notes/shared/examples/Struktura user story.md","x":-1180,"y":-890,"width":400,"height":280},
+		{"id":"a32edd2abe7673b0","type":"text","text":"Dopracowane / przemyślane Conventions file lub cursorrules","x":-660,"y":-580,"width":340,"height":58},
+		{"id":"801d209a8a48d204","type":"text","text":"Dopracowane / przemyślane Conventions file lub cursorrules","x":-675,"y":-100,"width":340,"height":58},
+		{"id":"a894d8978ae4c74a","type":"text","text":"Convesions file uwzględnia tworzenie context file'u dla funkcjonalności nad którą pracujesz","x":-675,"y":70,"width":340,"height":80},
+		{"id":"24d065097162308f","type":"text","text":"Dopracowane / przemyślane Conventions file lub cursorrules","x":-670,"y":-19,"width":340,"height":58},
+		{"id":"13680e3b4c4641c6","type":"text","text":"Nowy kod","x":100,"y":-162,"width":250,"height":60},
+		{"id":"25515fcf221d3428","type":"text","text":"Aktualizacja context file","x":530,"y":-42,"width":250,"height":60},
+		{"id":"418f29abe85d56a9","type":"text","text":"Jeżeli praca idzie w złym kierunku revert do ostatniej zadowalającej wersji context file","x":190,"y":160,"width":320,"height":80},
+		{"id":"b767779bd604d3d6","x":-1160,"y":-140,"width":400,"height":400,"type":"file","file":"launch_notes/shared/notes/Context file.md"},
+		{"id":"af146b675ba6678c","type":"text","text":"Orkiestrowanie LLM-a ","x":-240,"y":10,"width":340,"height":100}
+	],
+	"edges":[
+		{"id":"60031d80976ca3ef","fromNode":"25493566b75b5399","fromSide":"left","toNode":"db2f380875d70063","toSide":"right"},
+		{"id":"cfa944a603e944ad","fromNode":"e57b8581d321d357","fromSide":"right","toNode":"42005cac1fe7132c","toSide":"left"},
+		{"id":"b67e671492d2d5ba","fromNode":"dc77a5f4a0f09f52","fromSide":"top","toNode":"42005cac1fe7132c","toSide":"top"},
+		{"id":"becb058bf94f5580","fromNode":"42005cac1fe7132c","fromSide":"bottom","toNode":"dc77a5f4a0f09f52","toSide":"bottom"},
+		{"id":"ca5c38b565f6caa1","fromNode":"af146b675ba6678c","fromSide":"top","toNode":"13680e3b4c4641c6","toSide":"left"},
+		{"id":"fd9861d73fa87162","fromNode":"13680e3b4c4641c6","fromSide":"right","toNode":"25515fcf221d3428","toSide":"top"},
+		{"id":"89a11d4f11a10a83","fromNode":"25515fcf221d3428","fromSide":"bottom","toNode":"418f29abe85d56a9","toSide":"right"},
+		{"id":"8e6cfdf949c632de","fromNode":"418f29abe85d56a9","fromSide":"left","toNode":"af146b675ba6678c","toSide":"bottom"},
+		{"id":"9281f891f2d2e5d5","fromNode":"a894d8978ae4c74a","fromSide":"left","toNode":"b767779bd604d3d6","toSide":"right"},
+		{"id":"34cacd9490184a3b","fromNode":"1a83af84b1f1d9ac","fromSide":"right","toNode":"af146b675ba6678c","toSide":"left"}
+	]
+}

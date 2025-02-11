@@ -1,0 +1,1 @@
+Używanie aidera jako podprogramu odpowiedzialnego za automatyzacje działań
