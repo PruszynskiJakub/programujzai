@@ -43,6 +43,8 @@ Kluczowe jest zrozumienie, że nie chodzi o zastąpienie programistów, ale o ew
 - Zarządzać i optymalizować modele AI
 - Ściślej współpracować z ekspertami domenowymi
 
+https://www.anthropic.com/news/the-anthropic-economic-index
+
 ## Dlaczego Ten Kurs Jest Inny
 Ten kurs nie jest kolejnym tutorialem o prompt engineering czy podstawach AI. To praktyczny przewodnik po:
 - 🎯 Realnym wykorzystaniu AI w codziennej pracy
