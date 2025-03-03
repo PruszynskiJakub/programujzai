@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "851272699389ff17",
+        "id": "f49b6d4156775f24",
         "type": "tabs",
         "children": [
           {
-            "id": "b4449736cb6b1896",
+            "id": "daf33a8446174d27",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brain dump.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Brain dump"
+              "title": "New tab"
             }
           }
         ]
@@ -180,8 +176,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "b4449736cb6b1896",
+  "active": "daf33a8446174d27",
   "lastOpenFiles": [
+    "Brain dump.md",
     "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
     "course/modules/1. hello_ai_world/Narzędzia - wprowadzenie.md",
     "course/modules/1. hello_ai_world/Ewolucja przepływu wiedzy w IT.md"
