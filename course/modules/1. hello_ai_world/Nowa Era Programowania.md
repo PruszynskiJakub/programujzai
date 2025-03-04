@@ -1,8 +1,8 @@
-Żyjemy w przełomowym momencie historii programowania. Sztuczna inteligencja przestała być odległą przyszłością - stała się naszą teraźniejszością. Rozpoczynając ten kurs, należysz zapewne do jednej z dwóch grup programistów: tych, którzy obawiają się, że AI zabierze im pracę, lub tych, którzy dostrzegają w AI niezbadane dotąd możliwości.
+Żyjemy w przełomowym momencie historii programowania. Sztuczna inteligencja przestała być odległą przyszłością – stała się naszą teraźniejszością. Rozpoczynając ten kurs, zapewne należysz do jednej z dwóch grup programistów: tych, którzy obawiają się, że AI zabierze im pracę, lub tych, którzy dostrzegają w AI niezbadane dotąd możliwości.
 
-Badania pokazują, że do 2040 roku rola programisty znacząco się zmieni. Według McKinsey, około 80% stanowisk programistycznych pozostanie zorientowanych na człowieka, ale będą one wymagać nowych umiejętności. Już teraz obserwujemy rosnące zapotrzebowanie na role łączące programowanie z AI - liczba ofert pracy dla data scientists, ML engineers i AI developers podwoiła się w ostatnich trzech latach.
+Według raportu McKinsey, do 2040 roku aż 80% stanowisk programistycznych pozostanie zorientowanych na człowieka, ale będą one wymagać nowych kompetencji. Już teraz obserwujemy rosnące zapotrzebowanie na role łączące programowanie z AI – liczba ofert pracy dla data scientists, ML engineers i AI developers podwoiła się w ostatnich trzech latach.
 
-> "Programowanie przyszłości nie będzie polegało na utrzymywaniu złożonych repozytoriów czy pisaniu skomplikowanych programów. Będzie skupiało się na zbieraniu, przygotowywaniu i analizie danych zasilających sieci neuronowe." - Andrej Karpathy, były naukowiec OpenAI
+> "Programowanie przyszłości nie będzie polegało na utrzymywaniu złożonych repozytoriów czy pisaniu skomplikowanych programów. Będzie skupiało się na zbieraniu, przygotowywaniu i analizie danych zasilających sieci neuronowe." – Andrej Karpathy, były naukowiec OpenAI
 
 ### Dwie Narracje
 
@@ -26,7 +26,7 @@ Badania pokazują, że do 2040 roku rola programisty znacząco się zmieni. Wed�
 
 ### Prawda leży pośrodku
 AI rzeczywiście zmienia branżę IT, ale:
-- 🎯 Nie zastępuje programistów, a staje się ich narzędziem
+- 🎯 Nie zastępuje programistów, lecz staje się ich narzędziem
 - 🔄 Eliminuje powtarzalne zadania, dając czas na ważniejsze aspekty
 - 🧠 Wymaga ludzkiego nadzoru i krytycznego myślenia
 - 💡 Tworzy nowe możliwości i specjalizacje
@@ -43,7 +43,7 @@ Kluczowe jest zrozumienie, że nie chodzi o zastąpienie programistów, ale o ew
 - Zarządzać i optymalizować modele AI
 - Ściślej współpracować z ekspertami domenowymi
 
-https://www.anthropic.com/news/the-anthropic-economic-index
+Więcej o ekonomicznych skutkach rozwoju AI przeczytasz w raporcie [Anthropic Economic Index](https://www.anthropic.com/news/the-anthropic-economic-index).
 
 ## Dlaczego Ten Kurs Jest Inny
 Ten kurs nie jest kolejnym tutorialem o prompt engineering czy podstawach AI. To praktyczny przewodnik po:
@@ -68,23 +68,28 @@ Ten kurs nie jest kolejnym tutorialem o prompt engineering czy podstawach AI. To
 
 ## Czego Się Nauczysz
 Po ukończeniu tego modułu:
-- Zrozumiesz jak zmienia się rola programisty
+- Zrozumiesz, jak zmienia się rola programisty
 - Poznasz kluczowe narzędzia AI dla developera
 - Nauczysz się efektywnie współpracować z AI
 - Zaczniesz budować własny workflow z AI
 
 ## Nowe Podejście do Rozwoju
-AI to nie jest kolejne narzędzie - to nowy sposób myślenia o programowaniu:
+AI to nie jest kolejne narzędzie – to nowy sposób myślenia o programowaniu:
 - Od pisania kodu → do projektowania rozwiązań
 - Od zapamiętywania składni → do rozumienia konceptów
 - Od implementacji → do walidacji i optymalizacji
 
 ## Zadanie 🏋️‍♂️
-1. **Refleksja**: Zapisz swoje największe obawy i nadzieje związane z AI w programowaniu
-2. **Eksperyment**: Spróbuj przez jeden dzień używać AI do każdego zadania programistycznego
+1. **Refleksja**: Zapisz swoje największe obawy i nadzieje związane z AI w programowaniu.
+2. **Eksperyment**: Przez jeden dzień używaj AI do każdego zadania programistycznego.
 3. **Analiza**: Zanotuj, które zadania były:
    - Łatwiejsze z AI
    - Trudniejsze z AI
    - Niemożliwe bez AI
 
 > 💡 **Pro Tip**: Nie oceniaj swoich pierwszych prób zbyt surowo. Każdy ekspert był kiedyś początkującym.
+
+## Refleksja Końcowa
+AI nie jest zagrożeniem, lecz szansą na rozwój. Zamiast pytać: "Czy AI zabierze mi pracę?", zapytaj siebie: "Jak mogę wykorzystać AI, by stać się lepszym programistą?".
+
+**Gotowy na nową erę programowania? Zaczynajmy! 🚀**
