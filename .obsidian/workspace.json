@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "course/modules/1. hello_ai_world/Narzędzia - wprowadzenie.md",
+                "file": "course/notes/Okno kontekstowe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Narzędzia - wprowadzenie"
+              "title": "Okno kontekstowe"
             }
           }
         ]
@@ -182,10 +182,16 @@
   },
   "active": "daf33a8446174d27",
   "lastOpenFiles": [
-    "course/modules/1. hello_ai_world/Ewolucja przepływu wiedzy w IT.md",
+    "course/notes/Poziomy szczegółowości promptu.md",
+    "course/notes/Podstawowe techniki promptowania.md",
+    "course/notes/Kontekst.md",
+    "course/modules/llm_fundamentals/Untitled.md",
+    "course/Konspekt.md",
+    "course/modules/llm_fundamentals",
     "course/modules/1. hello_ai_world/👋🏻 Hello AI World DRAFT.md",
-    "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
+    "course/modules/1. hello_ai_world/Ewolucja przepływu wiedzy w IT.md",
     "course/modules/1. hello_ai_world/Narzędzia - wprowadzenie.md",
+    "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
     "course/notes/Okno kontekstowe.md",
     "course/notes/Embedding.md",
     "course/notes/Dostawcy LLM.md",
@@ -198,7 +204,6 @@
     "course/_ideas.md",
     "course/notes/Kategorie promptów.md",
     "course/notes/Najlepsze formatowanie dla promptów.md",
-    "course/Konspekt.md",
     "Brain dump.md"
   ]
 }
