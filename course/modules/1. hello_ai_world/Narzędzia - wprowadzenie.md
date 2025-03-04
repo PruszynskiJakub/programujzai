@@ -1,5 +1,6 @@
 ## Zmiana Paradygmatu
-Narzędzia AI to nie tylko dodatki do IDE - to fundamentalna zmiana w sposobie, w jaki tworzymy oprogramowanie. W świetle zmieniającego się "przepływu wiedzy" (Klient -> Zespół + AI -> Deweloper + AI), nasze narzędzia muszą:
+
+Narzędzia AI to nie tylko dodatki do IDE – to fundamentalna zmiana w sposobie, w jaki tworzymy oprogramowanie. Tradycyjny przepływ wiedzy (Klient → Zespół → Deweloper) ewoluuje w nowy model (Klient → Zespół + AI → Deweloper + AI). W tym kontekście nasze narzędzia muszą:
 
 - Wspierać efektywną komunikację z AI
 - Zachować kontekst projektu i domeny
@@ -10,13 +11,14 @@ Narzędzia AI to nie tylko dodatki do IDE - to fundamentalna zmiana w sposobie, 
 
 ## Dlaczego Wybór Narzędzi Jest Ważny
 
-Krajobraz narzędzi programistycznych AI szybko ewoluuje, od zintegrowanych rozwiązań gigantów technologicznych po alternatywy open-source. Twój wybór narzędzi może znacząco wpłynąć na:
+Krajobraz narzędzi programistycznych AI szybko ewoluuje – od zintegrowanych rozwiązań gigantów technologicznych po alternatywy open-source. Twój wybór narzędzi może znacząco wpłynąć na:
 
 - Dostęp do najnowszych modeli i możliwości AI
 - Efektywność procesu developmentu
 - Jakość i spójność kodu
 - Koszty i skalowalność projektu
 
+> 🚧 **Ważne:** Narzędzia AI zmieniają się dynamicznie. Regularnie sprawdzaj dostępne opcje, aby korzystać z najnowszych możliwości.
 
 ## Jak Wybrać Narzędzia
 
@@ -25,7 +27,7 @@ Rozważ te czynniki przy wyborze narzędzi AI:
 1. **Dostęp do Modeli**
    - Jakie modele AI są dostępne?
    - Czy jesteś ograniczony do konkretnych dostawców?
-   - Czy możesz przełączać się między modelami?
+   - Czy możesz łatwo przełączać się między modelami?
 
 2. **Zarządzanie Kontekstem**
    - Jak dobrze radzi sobie z wieloma plikami?
@@ -34,28 +36,28 @@ Rozważ te czynniki przy wyborze narzędzi AI:
 
 3. **Integracja z Workflow**
    - Czy pasuje do Twojego procesu rozwoju?
-   - Jak dobrze integruje się z git?
+   - Jak dobrze integruje się z Git?
    - Czy obsługuje Twoje procesy testowania i review?
 
 4. **Koszty i Licencje**
    - Jakie są koszty subskrypcji?
    - Czy są limity użycia?
-   - Co z licencjami dla firm?
+   - Jak wygląda kwestia licencji dla firm?
 
 ## Popularne Narzędzia AI
 
-W tej sekcji omówimy najpopularniejsze narzędzia AI wspierające proces wytwarzania oprogramowania:
+Przyjrzyjmy się bliżej najpopularniejszym narzędziom AI wspierającym proces wytwarzania oprogramowania:
 
 ### Aider
 
 Aider to potężne narzędzie wiersza poleceń do programowania w parach z AI, które wyróżnia się następującymi cechami:
 
 #### Kluczowe Zalety
-- 🔄 Pełna integracja z Git - automatyczne commity i śledzenie zmian
+- 🔄 Pełna integracja z Git – automatyczne commity i śledzenie zmian
 - 📁 Zaawansowana obsługa wielu plików i kontekstu projektu
 - ⚡ Elastyczność w wyborze modeli (GPT-4, Claude)
 - 🛠️ Bogaty zestaw komend (`/help`, `/add`, `/commit`, `/undo`)
-- 🎯 Uniwersalna kompatybilność - jako narzędzie CLI działa z każdym IDE (IntelliJ, PyCharm, VSCode i inne)
+- 🎯 Uniwersalna kompatybilność – jako narzędzie CLI działa z każdym IDE (IntelliJ, PyCharm, VSCode i inne)
 
 #### Kiedy Warto Użyć
 - Podczas refaktoryzacji obejmującej wiele plików
@@ -63,11 +65,30 @@ Aider to potężne narzędzie wiersza poleceń do programowania w parach z AI, k
 - W sytuacjach wymagających precyzyjnej komunikacji z AI
 - Gdy potrzebujemy pełnej kontroli nad generowanym kodem
 
-> 💡 Aider szczególnie dobrze sprawdza się w projektach, gdzie kluczowa jest integracja z git i precyzyjna kontrola nad zmianami w kodzie.
+> 💡 Aider szczególnie dobrze sprawdza się w projektach, gdzie kluczowa jest integracja z Git i precyzyjna kontrola nad zmianami w kodzie.
 
 [Więcej o Aider →](../tools/Aider.md)
 
 ### Cursor
+
+Cursor to nowoczesne IDE stworzone specjalnie z myślą o współpracy z AI, które oferuje:
+
+#### Kluczowe Zalety
+- 🚀 Natychmiastowe generowanie i edycja kodu z wykorzystaniem AI
+- 📚 Automatyczne zarządzanie kontekstem projektu
+- 🔍 Zaawansowane funkcje debugowania i analizy kodu
+- ⚙️ Wbudowana obsługa wielu modeli AI (GPT-4, Claude)
+- 🖥️ Intuicyjny interfejs użytkownika
+
+#### Kiedy Warto Użyć
+- Podczas szybkiego prototypowania nowych funkcjonalności
+- Przy eksploracji nowych technologii i bibliotek
+- Gdy potrzebujesz szybkiego feedbacku od AI podczas pisania kodu
+- W projektach, gdzie ważna jest wygoda pracy w jednym narzędziu
+
+> 💡 Cursor idealnie nadaje się do dynamicznych projektów, gdzie szybkość iteracji i wygoda pracy są kluczowe.
+
+[Więcej o Cursor →](../tools/Cursor.md)
 
 ### GitHub Copilot
 
@@ -89,7 +110,6 @@ GitHub Copilot to zaawansowany asystent AI zintegrowany bezpośrednio z popularn
 > 💡 Copilot szczególnie dobrze sprawdza się w codziennej pracy programisty, działając jak inteligentny partner pair-programmingu.
 
 [Więcej o GitHub Copilot →](../tools/Copilot.md)
-
 
 ## Zadanie: Pierwsze kroki z narzędziami AI 🚀
 
@@ -113,14 +133,14 @@ Skonfigurowanie środowiska do pracy z AI i napisanie pierwszego programu przy p
    
 3. **Pierwszy program z AI:**
    - Utwórz nowy projekt
-   - Przy pomocy wybranego narzędzia, wygeneruj program wyświetlający "Hello AI World" w wybranym języku programowania
+   - Przy pomocy wybranego narzędzia wygeneruj program wyświetlający "Hello AI World" w wybranym języku programowania
    - Przetestuj działanie programu
    - Wykonaj commit zmian do repozytorium (jeśli używasz Aider, zrobi to automatycznie)
 
 ### Dodatkowe wyzwania
 - Spróbuj wygenerować ten sam program w kilku różnych językach
 - Eksperymentuj z różnymi poleceniami i komendami w wybranym narzędziu
-- Porównaj jak różne narzędzia radzą sobie z tym samym zadaniem
+- Porównaj, jak różne narzędzia radzą sobie z tym samym zadaniem
 
 ### Kryteria sukcesu ✅
 - Masz działające konto OpenAI z aktywnym kluczem API

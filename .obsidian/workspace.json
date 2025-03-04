@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "course/modules/1. hello_ai_world/👋🏻 Hello AI World DRAFT.md",
+                "file": "course/modules/1. hello_ai_world/Narzędzia - wprowadzenie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "👋🏻 Hello AI World DRAFT"
+              "title": "Narzędzia - wprowadzenie"
             }
           }
         ]
@@ -183,6 +183,7 @@
   "active": "daf33a8446174d27",
   "lastOpenFiles": [
     "course/modules/1. hello_ai_world/Ewolucja przepływu wiedzy w IT.md",
+    "course/modules/1. hello_ai_world/👋🏻 Hello AI World DRAFT.md",
     "course/modules/1. hello_ai_world/Nowa Era Programowania.md",
     "course/modules/1. hello_ai_world/Narzędzia - wprowadzenie.md",
     "course/notes/Okno kontekstowe.md",
@@ -197,7 +198,6 @@
     "course/_ideas.md",
     "course/notes/Kategorie promptów.md",
     "course/notes/Najlepsze formatowanie dla promptów.md",
-    "course/modules/1. hello_ai_world/👋🏻 Hello AI World DRAFT.md",
     "course/Konspekt.md",
     "Brain dump.md"
   ]
