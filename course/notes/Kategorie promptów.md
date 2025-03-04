@@ -6,7 +6,7 @@ tags:
 
 
 
-![[shared/_resources/fcfa049a0dcc2378539de6db9e8926d0_MD5.jpeg]]
+![[_resources/fcfa049a0dcc2378539de6db9e8926d0_MD5.jpeg]]
 Here's an extended breakdown with examples:
 
 #### Generujące
