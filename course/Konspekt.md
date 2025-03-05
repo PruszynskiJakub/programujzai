@@ -13,7 +13,7 @@
 - [[🧠 Założenia]]
 
 Zadanie : 
-1. [[Utworzenie konta OpenAI API]]
+1. [[Utworzenie konta OpenAI API]] ✅
 2. Zainstaluj jeden z tooli
 3. [[Refleksja]]
 
