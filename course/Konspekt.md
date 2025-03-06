@@ -20,7 +20,7 @@ Zadanie :
 
 ## Moduł 2 - Fundamenty LLM oraz PE
 
-- Omówienie LLM ✅
+- Omówienie LLM ✅ali
 	- [[Tokeny]]
 	- [[shared/course/notes/Kontekst|Kontekst]]
 	- [[shared/course/notes/Embedding|Embedding]]
