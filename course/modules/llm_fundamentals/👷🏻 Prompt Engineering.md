@@ -1,18 +1,24 @@
-### Techniki promptowania
+## Wprowadzenie
 
-Projektowanie promptów to sztuka precyzyjnego komunikowania się z modelami AI. Nie jest to umiejętność, którą można opanować w jeden dzień - wymaga doświadczenia, eksperymentowania i uważnej obserwacji zachowań modelu. Przypomina to naukę nowego języka, gdzie z czasem wyczuwamy niuanse i subtelności.
+Prompt engineering to sztuka efektywnej komunikacji z modelami językowymi. Choć modele AI są coraz potężniejsze, ich użyteczność w dużej mierze zależy od jakości instrukcji, które im przekazujemy. Ta lekcja wprowadza kluczowe techniki, struktury i wzorce, które pozwolą ci tworzyć skuteczne prompty i maksymalizować potencjał modeli językowych.
 
-#### Zero-shot prompting
+## Techniki promptowania
 
-Najprostsza technika, polegająca na bezpośrednim zadaniu pytania bez dodatkowych wskazówek czy przykładów:
+Nie każda wiadomość wysyłana do AI musi być starannie zaprojektowana. W codziennej konwersacji możemy łatwo doprecyzować nasze intencje. Jednak przy projektowaniu automatyzacji precyzja staje się kluczowa – czas poświęcony na staranne zbudowanie instrukcji zwraca się przy każdym uruchomieniu.
+
+Projektowanie promptów polega na precyzyjnym opisaniu naszych oczekiwań, unikaniu dwuznaczności i zachowaniu zwięzłości. Jest to umiejętność, która rozwija się wraz z doświadczeniem i obserwacją zachowań modelu. Oto najważniejsze techniki:
+
+### Zero-shot prompting
+
+Najprostsza technika, polegająca na bezpośrednim zadaniu pytania bez dodatkowych wskazówek:
 
 ```
 Jaka jest stolica Francji?
 ```
 
-Zero-shot sprawdza się dobrze w prostych zadaniach, ale może zawodzić przy złożonych problemach. Jest jak rozmowa z ekspertem bez określania, jakiego rodzaju odpowiedzi oczekujemy.
+Zero-shot sprawdza się w prostych zadaniach, ale może zawodzić przy złożonych problemach. Model opiera się wyłącznie na swoich zdolnościach do podążania za instrukcjami, bez dodatkowych wskazówek.
 
-#### Few-shot prompting
+### Few-shot prompting
 
 W tej technice dostarczamy modelowi kilka przykładów, zanim zadamy właściwe pytanie:
 
@@ -22,9 +28,9 @@ Dodaj: 3+3=6
 Dodaj: 5+5=?
 ```
 
-Few-shot działa jak krótki tutorial - pokazujemy modelowi wzorzec odpowiedzi, którego oczekujemy. Jest szczególnie skuteczny, gdy zależy nam na konkretnym formacie lub stylu odpowiedzi.
+Few-shot działa jak mini-tutorial – pokazujemy modelowi wzorzec odpowiedzi, którego oczekujemy. Jest szczególnie skuteczny, gdy zależy nam na konkretnym formacie lub stylu odpowiedzi.
 
-#### Chain of Thought (CoT)
+### Chain of Thought (CoT)
 
 Ta technika zachęca model do pokazania procesu rozumowania krok po kroku:
 
@@ -38,7 +44,7 @@ Odpowiedź: Janowi zostają 2 jabłka.
 
 CoT drastycznie poprawia dokładność modeli w zadaniach wymagających rozumowania, szczególnie matematycznych i logicznych.
 
-#### Zero-shot Chain of Thought
+### Zero-shot Chain of Thought
 
 Uproszczona wersja CoT, gdzie zamiast pokazywać pełny przykład, używamy prostych zwrotów zachęcających do rozumowania:
 
@@ -49,7 +55,7 @@ Zastanówmy się nad tym krok po kroku.
 
 Frazy takie jak "zastanówmy się krok po kroku" czy "rozwiążmy to logicznie" działają jak zaklęcia, które aktywują zdolności rozumowania modelu.
 
-#### Tree of Thoughts
+### Tree of Thoughts
 
 Rozszerzenie CoT, gdzie model rozważa równolegle różne ścieżki rozumowania:
 
@@ -70,69 +76,70 @@ Analizując powyższe opcje...
 
 Ta technika jest szczególnie przydatna przy złożonych problemach bez jednoznacznych odpowiedzi.
 
-Czy zauważyłeś, jak każda kolejna technika dodaje nową warstwę złożoności? To jak przechodzenie od prostej rozmowy do głębokiej dyskusji z ekspertem. Która technika będzie najlepsza? To zależy od zadania - czasem najprostsza metoda okaże się najskuteczniejsza.
-
-### Struktura promptu
+## Struktura promptu
 
 Dobrze zaprojektowany prompt przypomina precyzyjną instrukcję - jasną, konkretną i pozostawiającą minimalną przestrzeń na interpretację. Oto kluczowe elementy skutecznej struktury:
 
-#### 1. Kontekst
+### 1. Rola
 
-Rozpocznij od dostarczenia niezbędnych informacji tła:
-
-```
-Jestem nauczycielem matematyki w szkole podstawowej i przygotowuję materiały dla uczniów klasy 4.
-```
-
-Kontekst pomaga modelowi zrozumieć, w jakim celu zadajesz pytanie i dostosować odpowiedź do odpowiedniego poziomu.
-
-#### 2. Instrukcja
-
-Jasno określ, czego oczekujesz:
+LLM potrafią doskonale wcielać się w różne role. Określenie roli nadaje kontekst konwersacji i zmniejsza dwuznaczności:
 
 ```
-Stwórz 5 zadań tekstowych na dodawanie i odejmowanie liczb do 100.
+Wciel się w rolę doświadczonego nauczyciela fizyki, który potrafi wyjaśniać skomplikowane koncepcje w prosty sposób.
 ```
 
-Precyzyjne instrukcje eliminują dwuznaczności i zwiększają szansę na otrzymanie oczekiwanej odpowiedzi.
+### 2. Instrukcja
 
-#### 3. Przykłady (opcjonalnie)
-
-Pokaż wzorzec odpowiedzi:
+Zawiera opis sposobu realizacji zadania, określenie zachowań modelu i zestawienie zasad:
 
 ```
-Przykład:
-1. Ania miała 45 naklejek. Dała Tomkowi 12 naklejek. Ile naklejek zostało Ani?
+Wyjaśnij zjawisko dyfrakcji światła, używając:
+- Codziennych analogii
+- Prostego języka bez żargonu naukowego
+- Maksymalnie 3 akapitów tekstu
 ```
 
-#### 4. Format odpowiedzi
+### 3. Kontekst
 
-Określ, w jakiej formie chcesz otrzymać odpowiedź:
-
-```
-Każde zadanie powinno zawierać:
-- Treść problemu
-- Miejsce na obliczenia
-- Odpowiedź
-```
-
-#### 5. Ograniczenia i wymagania
-
-Dodaj szczegółowe wytyczne:
+Uwzględnia zestaw danych wykraczających poza bazową wiedzę modelu:
 
 ```
-Zadania powinny dotyczyć sytuacji z życia codziennego dzieci.
-Używaj prostego języka.
-Nie używaj liczb ujemnych.
+Przygotowuję materiały dla uczniów liceum, którzy nie mieli wcześniej kontaktu z fizyką kwantową. Uczniowie mają trudności ze zrozumieniem abstrakcyjnych pojęć.
 ```
 
-Czy zauważyłeś, że ta struktura przypomina briefing projektowy? Podobnie jak w komunikacji z zespołem, im jaśniej wyrazisz swoje oczekiwania, tym lepszy będzie efekt końcowy.
+### 4. Przykłady
 
-### Najlepsze formatowania 
+Prezentują wzorce odpowiedzi, które model może naśladować:
+
+```
+Przykład dobrego wyjaśnienia:
+"Dyfrakcja światła jest jak fala na wodzie, która opływa przeszkodę. Gdy światło przechodzi przez wąską szczelinę, rozprzestrzenia się na boki, podobnie jak woda wpływająca do wąskiego kanału."
+```
+
+### 5. Zapytanie
+
+Konkretne pytanie lub polecenie, które model ma przetworzyć:
+
+```
+Wyjaśnij, czym jest dyfrakcja światła i dlaczego jest ważna w codziennym życiu.
+```
+
+### 6. Format odpowiedzi
+
+Określa, w jakiej formie chcemy otrzymać odpowiedź:
+
+```
+Twoja odpowiedź powinna zawierać:
+- Krótkie wprowadzenie (1-2 zdania)
+- Wyjaśnienie zjawiska z analogią (1 akapit)
+- Praktyczne zastosowania (3-4 punkty)
+```
+
+## Najlepsze formatowania 
 
 Format promptu może znacząco wpłynąć na jakość odpowiedzi. Dobrze sformatowany prompt jest jak dobrze zaprojektowany interfejs - intuicyjny i łatwy w interpretacji.
 
-#### XML/HTML-podobne formatowanie
+### XML/HTML-podobne formatowanie
 
 Jednym z najskuteczniejszych formatów jest struktura przypominająca XML:
 
@@ -149,7 +156,7 @@ Jednym z najskuteczniejszych formatów jest struktura przypominająca XML:
 
 Taki format pomaga modelowi wyraźnie oddzielić różne części promptu i zrozumieć hierarchię informacji.
 
-#### Markdown
+### Markdown
 
 Markdown jest czytelny i łatwy w użyciu:
 
@@ -170,7 +177,7 @@ Analizujesz wiersz "Nic dwa razy" Wisławy Szymborskiej dla uczniów liceum.
 3. Interpretacja (akapit)
 ```
 
-#### Listy i punktory
+### Listy i punktory
 
 Uporządkowane listy zwiększają czytelność:
 
@@ -184,34 +191,17 @@ Napisz plan podróży do Rzymu, uwzględniając:
    - Lokalnych zwyczajów
 ```
 
-#### Tabele
-
-Tabele są idealne do prezentowania danych w uporządkowany sposób:
-
-```
-Porównaj następujące języki programowania:
-| Język | Zastosowania | Zalety | Wady |
-|-------|--------------|--------|------|
-| Python | ? | ? | ? |
-| JavaScript | ? | ? | ? |
-| Java | ? | ? | ? |
-```
-
-Czy zastanawiałeś się kiedyś, dlaczego programiści tak cenią dobrze sformatowany kod? Z tych samych powodów dobrze sformatowany prompt przynosi lepsze rezultaty - zwiększa czytelność, redukuje niejednoznaczność i ułatwia interpretację.
-
-### Wzorce i antywzorce
+## Wzorce i antywzorce
 
 Jak w każdej dziedzinie, w projektowaniu promptów istnieją sprawdzone wzorce, które warto stosować, oraz antywzorce, których należy unikać.
 
-#### Wzorce (co robić)
+### Wzorce (co robić)
 
 **1. Jasne definiowanie roli**
 
 ```
 Wciel się w rolę doświadczonego nauczyciela fizyki, który potrafi wyjaśniać skomplikowane koncepcje w prosty sposób.
 ```
-
-Określenie roli pomaga modelowi przyjąć odpowiednią perspektywę i ton.
 
 **2. Szablony strukturyzowanej odpowiedzi**
 
@@ -223,15 +213,11 @@ Przeanalizuj poniższy fragment kodu i przedstaw swoją analizę w następujący
 - Sugerowane ulepszenia: [lista z przykładami]
 ```
 
-Szablony zapewniają, że otrzymasz odpowiedź w oczekiwanym formacie.
-
 **3. Walidacja danych wejściowych**
 
 ```
 Zanim odpowiesz, sprawdź, czy podane równanie chemiczne jest zbilansowane. Jeśli nie, najpierw je zbilansuj, a następnie kontynuuj analizę.
 ```
-
-Instrukcje walidacji pomagają modelowi wykryć i skorygować potencjalne błędy.
 
 **4. Instrukcje obsługi błędów**
 
@@ -239,7 +225,7 @@ Instrukcje walidacji pomagają modelowi wykryć i skorygować potencjalne błęd
 Jeśli w podanym kodzie SQL znajdziesz błędy składniowe, popraw je i wyjaśnij, co było nieprawidłowe. Jeśli zapytanie jest poprawne składniowo, ale nieoptymalne, zaproponuj ulepszoną wersję.
 ```
 
-#### Antywzorce (czego unikać)
+### Antywzorce (czego unikać)
 
 **1. Niejednoznaczne instrukcje**
 
@@ -261,13 +247,11 @@ Jeśli w podanym kodzie SQL znajdziesz błędy składniowe, popraw je i wyjaśni
 ❌ **Źle**: "Napisz dobry esej o globalnym ociepleniu."
 ✅ **Dobrze**: "Napisz esej o globalnym ociepleniu, który zawiera: aktualne dane naukowe, analizę przyczyn, potencjalne rozwiązania i bibliografię."
 
-Czy zauważyłeś, że te wzorce i antywzorce przypominają zasady dobrej komunikacji międzyludzkiej? Jasność, precyzja i struktura są uniwersalnymi elementami skutecznego przekazywania informacji.
+## Metaprompting
 
-### Metaprompting
+Metaprompting to technika, w której używamy promptów do generowania lepszych promptów. To jak proszenie doświadczonego nauczyciela o pomoc w sformułowaniu pytania.
 
-Metaprompting to fascynująca technika, w której używamy promptów do generowania... lepszych promptów! To jak proszenie doświadczonego nauczyciela o pomoc w sformułowaniu pytania.
-
-#### Czym jest metaprompting?
+### Czym jest metaprompting?
 
 Metaprompting polega na wykorzystaniu modelu AI do udoskonalenia naszych promptów. Zamiast samodzielnie tworzyć skomplikowane instrukcje, prosimy model o pomoc w ich sformułowaniu.
 
@@ -275,7 +259,7 @@ Metaprompting polega na wykorzystaniu modelu AI do udoskonalenia naszych prompt�
 Chcę stworzyć prompt, który pomoże mi wygenerować szczegółowy plan treningowy dla początkującego biegacza. Jakie elementy powinien zawierać ten prompt, aby uzyskać najlepsze rezultaty?
 ```
 
-#### Zastosowania metapromptingu
+### Zastosowania metapromptingu
 
 **1. Udoskonalanie istniejących promptów**
 
@@ -296,27 +280,42 @@ Pomóż mi stworzyć prompt w formacie XML, który pozwoli mi uzyskać szczegó�
 Potrzebuję promptu, który wygeneruje treści marketingowe w stylu podobnym do Apple - minimalistyczne, eleganckie i skupione na emocjach. Jak powinien wyglądać taki prompt?
 ```
 
-**4. Debugowanie nieefektywnych promptów**
+## Zadania praktyczne
 
-```
-Używam następującego promptu, ale otrzymuję zbyt ogólne odpowiedzi: [prompt]
-Jak mogę go zmodyfikować, aby uzyskać bardziej konkretne i praktyczne wskazówki?
-```
+### Zadanie 1: Eksperyment z technikami promptowania
 
-Metaprompting przypomina konsultację z ekspertem od komunikacji - zamiast samodzielnie walczyć z formułowaniem idealnych instrukcji, wykorzystujemy wiedzę modelu o tym, jak sam najlepiej rozumie polecenia.
+Wybierz dowolny problem (np. wyjaśnienie koncepcji naukowej, rozwiązanie problemu matematycznego) i stwórz dla niego prompty używając trzech różnych technik:
+- Zero-shot
+- Few-shot
+- Chain of Thought
 
-Czy nie jest to fascynujące? Używamy AI, aby nauczyć się lepiej komunikować z... AI. To rekurencyjne podejście otwiera zupełnie nowe możliwości w projektowaniu promptów.
+Porównaj otrzymane odpowiedzi. Która technika dała najlepsze rezultaty i dlaczego?
 
-## Zadanie
+### Zadanie 2: Projektowanie struktury promptu
 
-Wybierz dowolny problem, który chciałbyś rozwiązać z pomocą AI (np. napisanie kodu, stworzenie planu, analizę tekstu) i zaprojektuj dla niego trzy różne prompty:
+Zaprojektuj kompletny prompt dla następującego scenariusza:
+- Chcesz uzyskać szczegółową analizę kodu Python pod kątem wydajności i bezpieczeństwa
+- Prompt powinien zawierać wszystkie kluczowe elementy struktury (rola, instrukcja, kontekst, przykłady, zapytanie, format odpowiedzi)
+- Użyj wybranego przez siebie formatowania (XML, Markdown lub listy)
 
-1. Prosty prompt w stylu zero-shot
-2. Prompt wykorzystujący chain-of-thought
-3. Zaawansowany prompt z jasną strukturą, formatowaniem XML i elementami few-shot
+### Zadanie 3: Metaprompting w praktyce
 
-Następnie przetestuj wszystkie trzy wersje i porównaj otrzymane wyniki. Które podejście okazało się najskuteczniejsze dla twojego konkretnego problemu? Dlaczego?
+Wybierz istniejący, prosty prompt (np. "Napisz artykuł o zmianach klimatycznych") i użyj metapromptingu, aby go udoskonalić. Porównaj odpowiedzi uzyskane z oryginalnym i udoskonalonym promptem.
 
-Pamiętaj, że projektowanie promptów to proces iteracyjny - rzadko kiedy pierwsza wersja jest idealna. Eksperymentuj, obserwuj rezultaty i dostosowuj swoje podejście. Z czasem wyrobisz sobie intuicję, która pozwoli ci tworzyć coraz skuteczniejsze instrukcje dla modeli AI.
+## Podsumowanie
 
-A ty, jakie techniki promptowania sprawdzają się najlepiej w twojej pracy z AI? Podziel się swoimi doświadczeniami!
+Prompt engineering to umiejętność, która rozwija się wraz z praktyką. Kluczowe zasady to:
+- Precyzja i jednoznaczność instrukcji
+- Odpowiednia struktura i formatowanie
+- Świadome stosowanie wzorców i unikanie antywzorców
+- Iteracyjne doskonalenie promptów
+
+Pamiętaj, że nie istnieje uniwersalny "idealny prompt" - najlepsze podejście zależy od konkretnego zadania, modelu i oczekiwanych rezultatów. Eksperymentuj, obserwuj wyniki i dostosowuj swoje podejście.
+
+🚧 **Uwaga:** Techniki prompt engineering ewoluują wraz z rozwojem modeli językowych. Warto śledzić najnowsze badania i praktyki w tej dziedzinie.
+
+## Pytania do refleksji:
+
+- Jak zmienia się skuteczność różnych technik promptowania w zależności od złożoności zadania?
+- W jaki sposób struktura promptu wpływa na jakość i spójność odpowiedzi modelu?
+- Jakie etyczne implikacje ma umiejętność tworzenia wysoce skutecznych promptów?

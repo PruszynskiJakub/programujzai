@@ -5,38 +5,6 @@ tags:
 ---
 https://www.promptingguide.ai/
 
-Here's a concise breakdown of these prompting techniques:
-
-#### Zero-shot
-- Direct question without examples
-- "What's the capital of France?"
-- Simplest but less accurate for complex tasks
-
-#### Few-shot
-- Provides 2-3 examples before the main task
-- Shows pattern/format expected
-- "Add 2+2=4, 3+3=6, now solve 5+5=?"
-
-#### Chain of Thoughts (CoT)
-- Breaks problem into step-by-step reasoning
-- Shows working process, not just answer
-- "Let's solve this step by step..."
-- _reasoning property
-
-#### Zero-shot CoT
-- No examples but prompts for reasoning
-- Uses triggers like "Let's think about this logically"
-- "Let's solve this step by step, first..."
-- _reasoning property
-
-#### Few-shot CoT
-- Combines examples with reasoning steps
-- Shows both pattern and thought process
-- Most effective but verbose
-- "Example: 15+17? Step 1: Add tens (10+10=20), Step 2..."
-- _reasoning property
-
-
 Nie każda wiadomość, którą wysyłamy do AI musi być starannie zaprojektowana i uwzględniać wszystkie omówione sekcje. Gdy prowadzimy bezpośrednią rozmowę z modelem, możemy łatwo poprosić o wprowadzenie ewentualnych poprawek. Inaczej wygląda to w przypadku promptów, które będziemy projektować na potrzeby automatyzacji. Wówczas wysoka precyzja wypowiedzi jest ważna, a czas spędzony na starannym zbudowaniu instrukcji i jej przetestowaniu będzie nam się zwracać przy każdym uruchomieniu scenariusza.
 
 Projektowanie promptów polega więc na precyzyjnym opisaniu tego, na czym nam zależy, unikając przy tym dwuznaczności i zachowując możliwie wysoką zwięzłość. Jest to umiejętność, która w dużym stopniu opiera się o doświadczenie wynikające z obserwowania zachowania modelu w różnych sytuacjach. Możemy także skorzystać z ogólnych technik, z których część mieliśmy okazję już obserwować. Oto najważniejsze z nich:
