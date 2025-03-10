@@ -10,11 +10,11 @@ https://www.youtube.com/watch?v=LPZh9BOjkQs
 
 ### Tokenizacja
 
-Tokenizacja to proces zamiany tekstu na reprezentację liczbową, którą model może przetwarzać.
+Tokenizacja to proces zamiany tekstu na reprezentację liczbową, którą model może przetwarzać. Innymi słowy tokeny to jednostki, którymi modele "myślą".
 
 - Współczesne modele wykorzystują głównie subword tokenization – dzielenie tekstu na fragmenty słów.
 - Każdy token (fragment słowa) jest reprezentowany przez liczbę w słowniku modelu.
-- Model generuje odpowiedzi token po tokenie, odpowiadając na pytanie: "Jaki token stanowi najlepszą kontynuację dotychczasowego tekstu?"
+- Model generuje odpowiedzi token po tokenie, odpowiadając sobie za każdym razem na pytanie: "Jaki token stanowi najlepszą kontynuację dotychczasowego tekstu?"
 
 Przykłady narzędzi do tokenizacji:
 
@@ -35,6 +35,13 @@ Tokeny:
 - " 🌍"
 
 Każdy z tych tokenów jest reprezentowany przez liczbę w słowniku modelu. Emoji często są tokenizowane jako osobne tokeny, co zwiększa liczbę tokenów w promptach zawierających dużo symboli graficznych.
+
+#### Dlaczego to ważne?
+
+Tokeny mają praktyczne znaczenie z kilku powodów:
+- Limity kontekstu - modele mają ograniczenia ile tokenów mogą przetwarzać (jest to wartość w zakresie 4-8k dla większości modeli)
+- Koszty - wiele API modeli językowych pobiera opłaty za liczbę tokenów
+- Wydajność - mniejsza liczba tokenów = szybsze przetwarzanie
 
 ### Embeddingi
 
@@ -68,33 +75,10 @@ Każdy model ma dwa kluczowe ograniczenia kontekstowe:
 
 - **Tokeny wejściowe (input tokens)** – maksymalna liczba tokenów, które możemy przekazać do modelu.
   - Obejmują prompt, historię konwersacji i dodatkowe dane.
-  - Limity wynoszą zwykle od 4k do 32k tokenów.
+  - Limity wynoszą zwykle od 120k do nawet 2M tokenów.
 - **Tokeny wyjściowe (output tokens)** – maksymalna liczba tokenów, które model może wygenerować w odpowiedzi.
   - Limity wynoszą zwykle od 4k do 8k tokenów.
   - Przy długich odpowiedziach model może "zapomnieć" wcześniejsze instrukcje.
-
-#### Strategie zarządzania kontekstem
-
-Efektywne zarządzanie kontekstem wymaga:
-
-- Ekonomicznego formułowania promptów – unikanie zbędnych powtórzeń.
-- Priorytetyzacji informacji – najważniejsze dane umieszczaj na początku i końcu promptu.
-- Chunkingu – dzielenie dużych dokumentów na mniejsze fragmenty.
-- Kompresji kontekstu – streszczanie wcześniejszych części konwersacji.
-- Świadomego zarządzania historią – usuwanie nieistotnych fragmentów wcześniejszej konwersacji.
-
-#### Implikacje praktyczne
-
-Ograniczenia kontekstu mają bezpośredni wpływ na:
-
-- **Koszt** – większy kontekst oznacza więcej tokenów i wyższy koszt użycia API.
-- **Wydajność** – dłuższy kontekst wydłuża czas przetwarzania.
-- **Jakość odpowiedzi** – zbyt duży kontekst może prowadzić do "rozmycia uwagi" modelu.
-- **Pamięć konwersacji** – zdolność modelu do odnoszenia się do wcześniejszych części dialogu.
-
-**Przykład zarządzania kontekstem:**
-
-Masz dokument liczący 50 stron. Zamiast przesyłać cały dokument do modelu, dzielisz go na fragmenty (chunking), a następnie generujesz krótkie streszczenia każdego fragmentu (kompresja kontekstu). Dzięki temu model może efektywnie odpowiadać na pytania dotyczące całego dokumentu, nie przekraczając limitów tokenów.
 
 ## Główni dostawcy modeli LLM
 
