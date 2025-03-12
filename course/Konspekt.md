@@ -66,6 +66,7 @@ Zadanie:
 - Jak pracować w nowym języku 
 - AI-friendly software design
 - Jak wyczuć  poziom użycia AI podczas codziennej pracy ?
+- Folder designs ze screenshotami makiet
 
 ## Moduł 5 - Perfect AI - augmented developer advanced
 
@@ -87,3 +88,12 @@ Zadanie:
 - Text to SQL solutions
 - Auto DB documentation 🧙‍♂️
 - [[AI-offline development]]
+
+
+
+### Praca w nowym projekcie 
+
+Praca z nowym projektem na początku potrzeba bardziej nacechowanego kierowania, może być konieczna implementacja niektórych rzeczy samemu, aby stanowiły one potem dobry wkład będący przykładem dla kolejnych implementacji
+
+### Praca w legacy
+Zidentyfikuj te klasy, funkcje , miejsca które najbardziej reprezentują organizację i formatowanie kodu którym chcesz podążąć alternatywnie stwórz lub zrefaktoryzuj takie miejsca, będziesz ich potem używał jako punktów odniesienia . To bardzo ważne.

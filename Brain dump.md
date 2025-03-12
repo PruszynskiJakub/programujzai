@@ -36,3 +36,6 @@ Both "Task you must focus" and "You must focus on the task" convey a similar mes
 - **"You must focus on the task"**: This is a more standard and direct sentence structure. The emphasis is more balanced between "you" and "the task." It's a clear instruction, directly telling the person what to do.
 
 Take your time on examples do it extremely thoroughly
+
+
+----
