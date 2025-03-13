@@ -1,3 +1,5 @@
+
+
 Analizując materiały pod kątem stworzenia kursu, można zidentyfikować zarówno mocne, jak i słabe strony przedstawionych treści. Skupię się na słabościach, ponieważ to one wymagają najwięcej uwagi podczas projektowania kursu.
 
 **Słabe strony:**

@@ -1,5 +1,5 @@
 Współpraca z modelami AI przy tworzeniu kodu to sztuka balansowania między precyzją a swobodą. Kiedy zaczynamy pracę w trybie edytora, gdzie model wprowadza zmiany bezpośrednio do plików, musimy nauczyć się orkiestrować ten proces z wyczuciem i rozwagą.
-
+  
 ## Zasilanie kontekstu - klucz do sukcesu
 
 Pierwszym krokiem jest zawsze odpowiednie zasilenie kontekstu. Brzmi prosto, prawda? A jednak to właśnie tutaj wielu programistów popełnia fundamentalne błędy.
