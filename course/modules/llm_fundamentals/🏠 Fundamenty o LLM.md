@@ -77,14 +77,14 @@ Każdy model ma dwa kluczowe ograniczenia kontekstowe:
   - Obejmują prompt, historię konwersacji i dodatkowe dane.
   - Limity wynoszą zwykle od 120k do nawet 2M tokenów.
 - **Tokeny wyjściowe (output tokens)** – maksymalna liczba tokenów, które model może wygenerować w odpowiedzi.
-  - Limity wynoszą zwykle od 4k do 8k tokenów.
+  - Limity wynoszą zwykle od 4k do 8k tokenów, aczkolwiek najnowsze modele są w stanie generować juź do 200k.
   - Przy długich odpowiedziach model może "zapomnieć" wcześniejsze instrukcje.
 
 ## Główni dostawcy modeli LLM
 
 Na rynku dostępnych jest kilku znaczących dostawców modeli językowych:
 
-- **OpenAI** – twórca modeli GPT (GPT-3.5, GPT-4)
+- **OpenAI** – twórca modeli GPT (GPT-4, o1)
 - **Anthropic** – twórca modeli Claude
 - **Google** – twórca modeli Gemini (dawniej Bard)
 - **Ollama** – oferujący rozwiązania do lokalnego uruchamiania modeli od Mety
