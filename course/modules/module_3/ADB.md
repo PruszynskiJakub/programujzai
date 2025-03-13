@@ -25,11 +25,11 @@ Staraj się używać [[Słowa bogate znaczeniowo]] - czyli takich, które nios�
 Porównaj:
 
 ```
-CREATE function fetch_news accepting number called limit and returning a list of `News`
+CREATE function fetch_news accepting number called limit and returning a list of `News`
 
 vs
 
-CREATE def fetch_news(limit: int) -> News
+CREATE def fetch_news(limit: int) -> News
 ```
 
 Druga wersja jest znacznie bardziej zwięzła, a jednocześnie precyzyjna. Model doskonale rozumie składnię języka programowania, więc nie musisz jej opisywać własnymi słowami.
@@ -82,18 +82,36 @@ Poświęć czas na refaktor. Sprawdź, czy kod jest czytelny, wydajny i zgodny z
 
 ### Pułapki modeli
 
-- Za słaby model - nie poradzi sobie z kompleksowymi zadaniami
+- Za słaby model - nie poradzi sobie z kompleksowymi zadaniami
+  - **Konsekwencje**: Frustracja wynikająca z ciągłych poprawek, utrata czasu na iteracyjne doprecyzowywanie, spadek zaufania do narzędzi AI
+  - **Kiedy występuje**: Przy próbach generowania złożonej architektury, implementacji skomplikowanych algorytmów czy integracji wielu systemów
+  - **Jak unikać**: Dopasuj model do złożoności zadania, rozważ podział zadania na mniejsze części, które słabszy model może obsłużyć
 
-- Zbyt potężny model - niepotrzebny narzut czasowy i kosztowy dla prostych zadań
+- Zbyt potężny model - niepotrzebny narzut czasowy i kosztowy dla prostych zadań
+  - **Konsekwencje**: Nieefektywne wykorzystanie zasobów, wyższe koszty operacyjne, dłuższy czas oczekiwania na odpowiedź
+  - **Kiedy występuje**: Przy rutynowych zadaniach jak generowanie prostych funkcji, refaktoryzacja nazw zmiennych czy tworzenie podstawowych testów
+  - **Jak unikać**: Wprowadź strategię doboru modeli w zależności od złożoności zadania, automatyzuj wybór odpowiedniego modelu
 
 ### Pułapki promptów
 
-- Zbyt niskopoziomowe - skupiające się bardziej na "jak" niż na "co"
+- Zbyt niskopoziomowe - skupiające się bardziej na "jak" niż na "co"
+  - **Konsekwencje**: Ograniczenie kreatywności modelu, pominięcie potencjalnie lepszych rozwiązań, mikromanagement prowadzący do suboptymalizacji
+  - **Kiedy występuje**: Gdy programista dyktuje każdy szczegół implementacji zamiast opisać problem i oczekiwany rezultat
+  - **Jak unikać**: Skup się na opisie problemu i wymagań, pozwól modelowi zaproponować rozwiązanie, a następnie je zweryfikuj
 
-- Zbyt wysokopoziomowe - zbyt ogólne, bez wystarczających wskazówek
+- Zbyt wysokopoziomowe - zbyt ogólne, bez wystarczających wskazówek
+  - **Konsekwencje**: Rozwiązania niedopasowane do specyfiki projektu, konieczność wielu iteracji, frustracja wynikająca z niezrozumienia intencji
+  - **Kiedy występuje**: Przy zbyt ogólnych opisach typu "zrób mi system logowania" bez określenia technologii, wymagań bezpieczeństwa czy integracji
+  - **Jak unikać**: Znajdź balans między ogólnym opisem problemu a konkretnymi wymaganiami, określ ograniczenia i preferencje technologiczne
 
 ### Pułapki kontekstu
 
-- Za duży kontekst - powoduje szum informacyjny
+- Za duży kontekst - powoduje szum informacyjny
+  - **Konsekwencje**: Rozproszenie uwagi modelu, skupienie się na nieistotnych szczegółach, pomijanie kluczowych aspektów problemu
+  - **Kiedy występuje**: Przy wrzucaniu całych repozytoriów do kontekstu, dodawaniu zbyt wielu plików niezwiązanych bezpośrednio z zadaniem
+  - **Jak unikać**: Stosuj zasadę minimalnego kontekstu, dodawaj tylko te pliki, które są bezpośrednio związane z zadaniem, używaj narzędzi do filtrowania kontekstu
 
-- Za mały kontekst - brak kluczowych informacji
+- Za mały kontekst - brak kluczowych informacji
+  - **Konsekwencje**: Rozwiązania niespójne z resztą systemu, naruszenie istniejących konwencji, konieczność poprawek po integracji
+  - **Kiedy występuje**: Przy izolowaniu problemu bez uwzględnienia szerszego kontekstu aplikacji, pomijaniu zależności między komponentami
+  - **Jak unikać**: Analizuj zależności przed formułowaniem zadania, dodawaj do kontekstu pliki definiujące interfejsy i konwencje, upewnij się, że model rozumie architekturę systemu
