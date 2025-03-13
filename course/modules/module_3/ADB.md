@@ -54,7 +54,7 @@ Pamiętaj o prostej zasadzie:
 
 Czy to oznacza, że każdy może teraz programować bez znajomości języka? Absolutnie nie. Narzędzia AI są potężnymi asystentami, ale nie zastąpią głębokiego zrozumienia problemu.
 
-[[Mentalność problem first]] jest kluczowa. Największy wzrost produktywności osiągniesz, gdy doskonale rozumiesz problem i potrafisz go rozwiązać nawet bez wsparcia AI. Model jest wtedy narzędziem przyspieszającym implementację, a nie zastępującym myślenie.
+"Mentalność problem first" jest kluczowa. Największy wzrost produktywności osiągniesz, gdy doskonale rozumiesz problem i potrafisz go rozwiązać nawet bez wsparcia AI. Model jest wtedy narzędziem przyspieszającym implementację, a nie zastępującym myślenie.
 
 Kiedy sami nie rozumiemy problemu, próba naprowadzania AI na rozwiązanie staje się frustrująca. Klasyczne modelowanie iteracyjne, choć powolne, daje poczucie postępu i kończy się zwykle gruntownym refaktorem po osiągnięciu celu.
 
