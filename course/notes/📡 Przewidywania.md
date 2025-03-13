@@ -1,3 +1,7 @@
+---
+tags:
+  - module_6
+---
 
 Odwrócenie trendu w unikaniu spotkań w celu zwiększenia jakości dokumentacji aby odzyskać go w procesie pisania softu z AI.
 

@@ -1,3 +1,7 @@
+---
+tags:
+  - module_6
+---
 
 AWS Bedrock  https://aws.amazon.com/bedrock/
 Google Vertex AI https://cloud.google.com/vertex-ai?hl=pl

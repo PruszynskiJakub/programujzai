@@ -1,6 +1,7 @@
 ---
 tags:
   - prompt
+  - module_6
 ---
 tak jak zyskaliśmy  czas przy pisaniu kody przy pomocy AI, tak warto iść krok dalej i nie marnować czasu na pisaniu tych samych promptów co jakiś czas
 

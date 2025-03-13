@@ -3,6 +3,7 @@ tags:
   - process
   - prompt
   - todo
+  - module_4
 ---
 Specification prompting
 specs directory[[shared/_resources/bce2728ed9e91ab3ca76f43574ebb887_MD5.jpeg|Open: Screenshot 2025-01-06 at 21.34.24.png]]

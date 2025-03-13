@@ -34,13 +34,7 @@ Lekcja 2.1: Zrozumienie działania LLM
 
 - Embeddingi i ich zastosowanie
 
-Lekcja 2.2: Dostawcy LLM i ich charakterystyka
-
 - Porównanie dostępnych modeli
-
-- Mocne i słabe strony różnych dostawców
-
-- Wybór odpowiedniego modelu do zadania
 
 Lekcja 2.3: Podstawy promptowania
 
@@ -52,12 +46,11 @@ Lekcja 2.3: Podstawy promptowania
 
 Lekcja 2.4: Zaawansowane techniki promptowania 🧙‍♂️
 
+- Kategorie promptów i ich zastosowanie
+
 - Wzorce i antywzorce promptów
 
 - Metaprompting
-
-- Praktyczne ćwiczenia z różnymi typami promptów
-
 ## Moduł 3: Perfect AI - augmented developer beginner
 
 Lekcja 3.1: Efektywna praca z AI w edytorze kodu
@@ -66,23 +59,17 @@ Lekcja 3.1: Efektywna praca z AI w edytorze kodu
 
 - Mentalność "problem first"
 
+- Mentalność Recenzenta
+
 - Zarządzanie kontekstem rozmowy
 
-Lekcja 3.2: Unikanie typowych pułapek
-
-- Pułapki związane z promptami
-
-- Pułapki związane z modelami
-
-- Pułapki związane z kontekstem
+- Pułapki związane z wykorzystaniem AI (prompt, model, kontekst)
 
 Lekcja 3.3: Strategie efektywnej komunikacji z AI
 
 - Słowa bogate znaczeniowo
 
 - Poziomy szczegółowości promptu
-
-- Kategorie promptów i ich zastosowanie
 
 Lekcja 3.4: Organizacja pracy z AI
 
@@ -98,17 +85,15 @@ Lekcja 4.1: AI jako architekt
 
 - Tryb pracy z AI jako architektem
 
-- Tworzenie i wykorzystanie specyfikacji
+- Modele rozumujące i ich zastosowanie
 
 - Przykłady kodu jako punkt odniesienia
 
-Lekcja 4.2: Dokumentacja i recenzja kodu
+Lekcja 4.2: Specyfikacja do zasilenia architekta (DRAFT)
 
-- AI Docs - automatyczna dokumentacja
+- Tworzenie i wykorzystanie specyfikacji
 
-- Mentalność Recenzenta
-
-- Modele rozumujące i ich zastosowanie
+- AI Docs - dobrze ustrukturyzowane i opisane story jako część kontekstu
 
 Lekcja 4.3: Praca z interfejsem użytkownika
 
@@ -116,15 +101,11 @@ Lekcja 4.3: Praca z interfejsem użytkownika
 
 - Folder designs ze screenshotami makiet
 
-- Praktyczne ćwiczenia z konwersji designu na kod
-
 Lekcja 4.4: Praca z istniejącymi projektami
 
 - Analiza legacy projektów z pomocą AI
 
 - Szybkie zrozumienie domeny - grafy zależności
-
-- Praca w nowym języku programowania z pomocą AI
 
 ## Moduł 5: Perfect AI - augmented developer advanced
 

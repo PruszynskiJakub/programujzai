@@ -2,6 +2,7 @@
 tags:
   - prompt
   - todo
+  - module_3
 ---
 IDKs - Information Dense Keywords[[shared/_resources/daa451ea77fed4c8a8eb989c1e02b2bd_MD5.jpeg|Open: Screenshot 2025-01-04 at 22.02.58.png]]
 ![[shared/_resources/daa451ea77fed4c8a8eb989c1e02b2bd_MD5.jpeg]]

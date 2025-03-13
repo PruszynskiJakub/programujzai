@@ -1,3 +1,7 @@
+---
+tags:
+  - module_3
+---
 
 W świecie pracy z modelami językowymi (LLM) oraz narzędziami wspomagającymi pisanie kodu takimi jak [[Aider]], czy [[Cursor]], niezwykle przydatne okazuje się posiadanie jednego, centralnego pliku konwencji. Plik ten pozwala na zdefiniowanie kluczowych zasad oraz preferencji dotyczących tworzonego oprogramowania. Dzięki temu można:
 

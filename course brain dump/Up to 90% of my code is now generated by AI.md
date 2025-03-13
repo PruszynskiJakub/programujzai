@@ -1,3 +1,8 @@
+---
+tags:
+  - module_6
+---
+
 URL Source: [https://www.techsistence.com/p/up-to-90-of-my-code-is-now-generated](https://www.techsistence.com/p/up-to-90-of-my-code-is-now-generated)
 
 Published Time: 2024-07-19T07:13:10+00:00

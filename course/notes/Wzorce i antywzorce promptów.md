@@ -1,3 +1,8 @@
+---
+tags:
+  - module_2
+---
+
 Patterns:
 - Clear role definition
 - Structured output templates

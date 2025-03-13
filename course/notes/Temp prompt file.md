@@ -1,3 +1,7 @@
+---
+tags:
+  - module_3
+---
 
 Plik dokumentujący stan pracy.
 - Rozpoczynamy od wstępnej analizy - możemy użyć promptu który odpytuje i pracuje nad tymi wymaganiami razem z Tobą,

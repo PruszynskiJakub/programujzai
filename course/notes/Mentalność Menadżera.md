@@ -2,6 +2,7 @@
 tags:
   - mindset
   - todo
+  - module_5
 ---
 
 First the perspective is changing. In the new approach we need to think big, by connecting all the dots, we decide what should be done, in what order, what we have to do alone / by hand and what should we delegate. **Moreover, each delegation has to be grounded with great understanding what must be done, but not necessarily how.**

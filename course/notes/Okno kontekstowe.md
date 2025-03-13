@@ -1,1 +1,6 @@
+---
+tags:
+  - module_2
+---
+
 A **context window** refers to the range of text that a large language model (LLM) can process simultaneously when generating responses. This range is measured in tokens, which can be words or parts of words. The size of the context window is crucial as it directly influences the model's ability to understand and generate coherent and contextually relevant responses.

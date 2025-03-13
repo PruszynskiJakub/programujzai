@@ -1,3 +1,8 @@
+---
+tags:
+  - module_3
+---
+
 # Tryb pracy z AI - edytor
 
 ## Wprowadzenie
