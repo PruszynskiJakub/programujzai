@@ -24,15 +24,13 @@ Staraj się używać [[Słowa bogate znaczeniowo]] - czyli takich, które nios�
 
 Porównaj:
 
-text
-
-Apply to Tryb pracy z...
-
+```
 CREATE function fetch_news accepting number called limit and returning a list of `News`
 
 vs
 
 CREATE def fetch_news(limit: int) -> News
+```
 
 Druga wersja jest znacznie bardziej zwięzła, a jednocześnie precyzyjna. Model doskonale rozumie składnię języka programowania, więc nie musisz jej opisywać własnymi słowami.
 
