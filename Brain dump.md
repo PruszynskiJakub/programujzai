@@ -9,6 +9,9 @@ Alias in aider for long file paths ??
 Pisanie z czatem jak programowanie funkcyjne ?
 
 
+## Stronka z tips and tricks
+## Argumentowanie czemu jak dev zasługujesz na ten kurs
+
 ---
 
 Endpoint -> to postman import ADW

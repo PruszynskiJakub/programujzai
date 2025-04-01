@@ -131,4 +131,5 @@ W kolejnych lekcjach będziemy zgłębiać praktyczne aspekty pracy z LLM, opier
 
 - Jakie konsekwencje może mieć nieświadome zarządzanie kontekstem w dużych projektach?
 - W jaki sposób tokenizacja wpływa na koszty korzystania z modeli językowych?
-- Jakie są potencjalne ograniczenia embeddingów w rozumieniu niuansów językowych?
+- Jakie są potencjalne ograniczenia embeddingów w rozumieniu niuansów językowych?[[_resources/c7cb86a23dab2b5af6cfaf6d667b1a0b_MD5.jpeg|Open: Screenshot 2024-06-27 at 15.23.18.png]]
+![[_resources/c7cb86a23dab2b5af6cfaf6d667b1a0b_MD5.jpeg]]

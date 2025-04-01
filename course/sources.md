@@ -11,6 +11,10 @@ https://addyo.substack.com/p/the-70-problem-hard-truths-about
 
 
 Lex Fridman about AI programming - https://www.youtube.com/watch?v=iUqQmXOFrbM
+Anthropic CEO - https://www.linkedin.com/posts/andrei-voronin_ai-businesstech-innovation-activity-7306011017140924416-NHn0/?rcm=ACoAADaPXHIBl0kNJhZRNJP7CZ8LrqUs-Opt94o
+
+
+
 
 
 https://www.youtube.com/watch?v=reH9VRMPRpY
