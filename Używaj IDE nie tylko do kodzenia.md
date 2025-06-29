@@ -1,6 +1,5 @@
 ---
-tags:
-  - module_6
+category: "[[Tips & Tricks]]"
 ---
 
 Używanie do transformacji formatu, przetwarzania treści, scrapowania stron etc.

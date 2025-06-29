@@ -1,14 +1,8 @@
----
-tags:
-  - prompt
-  - todo
-  - module_3
----
 #### Niskopoziomowy
 #### Średniopoziomowy
 #### Wysokopoziomowy
 
-Im większy context tym bardziej prompt powinien być szczegółowy
+Im większy [[References/Kontekst|Kontekst]] tym bardziej [[References/Prompt|Prompt]] powinien być szczegółowy
 Im mniejszy tym bardziej wysokopoziomowy
 
 Analogicznie dla złożoności zadania
