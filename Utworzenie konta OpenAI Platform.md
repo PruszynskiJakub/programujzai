@@ -1,7 +1,5 @@
 ---
 category: "[[Manual]]"
-tags:
-  - references
 ---
 ## Krok 1: Rejestracja na stronie OpenAI
 
