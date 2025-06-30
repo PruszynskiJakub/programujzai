@@ -1,3 +1,6 @@
+---
+category: "[[Manual]]"
+---
 
 Dla kogo:
 - Fani aider'a :)
