@@ -26,3 +26,6 @@ Cool, first please refine the @aidocs/task_desc.md to represent full business pe
 Awesome, now based on these comprehensive requirements please propose, a simple yet flexible solution with best practices in mind  in  Hono framework, with clear separation of concers. Products store  in memory without any integration with db engines. Represent your approach from 3 different perspectives and based on that pick the  best approach. Write down your thoughts in as markdown with mermaid graph in aidocs/proposition.md. That's all for now.
 
 Great, now according to your proposal implement it end to end with comprehensive test suites. Make sure to include all requirements and handle egde cases, confirm it with unit tests. Do in TDD methodology.
+
+Awersome, here is a new requirement, please include it in @aidocs/task_desc.md, then implement it fully with tests.
+  ⎿  Read aidocs/task_desc.md 
