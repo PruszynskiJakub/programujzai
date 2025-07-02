@@ -19,14 +19,6 @@ Ostrzeżenie nie używaj tego na projektach firmowych
 
 ### Wykorzystanie repomix pod rekrutację
 
-
-### Wykorzystanie console logów jako prompt w konwersacji
-
-### Pytania przed implementacją
-Dodaj kontekst
-Określ zadanie
-Spytaj LLM czy uważa że istnieją jakieś pytania które powinien mi zadać przed implementacją
-
 ### Claude Code
 
 Komendy które korzystają już z istniejących rozwiązań CLI np lint, test etc. - unikanie context switching
