@@ -1,7 +1,6 @@
 ---
 category: "[[Manual]]"
 ---
-
 Dla kogo:
 - Fani aider'a :)
 - Java devi, używający intellij chcący wykorzystywać power agentów AI,
