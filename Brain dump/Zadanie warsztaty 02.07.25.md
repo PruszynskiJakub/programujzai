@@ -3,7 +3,7 @@
 - Zamodeluj czytelne API dla kasy samoobsługowej,
 - Produkty są wyceniane indywidualnie,
 - Uwzględnij najlepszy rodzaj promocji żabkowej! Kup X za Y
-
+https://meet.google.com/gve-nxxj-vwf?authuser=0
 
 Przykład:
 
