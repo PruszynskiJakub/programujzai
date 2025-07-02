@@ -1,4 +1,3 @@
 ---
 category: "[[Technique]]"
 ---
-[[References/Aider|Aider]]

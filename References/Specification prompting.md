@@ -1,5 +1,5 @@
 ---
 tags:
   - references
-category: "[[Workflow]]"
+category: "[[Technique]]"
 ---

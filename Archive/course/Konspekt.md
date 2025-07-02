@@ -30,7 +30,7 @@ Zadanie :
 - [[Okno kontekstowe]]
 - [[Najlepsze formatowanie dla promptów]] 🧙‍♂️
 - [[Wzorce i antywzorce promptów]]
-- [[Metaprompting]]
+- [[Archive/course/notes/Metaprompting]]
 
 Zadanie:
 
