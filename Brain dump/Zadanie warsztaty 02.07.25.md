@@ -18,6 +18,18 @@ Przykład:
 4. Kup 4 produkty A -> Total price 70
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ----
 Think hard about architecture and implemention of @aidocs/task_desc.md. Do not implement anything 
 
