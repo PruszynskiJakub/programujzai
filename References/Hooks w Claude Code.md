@@ -18,3 +18,7 @@ Here are some common ways to use hooks:
 - **Validation** - Check naming conventions or coding standards
 
 The key insight is that hooks let you extend Claude Code's capabilities by integrating your own tools and processes into the workflow. PreToolUse hooks give you control over what Claude can do, while PostToolUse hooks let you enhance what Claude has done.
+
+### PreToolUse
+Zwraca exit code 0 jeśli wszystko okay
+Zwraca exit code 2 jeśli chcemy zablokować tool
