@@ -13,6 +13,8 @@ skillset:
   - "[[Webscraping]]"
   - "[[Inline assist]]"
   - "[[MCP support]]"
+  - "[[Hooks w Claude Code|Hooks]]"
+  - "[[Subagent]]"
 privacy:
   - "[[Opt Privacy]]"
   - "[[Zero Day Retention]]"
