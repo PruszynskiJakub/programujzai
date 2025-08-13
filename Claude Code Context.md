@@ -20,3 +20,11 @@ Wybierz konwersację do której chcesz powrócić:
 ```
 claude --resume
 ```
+
+
+Skróty klawiszowe:
+
+ Rollback rozmowy do konkretnej wiadomości w rozmowie
+```
+esc esc
+```
