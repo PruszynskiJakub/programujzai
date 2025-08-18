@@ -1,3 +1,5 @@
+## Doświadczenie 
+
 ### 🏗️ Etap 1: Architektura AI-First 
 Wybieraj technologie pod kątem znajomości przez AI, nie tylko wydajności. Ten "mniej optymalny" ale popularny framework? Twój asystent AI będzie ci później wdzięczny.
 
@@ -7,6 +9,7 @@ AI potrzebuje czystej architektury tak samo jak doświadczeni inżynierowie. Lu�
 ### 📚 Etap 3: Biblioteka przykładów 
 (Najważniejszy) Każdy komponent, który tworzysz, staje się szablonem dla wszystkiego co nastąpi. Twoja dbałość o szczegóły na tym etapie decyduje, ile będziesz mógł delegować później. Tu doświadczenie ma największe znaczenie.
 
+## Umiejętności AI
 ### 🎯 Etap 4: Trening asystenta 
 Nawet z doskonałymi przykładami, AI zbacza z kursu - wymyśla koło na nowo, ignoruje wzorce. Czas dopracować prompty, zbudować pamięć, stworzyć powtarzalne komendy. Spraw, by AI myślało jak ty.
 
