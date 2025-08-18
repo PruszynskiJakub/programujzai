@@ -10,3 +10,5 @@
     
 
 **
+
+## Z czym wychodzi słuchacz ?
