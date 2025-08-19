@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"8a23374535dbdae5","x":-480,"y":-280,"width":400,"height":98,"type":"file","file":"_resources/Screenshot 2025-08-18 at 18.36.07.png"},
-		{"id":"abde8e8745bdeea0","x":-80,"y":-520,"width":382,"height":400,"type":"file","file":"_resources/Screenshot 2025-07-30 at 08.58.52.png"},
-		{"id":"733a9680a5638f86","x":-140,"y":-120,"width":400,"height":330,"type":"file","file":"_resources/Screenshot 2025-08-19 at 13.36.49.png"},
-		{"id":"7d67b42701f77c53","x":-540,"y":-182,"width":400,"height":346,"type":"file","file":"_resources/Screenshot 2025-08-18 at 13.54.34.png"}
+		{"id":"8a23374535dbdae5","type":"file","file":"_resources/Screenshot 2025-08-18 at 18.36.07.png","x":-480,"y":-280,"width":399,"height":98},
+		{"id":"abde8e8745bdeea0","type":"file","file":"_resources/Screenshot 2025-07-30 at 08.58.52.png","x":-80,"y":-520,"width":382,"height":400},
+		{"id":"733a9680a5638f86","type":"file","file":"_resources/Screenshot 2025-08-19 at 13.36.49.png","x":-140,"y":-120,"width":400,"height":330},
+		{"id":"7d67b42701f77c53","type":"file","file":"_resources/Screenshot 2025-08-18 at 13.54.34.png","x":-540,"y":-182,"width":400,"height":346}
 	],
 	"edges":[]
 }
