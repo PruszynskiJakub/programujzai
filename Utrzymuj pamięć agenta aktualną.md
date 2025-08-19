@@ -6,5 +6,7 @@ Dodanie obok strumienia stanu w ViewModelu, strumienia eventów wpływa na zmian
 - co rozumiemy przez zdarzenia - pojawienie się informacyjnego okna dialogowego vs okna dialogowego oznaczającego błąd
 
 #### Rozwiązanie półautomatyczne w [[Claude Code]]
-Można mianowicie wykorzystać hook
+Można mianowicie utworzyć komendę, która na podstawie aktualnej konwersacji szuka kluczowych obserwacji mających globalne zastosowanie dla projektu, a następnie je dodaje.
+
+> Protip: Nigdy nie aktualizuj CLAUDE.md samemu niech asystent pisze sam dla siebie
 
