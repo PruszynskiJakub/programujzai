@@ -11,6 +11,9 @@ AI potrzebuje czystej architektury tak samo jak doświadczeni inżynierowie. Lu�
 
 ## Umiejętności AI
 ### 🎯 Etap 4: Trening asystenta 
+
+^1289c1
+
 Nawet z doskonałymi przykładami, AI zbacza z kursu - wymyśla koło na nowo, ignoruje wzorce. Czas dopracować prompty, zbudować pamięć, stworzyć powtarzalne komendy. Spraw, by AI myślało jak ty.
 
 ### ⚙️ Etap 5: Automatyzacja przepływu pracy 
