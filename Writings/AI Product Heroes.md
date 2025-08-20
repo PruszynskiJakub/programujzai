@@ -5,6 +5,7 @@ tags:
   - linkedin
 created: 2025-08-02
 published: 2025-08-06
+author: "[[Jakub Pruszyński]]"
 ---
 ### Backstory
 Brałem już udział w kilku edycjach AI Devs, buduje swoje automatyzacje i swoich agentów. Prowadzę od czasu do czasu warsztaty z AI w Pragmatic Coders. Specjalizacją która zacząłem swoją przygodę z programowaniem tak na poważnie było budowanie rozwiązań mobilnych - jak każdy początkujący twórca miałem swój idealny scenariusz w głowie tj. zbudować aplikację która będzie użyteczna, przyniesie wartość do klienta i oczywiście zarobi miliony. W rozwiązaniach mobilnych urzekło mnie to jak wiele aspektów łączy wymagając oswojenia i nabrania umiejętności niemal end to end. Produktu który zarobił miliony nie udało się jeszcze zbudować, ale wraz z czasem zrozumiałem że uwielbiam właśnie to połączenie biznesu, UX i programowania, które tak fajnie jest mi odnaleźć na mobilkach.

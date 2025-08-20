@@ -6,6 +6,7 @@ category:
   - "[[Posts]]"
 created: 2025-08-15
 published: 2025-08-16
+author: "[[Jakub Pruszyński]]"
 ---
 ### Backstory
 

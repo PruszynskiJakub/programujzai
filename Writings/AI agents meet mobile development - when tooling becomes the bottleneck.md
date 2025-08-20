@@ -6,6 +6,7 @@ category:
   - "[[Posts]]"
 created: 2025-08-05
 published: 2025-08-09
+author: "[[Jakub Pruszyński]]"
 ---
 ### Backstory
 Ostatnio sporo eksperymentowałem z iteracyjnym tworzeniem UI na webie z pomocą Claude Code. Innymi słowy dostarczamy design robiąc np screenshot (możemy również dostarczyć je przy pomocy  Figma MCP jeśli designer dobrze zorganizował przestrzeń) następnie prosimy Claude Code aby utworzył komponent lub komponenty odpowiadające designom (zwykle takie zero-shot podejście skutuje zależnie od komponentu dokładnością na poziomie 75%-85% ) - dotąd nie brzmi to jak żadne odkrycie, ale dodajmy do tego tajny składnik w postaci MCP które pozwala robić screenshoty np snap-happy MCP albo playwright MCP i boom możemy zlecić Claude Code aby iterował swoją implementacje w pętli :

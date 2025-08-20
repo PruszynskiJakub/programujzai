@@ -4,6 +4,7 @@ category:
 tags:
   - linkedin
 published: 2025-08-02
+author: "[[Jakub Pruszyński]]"
 ---
 ### Backstory
 Tworzę aplikację w Kotlin Multiplatform Mobile będąc odpowiedzialnym za obie platformy - iOS i Android. Projekt medyczny, który właśnie osiągnął fazę MVP. Aplikacja podczas wewnętrznych faz testowania działa bez zarzutu. Gdy już wychodzi do ograniczonego grona użytkowników nagle na Sentry pojawiają się nam crashe, każdy z tą samą nic nie mówiącą nazwą 

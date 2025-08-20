@@ -6,6 +6,7 @@ category:
   - "[[Posts]]"
 created: 2025-08-16
 published: 2025-08-17
+author: "[[Jakub Pruszyński]]"
 ---
 ### Backstory
 Ostatnie tygodnie pracuję nad jednoczesnym implementowaniem kilku funkcjonalności w tym samym czasie wykorzystując git worktrees. Z perspektywy tego eksperymentu widzę jak niedocenionym elementem pracy z AI jest retrospektywa.
