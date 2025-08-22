@@ -5,12 +5,16 @@
 		{"id":"733a9680a5638f86","type":"file","file":"_resources/Screenshot 2025-08-19 at 13.36.49.png","x":-140,"y":-120,"width":400,"height":330},
 		{"id":"7d67b42701f77c53","type":"file","file":"_resources/Screenshot 2025-08-18 at 13.54.34.png","x":-540,"y":-182,"width":400,"height":346},
 		{"id":"85fe8c8170bad713","type":"file","file":"_resources/Screenshot 2025-08-20 at 13.18.02.png","x":-720,"y":-770,"width":639,"height":490},
-		{"id":"a5c3271dde9493d1","type":"text","text":"łatwość komunikacji, co nie jest oczywiste w IT, friendly-face, ","x":-805,"y":-280,"width":265,"height":111},
 		{"id":"b47b144ea406f820","type":"file","file":"_resources/Screenshot 2025-08-21 at 07.49.52.png","x":-81,"y":-925,"width":348,"height":400},
 		{"id":"39843485c4d8ba7f","type":"file","file":"_resources/Screenshot 2025-08-21 at 10.26.31.png","x":-854,"y":-155,"width":314,"height":400},
-		{"id":"3941d2f963a186cf","type":"text","text":"naturalny leader","x":-986,"y":-330,"width":265,"height":50},
 		{"id":"5c81f5aef36a5e81","type":"text","text":"Ruben poza swoim profilem publikuje jako organizacje i następnie to komentuje","x":-540,"y":164,"width":400,"height":81},
-		{"id":"37cd37d553a1202b","type":"text","text":"Top 1 albo top 3 treści AI z unknownnews w soboty","x":-140,"y":210,"width":400,"height":81}
+		{"id":"37cd37d553a1202b","type":"text","text":"Top 1 albo top 3 treści AI z unknownnews w soboty","x":-140,"y":210,"width":400,"height":81},
+		{"id":"d9247548aad6b587","type":"text","text":"Publikować na różnych platformach jednocześnie ?","x":260,"y":-120,"width":220,"height":81},
+		{"id":"b310378127df2466","type":"text","text":"Publikować w różnych formatach","x":-834,"y":245,"width":274,"height":81},
+		{"id":"bdfe7e37feebcbb0","type":"text","text":"Komiks jako obrazek ala Ptaszek Staszek","x":-354,"y":-851,"width":274,"height":81},
+		{"id":"3941d2f963a186cf","type":"text","text":"naturalny leader","x":-1070,"y":-700,"width":265,"height":50,"color":"5"},
+		{"id":"a5c3271dde9493d1","type":"text","text":"łatwość komunikacji, co nie jest oczywiste w IT, friendly-face, ","x":-1070,"y":-650,"width":265,"height":111,"color":"5"},
+		{"id":"5bcb788b68121bf8","type":"text","text":"pozytywny do AI","x":-1070,"y":-539,"width":265,"height":50,"color":"5"}
 	],
 	"edges":[]
 }
