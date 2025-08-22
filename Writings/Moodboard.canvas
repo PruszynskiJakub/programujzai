@@ -7,7 +7,7 @@
 		{"id":"85fe8c8170bad713","type":"file","file":"_resources/Screenshot 2025-08-20 at 13.18.02.png","x":-720,"y":-770,"width":639,"height":490},
 		{"id":"a5c3271dde9493d1","type":"text","text":"łatwość komunikacji, co nie jest oczywiste w IT, friendly-face, ","x":-805,"y":-280,"width":265,"height":111},
 		{"id":"b47b144ea406f820","type":"file","file":"_resources/Screenshot 2025-08-21 at 07.49.52.png","x":-81,"y":-925,"width":348,"height":400},
-		{"id":"39843485c4d8ba7f","x":-854,"y":-155,"width":314,"height":400,"type":"file","file":"_resources/Screenshot 2025-08-21 at 10.26.31.png"},
+		{"id":"39843485c4d8ba7f","type":"file","file":"_resources/Screenshot 2025-08-21 at 10.26.31.png","x":-854,"y":-155,"width":314,"height":400},
 		{"id":"3941d2f963a186cf","type":"text","text":"naturalny leader","x":-986,"y":-330,"width":265,"height":50},
 		{"id":"5c81f5aef36a5e81","type":"text","text":"Ruben poza swoim profilem publikuje jako organizacje i następnie to komentuje","x":-540,"y":164,"width":400,"height":81}
 	],
