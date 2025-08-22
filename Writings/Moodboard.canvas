@@ -9,7 +9,8 @@
 		{"id":"b47b144ea406f820","type":"file","file":"_resources/Screenshot 2025-08-21 at 07.49.52.png","x":-81,"y":-925,"width":348,"height":400},
 		{"id":"39843485c4d8ba7f","type":"file","file":"_resources/Screenshot 2025-08-21 at 10.26.31.png","x":-854,"y":-155,"width":314,"height":400},
 		{"id":"3941d2f963a186cf","type":"text","text":"naturalny leader","x":-986,"y":-330,"width":265,"height":50},
-		{"id":"5c81f5aef36a5e81","type":"text","text":"Ruben poza swoim profilem publikuje jako organizacje i następnie to komentuje","x":-540,"y":164,"width":400,"height":81}
+		{"id":"5c81f5aef36a5e81","type":"text","text":"Ruben poza swoim profilem publikuje jako organizacje i następnie to komentuje","x":-540,"y":164,"width":400,"height":81},
+		{"id":"37cd37d553a1202b","type":"text","text":"Top 1 albo top 3 treści AI z unknownnews w soboty","x":-140,"y":210,"width":400,"height":81}
 	],
 	"edges":[]
 }
