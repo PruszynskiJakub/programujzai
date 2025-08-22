@@ -9,4 +9,12 @@
 - Workflows
     
 
+<<<<<<< HEAD
 **
+=======
+**
+
+## Z czym wychodzi słuchacz ?
+
+
+>>>>>>> 74c1f44 (vault backup: 2025-08-22 14:11:12)
