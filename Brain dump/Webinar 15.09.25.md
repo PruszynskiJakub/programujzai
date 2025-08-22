@@ -11,4 +11,5 @@
 
 **
 
-## Z czym wychodzi słuchacz ?
+- Dodawanie automatycznie plików do gita
+- Command Ask me a question
