@@ -14,7 +14,10 @@
 		{"id":"bdfe7e37feebcbb0","type":"text","text":"Komiks jako obrazek ala Ptaszek Staszek","x":-354,"y":-851,"width":274,"height":81},
 		{"id":"3941d2f963a186cf","type":"text","text":"naturalny leader","x":-1070,"y":-700,"width":265,"height":50,"color":"5"},
 		{"id":"a5c3271dde9493d1","type":"text","text":"łatwość komunikacji, co nie jest oczywiste w IT, friendly-face, ","x":-1070,"y":-650,"width":265,"height":111,"color":"5"},
-		{"id":"5bcb788b68121bf8","type":"text","text":"pozytywny do AI","x":-1070,"y":-539,"width":265,"height":50,"color":"5"}
+		{"id":"5bcb788b68121bf8","type":"text","text":"pozytywny do AI","x":-1070,"y":-539,"width":265,"height":50,"color":"5"},
+		{"id":"90b71085b8220c9b","type":"text","text":"Hook of the month","x":-450,"y":291,"width":220,"height":50},
+		{"id":"602d0f0c8b75810e","type":"text","text":"Workflow of the month","x":-450,"y":341,"width":220,"height":50},
+		{"id":"9e2fbd518d3ac9db","type":"text","text":"Workflow of the month","x":-450,"y":391,"width":220,"height":50}
 	],
 	"edges":[]
 }
