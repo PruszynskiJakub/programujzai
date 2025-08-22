@@ -39,6 +39,23 @@ Hooks -> Automatycznie dodawaj pliki do gita
 3 poziomy dostępu (user <system> / project / local)
 
 
-
+## Sekcja Marketingowa
 Claude Code bez hype'u - praktyczne zastosowanie.
 
+5 komend, które używamy w projektach komercyjnych,
+Code review przez Claude Code,
+E2E workflow od zaciągnięcia story poprzez MCP, do implementacji,
+Automatyzacja implementacja migracji poprzez hook oraz subagenta,
+Jak utrzymać pamięć agenta up to date
+Zabezpiecz swoje secrety przed wyciekiem do AI
+Najbardziej użyteczny hook który zwiększy Twoją produktywność w claude code
+Top skróty Claude Code
+Spójrzmy za kurtyne Claude Code - trace i debbug
+Wybór odpowiedniego poziomu dostępności funkcjonalności (user / project / local)
+6 etapów programowania z AI
+Agent vs Command - które narzędzie pasuje w którym przypadku
+
+
+
+
+- "Pokażemy jak subagent może automatycznie naprawiać failing testy"
