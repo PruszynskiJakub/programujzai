@@ -11,13 +11,15 @@
 		{"id":"37cd37d553a1202b","type":"text","text":"Top 1 albo top 3 treści AI z unknownnews w soboty","x":-140,"y":210,"width":400,"height":81},
 		{"id":"d9247548aad6b587","type":"text","text":"Publikować na różnych platformach jednocześnie ?","x":260,"y":-120,"width":220,"height":81},
 		{"id":"b310378127df2466","type":"text","text":"Publikować w różnych formatach","x":-834,"y":245,"width":274,"height":81},
-		{"id":"bdfe7e37feebcbb0","type":"text","text":"Komiks jako obrazek ala Ptaszek Staszek","x":-354,"y":-851,"width":274,"height":81},
+		{"id":"bdfe7e37feebcbb0","type":"text","text":"Komiks jako obrazek ala Ptaszek Staszek","x":-354,"y":-851,"width":274,"height":81,"color":"4"},
 		{"id":"3941d2f963a186cf","type":"text","text":"naturalny leader","x":-1070,"y":-700,"width":265,"height":50,"color":"5"},
 		{"id":"a5c3271dde9493d1","type":"text","text":"łatwość komunikacji, co nie jest oczywiste w IT, friendly-face, ","x":-1070,"y":-650,"width":265,"height":111,"color":"5"},
 		{"id":"5bcb788b68121bf8","type":"text","text":"pozytywny do AI","x":-1070,"y":-539,"width":265,"height":50,"color":"5"},
 		{"id":"90b71085b8220c9b","type":"text","text":"Hook of the month","x":-450,"y":291,"width":220,"height":50},
 		{"id":"602d0f0c8b75810e","type":"text","text":"Workflow of the month","x":-450,"y":341,"width":220,"height":50},
-		{"id":"9e2fbd518d3ac9db","type":"text","text":"Workflow of the month","x":-450,"y":391,"width":220,"height":50}
+		{"id":"9e2fbd518d3ac9db","type":"text","text":"Workflow of the month","x":-450,"y":391,"width":220,"height":50},
+		{"id":"e83f8c495d871f52","x":-329,"y":-1251,"width":224,"height":400,"type":"file","file":"_resources/replicate-prediction-tybgas13f1rme0crt7fv5bh284.png"},
+		{"id":"21f12ec286d1a68e","type":"text","text":"Z humorem, na lekko","x":-549,"y":-925,"width":220,"height":81,"color":"4"}
 	],
 	"edges":[]
 }
