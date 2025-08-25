@@ -37,3 +37,4 @@ Claude debug,
 Claude logging kolejnej instancji do weryfikacji działania,
 Hooks -> Automatycznie dodawaj pliki do gita
 3 poziomy dostępu (user <system> / project / local)
+Programowalność
