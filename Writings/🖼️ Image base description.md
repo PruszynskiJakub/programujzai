@@ -34,3 +34,6 @@ A clean sketch-pad style header illustration in a soft pastel palette (light tea
         
 - **Overall vibe:**  
     Playful, modern, pastel-doodle version of the minimalist humor strip. The pastel palette softens the sarcastic humor, making it feel like a **header illustration** that’s both witty and visually charming.
+
+
+Dry, witty humor with a hint of absurdity
