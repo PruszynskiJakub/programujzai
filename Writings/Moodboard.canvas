@@ -18,7 +18,7 @@
 		{"id":"90b71085b8220c9b","type":"text","text":"Hook of the month","x":-450,"y":291,"width":220,"height":50},
 		{"id":"602d0f0c8b75810e","type":"text","text":"Workflow of the month","x":-450,"y":341,"width":220,"height":50},
 		{"id":"9e2fbd518d3ac9db","type":"text","text":"Workflow of the month","x":-450,"y":391,"width":220,"height":50},
-		{"id":"e83f8c495d871f52","x":-329,"y":-1251,"width":224,"height":400,"type":"file","file":"_resources/replicate-prediction-tybgas13f1rme0crt7fv5bh284.png"},
+		{"id":"e83f8c495d871f52","type":"file","file":"_resources/replicate-prediction-tybgas13f1rme0crt7fv5bh284.png","x":-329,"y":-1251,"width":224,"height":399},
 		{"id":"21f12ec286d1a68e","type":"text","text":"Z humorem, na lekko","x":-549,"y":-925,"width":220,"height":81,"color":"4"}
 	],
 	"edges":[]
