@@ -28,14 +28,18 @@ AI to narzędzie jak każde inne! Dopiero po odpowiednim czasie esploracji nabie
 ### Post:
 
 **Problem:**
-Obserwuję LinkedIn, kursy AI, współpracowników. Wszędzie to samo zjawisko - zatrzymujemy się na "good enough":
+Obserwuję LinkedIn, kursy AI, współpracowników. Wszędzie to samo zjawisko - zatrzymujemy się na "good enough". 
+Zbieram często feedback z użycia AI taki jak:
 - "AI wygenerował kod który *prawie* działa"
 - "Przeklejam z ChatGPT do IDE i poprawiam ręcznie"
 - "Używam tylko Cursor, bo przesiadka z VSCode była łatwa"
 - "AI mielił 10 minut i wypluł śmieci!"
 
 **Journey:**
-3 miesiące temu byłem w tym samym miejscu. Copy-paste między ChatGPT a IDE. Frustracja gdy kod nie matchuje konwencji projektu. 
+Przy natłoku pracy sam byłem w podobnym miejscu, output był dla mnie good enough, a przy dostosowaniu kilku plików było to rozwiązanie którego szukałem - bez większej refleksji i zastanowienia się czy można było nakierować lepiej inicjalny output.
+
+AI to narzędzie jak każde inne, kiedy kilka już dobrych lat temu zaczynałem używać IntelliJ jako głównego IDE od razu widziałem boost w swojej pracy - nawigacja po plikach, czy generacja boilerplate kodu wydawała się czymś naprawdę potężnym, ale moc tego IDE wyciągnąłem dopiero po miesiącach pracy i wciąż zdarza się, że odkrywam funkcjonalność i strzelam facepalm, że wcześniej tego nie wiedziałem.
+Dlaczego więc z AI robimy dokładnie odwrotnie? Oczekujemy perfekcji od razu, a przecież jest to narzędzie w pewnym stopniu jak każde inne.
 
 Aż przypomniałem sobie swoje początki z IntelliJ...
 
@@ -65,3 +69,20 @@ Mastery = zintegrowany workflow gdzie AI rozumie twój kontekst, konwencje, cele
 
 **CTA:**
 Jaki był twój "aha moment" z AI tools? Ten moment gdy przestałeś walczyć z narzędziem, a zacząłeś z nim współpracować?
+
+---
+
+AI w mojej opinii za mało przedstawiane jest jako narzędzie.
+
+Kiedy kilka już dobrych lat temu zaczynałem używać IntelliJ jako głównego IDE od razu widziałem boost w swojej pracy - nawigacja po plikach, czy generacja boilerplate kodu wydawała się czymś naprawdę potężnym, ale moc tego IDE wyciągnąłem dopiero po miesiącach pracy i wciąż zdarza się, że odkrywam funkcjonalność i strzelam facepalm, że wcześniej tego nie wiedziałem.
+
+Z AI robimy dokładnie odwrotnie. Oczekujemy perfekcjonizmu od pierwszego promptu.
+Wypluł śmieci, cóż może to za wcześnie? Sprawdzę jak pojawi się nowy model! :)
+
+Narzędzia i aktualne modele wybaczają już naprawdę wiele, ale wciąż przykuwamy zbyt mało uwagi na to jak ich używamy. Obserwuję to środowisko i w wielu przypadkach zatrzymujemy się na podejściu good enough i bare minimum :P 
+
+Np. 
+- Używam Cursor'a bo migracja z VSC była bezproblemowa,
+- Output co prawda nie trzymał konwencji projektowej i pojawiła się masa błędów w formatowaniu, ale przecież poprawiłem ręcznie i czuję, że udało się dostarczyć szybko
+
+Traktowanie AI jako narzędzie, poznawanie go, eksploracja dają masę efektów, ale z jakiegoś powodu tylko garstka naprawdę widzi ten potencjał...
