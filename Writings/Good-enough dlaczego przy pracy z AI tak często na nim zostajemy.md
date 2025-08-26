@@ -14,6 +14,6 @@ Kurde IDE jak np. Intellij jak zaczynałem w nim pracę od samego początku dawa
 
 Dlaczego z AI nie mamy tyle cierpliwości? Dlaczego nie zatrzymujemy się nad naszym propmptem, nie pomyślimy co mógłbym zrobić aby output był bardziej nakierowany na moje oczekiwania, czy mogę wykorzystać jakiegoś dodatkowego narzędzia, który jeszcze mi w tym pomoże?
 
-Kursy natomiast wciąż obracają się wokół hype'u zbudowanego wokół AI, powtarzają podobną treść, tylko przedstawioną w inny dostosowany pod siebie sposób
+Kursy natomiast wciąż obracają się wokół hype'u zbudowanego wokół AI, powtarzają podobną treść, tylko przedstawioną w inny dostosowany pod siebie sposób. Brakuje na rynku treści po eksploracji, po przetestowaniu masy rozwiązań i przedstawieniu swoich wniosków - bo to głównie na nich jesteśmy w stanie budować prawdzie workflow
 
 AI to narzędzie jak każde inne! Dopiero po odpowiednim czasie esploracji nabiera rozpędu i otwiera drzwi, które przy podejściu good-enough są zamknięte!
