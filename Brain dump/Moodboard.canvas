@@ -4,7 +4,6 @@
 		{"id":"abde8e8745bdeea0","type":"file","file":"_resources/Screenshot 2025-07-30 at 08.58.52.png","x":-80,"y":-520,"width":382,"height":400},
 		{"id":"733a9680a5638f86","type":"file","file":"_resources/Screenshot 2025-08-19 at 13.36.49.png","x":-140,"y":-120,"width":400,"height":330},
 		{"id":"7d67b42701f77c53","type":"file","file":"_resources/Screenshot 2025-08-18 at 13.54.34.png","x":-540,"y":-182,"width":400,"height":346},
-		{"id":"85fe8c8170bad713","type":"file","file":"_resources/Screenshot 2025-08-20 at 13.18.02.png","x":-720,"y":-770,"width":639,"height":490},
 		{"id":"b47b144ea406f820","type":"file","file":"_resources/Screenshot 2025-08-21 at 07.49.52.png","x":-81,"y":-925,"width":348,"height":400},
 		{"id":"39843485c4d8ba7f","type":"file","file":"_resources/Screenshot 2025-08-21 at 10.26.31.png","x":-854,"y":-155,"width":314,"height":400},
 		{"id":"5c81f5aef36a5e81","type":"text","text":"Ruben poza swoim profilem publikuje jako organizacje i następnie to komentuje","x":-540,"y":164,"width":400,"height":81},
@@ -19,7 +18,14 @@
 		{"id":"602d0f0c8b75810e","type":"text","text":"Workflow of the month","x":-450,"y":341,"width":220,"height":50},
 		{"id":"9e2fbd518d3ac9db","type":"text","text":"Workflow of the month","x":-450,"y":391,"width":220,"height":50},
 		{"id":"e83f8c495d871f52","type":"file","file":"_resources/replicate-prediction-tybgas13f1rme0crt7fv5bh284.png","x":-329,"y":-1251,"width":224,"height":399},
-		{"id":"21f12ec286d1a68e","type":"text","text":"Z humorem, na lekko","x":-549,"y":-925,"width":220,"height":81,"color":"4"}
+		{"id":"21f12ec286d1a68e","type":"text","text":"Z humorem, na lekko","x":-549,"y":-925,"width":220,"height":81,"color":"4"},
+		{"id":"85fe8c8170bad713","type":"file","file":"_resources/Screenshot 2025-08-20 at 13.18.02.png","x":-720,"y":-770,"width":639,"height":490},
+		{"id":"f5a8ae3f85d4a093","type":"text","text":"do juniorów","x":-915,"y":-1006,"width":220,"height":81,"color":"4"},
+		{"id":"4c2ef078e76e3f41","type":"text","text":"Kontrowersja robi zasięgi","x":-857,"y":-264,"width":325,"height":109,"color":"4"},
+		{"id":"92cc3aa317acceb8","type":"text","text":"Jakość buduje jako ekspert","x":-1182,"y":-134,"width":325,"height":109,"color":"4"},
+		{"id":"72e4a389ec637a5c","type":"text","text":"Linkedin  tylko po PL","x":-1157,"y":-280,"width":220,"height":81,"color":"4"},
+		{"id":"190f380c59884c91","type":"text","text":"Jakościowe na blog albo substack","x":-1129,"y":45,"width":220,"height":81,"color":"4"},
+		{"id":"01bacfe8dd1ebbdd","type":"text","text":"Wynik za 2 lata","x":-1077,"y":276,"width":220,"height":81,"color":"4"}
 	],
 	"edges":[]
 }
