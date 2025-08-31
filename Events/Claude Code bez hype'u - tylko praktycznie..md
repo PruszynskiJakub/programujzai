@@ -5,10 +5,10 @@ date: 2025-09-24
 ### Scope
 
 - **5 komend, które zmienią Twój workflow** - poznaj prompty używane codziennie w projektach komercyjnych
-	- Ask questions
-	- Prime context
-	- Retrospection
-	- List tools
+	- Ask questions - improvement
+	- Prime context - context builder
+	- Retrospection - memory builder
+	- List tools - context builder
 	- 
 - **AI jako Twój code reviewer** - jak Claude Code wspomaga jakość kodu
 	- CR with CC github
@@ -28,4 +28,18 @@ date: 2025-09-24
 - Claude Code vs konkurencja
 
 ---
-Hooks:
+
+##### Intro :
+- przedstawienie prowadzących 
+- przedstawienie z czym chcemy aby wyszli uczestnicy - wiedza + repo + hooki + polecenia + linki
+- słow kilka o CC
+##### Funkcjonalności
+- Polecenia jako powtarzalne operacje przyjmujące $ARGUMENTS
+	- ![_resources/fcfa049a0dcc2378539de6db9e8926d0_MD5.jpeg](app://4a90368a2b7e0e1fd719e475eca7d5129000/Users/jakubpruszynski/Documents/obsidian-vaults/ai-course-vault/_resources/fcfa049a0dcc2378539de6db9e8926d0_MD5.jpeg?1739297653608)
+- Hooki
+	- Zabezpiecz swoje .env
+	- Auto dodawanie do git
+- Agenci
+- Agenci vs Polecenia
+- 
+
