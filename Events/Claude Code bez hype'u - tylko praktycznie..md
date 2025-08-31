@@ -43,3 +43,24 @@ date: 2025-09-24
 - Agenci vs Polecenia
 - 
 
+
+
+- Intro
+- PAMIĘĆ czym jest i jaką utrzymać AKTUALNĄ
+- 5 uniwersalnych poleceń potrzebnych bez względu na projekt
+	- framework promptów - rozszerzające, kompresujące, konwertujące, poszukujące, akcyjne, rozumujące
+	- 
+- 2 Hooki które musisz mieć w każdym Projekcie
+	- git add
+	- secure .env
+- Jak wybrać pomiędzy Agentem a poleceniem
+- Poziomy konfiguracji
+	- user vs project vs local
+- 6 etapów projektu Tworzonego z AI
+- migracja baz danych na autopilocie
+- Od user story Do produkcji w 15 min 
+	- Todoist -> Draft -> Spec -> Impl -> CR
+- Claude Code CLI vs Gemini CLI vs Codex CLI
+
+---
+### Scenariusz
