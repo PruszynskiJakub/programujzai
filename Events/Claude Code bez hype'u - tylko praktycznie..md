@@ -21,8 +21,11 @@ date: 2025-09-24
 	- git add hook
 - **Skróty klawiszowe pro-developerów** - przyspiesz pracę z Claude Code
 - **Co się dzieje za kurtyną Claude Code** - wewnętrzne mechanizmy Claude Code
-	- Claude Trace
+	- [Claude Trace](https://github.com/badlogic/lemmy/tree/main/apps/claude-trace)
 - **User vs Project vs Local** - wybierz odpowiedni poziom konfiguracji
 - **6 poziomów dojrzałości w AI coding** - na którym z nich jest Twój projekt?
 - **Agent czy Command?** - kiedy używać którego i dlaczego to ma znaczenie
 - Claude Code vs konkurencja
+
+---
+Hooks:
