@@ -16,7 +16,6 @@ date: 2025-09-24
 	- Jira -> Spec -> Impl
 - **Migracje baz danych na autopilocie** - koniec z ręcznym pisaniem migracji
 - **Pamięć agenta która faktycznie działa** - utrzymaj swój CLAUDE.md aktualnym
-	- 
 - **Twoje .env są bezpieczne** - zabezpiecz secrety przed przypadkowym wyciekiem
 - **Jeden hook ułatwia życie** - odkryj automatyzację, którą pokochasz
 	- git add hook
@@ -26,3 +25,4 @@ date: 2025-09-24
 - **User vs Project vs Local** - wybierz odpowiedni poziom konfiguracji
 - **6 poziomów dojrzałości w AI coding** - na którym z nich jest Twój projekt?
 - **Agent czy Command?** - kiedy używać którego i dlaczego to ma znaczenie
+- Claude Code vs konkurencja
