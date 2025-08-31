@@ -30,9 +30,7 @@ date: 2025-09-24
 ---
 
 ##### Intro :
-- przedstawienie prowadzących 
-- przedstawienie z czym chcemy aby wyszli uczestnicy - wiedza + repo + hooki + polecenia + linki
-- słow kilka o CC
+
 ##### Funkcjonalności
 - Polecenia jako powtarzalne operacje przyjmujące $ARGUMENTS
 	- ![_resources/fcfa049a0dcc2378539de6db9e8926d0_MD5.jpeg](app://4a90368a2b7e0e1fd719e475eca7d5129000/Users/jakubpruszynski/Documents/obsidian-vaults/ai-course-vault/_resources/fcfa049a0dcc2378539de6db9e8926d0_MD5.jpeg?1739297653608)
@@ -46,10 +44,12 @@ date: 2025-09-24
 
 
 - Intro
+	- przedstawienie z czym chcemy aby wyszli uczestnicy - wiedza + repo + hooki + polecenia + linki
+	- przedstawienie prowadzących 
+	- słow kilka o CC
 - PAMIĘĆ czym jest i jaką utrzymać AKTUALNĄ
 - 5 uniwersalnych poleceń potrzebnych bez względu na projekt
 	- framework promptów - rozszerzające, kompresujące, konwertujące, poszukujące, akcyjne, rozumujące
-	- 
 - 2 Hooki które musisz mieć w każdym Projekcie
 	- git add
 	- secure .env
