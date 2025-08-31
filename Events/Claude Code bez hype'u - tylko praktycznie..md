@@ -63,4 +63,5 @@ date: 2025-09-24
 - Claude Code CLI vs Gemini CLI vs Codex CLI
 
 ---
-### Scenariusz
+### Scenariusz[[Attachments/Claude Code bez hype'u - tylko praktycznie./770de38b8af5b6d9927a65baaac2a2b2_MD5.jpeg|Open: Screenshot 2025-08-31 at 19.52.11.png]]
+![[Attachments/Claude Code bez hype'u - tylko praktycznie./770de38b8af5b6d9927a65baaac2a2b2_MD5.jpeg]]
