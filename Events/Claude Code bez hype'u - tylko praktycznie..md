@@ -61,6 +61,7 @@ date: 2025-09-24
 - Od user story Do produkcji w 15 min 
 	- Todoist -> Draft -> Spec -> Impl -> CR
 - Claude Code CLI vs Gemini CLI vs Codex CLI
+- Wnioski z prompta systemowego Claude Code
 
 ---
 ### Scenariusz[[Attachments/Claude Code bez hype'u - tylko praktycznie./770de38b8af5b6d9927a65baaac2a2b2_MD5.jpeg|Open: Screenshot 2025-08-31 at 19.52.11.png]]
