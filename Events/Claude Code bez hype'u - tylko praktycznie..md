@@ -41,6 +41,7 @@ date: 2025-09-24
 - Agenci vs Polecenia
 - 
 
+W trakcie generowania kodu, możemy odpowiadać na pytania z czatu
 
 
 - Intro
