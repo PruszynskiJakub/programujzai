@@ -9,7 +9,7 @@ date: 2025-09-24
 	- Prime context - context builder
 	- Retrospection - memory builder
 	- List tools - context builder
-	- 
+	- Commit
 - **AI jako Twój code reviewer** - jak Claude Code wspomaga jakość kodu
 	- CR with CC github
 - **Od User Story do implementacji w 15 minut** - kompletny workflow z MCP który zautomatyzuje Twoją pracę
