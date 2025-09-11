@@ -34,7 +34,24 @@ Dlaczego jest to wyzwaniem?
 - stosowanie innych technologii niż oczekujemy bo nasze nie miały wcześniej szerszego zastosowania
 
 Jednak są uniwersalne podejścia i workflow które działają do obu podejść:
-1. Wstępne 
+1. Zasilanie stałej pamięci
+	1. W CC robi się to poprzez CLAUDE.md,
+	2. U mnie sprawdzało się wyciągnie struktury / flow / architektury z projektów już istniejących. Bardzo dobrze sprawdzają się przykłady np. w hexagonalnej architekturze dokładne podejście poprzez pełen przykład flow z utworzonymi plikami,
+	3. Konwencje testowe - co testujemy i jak,
+	4. Jeżeli w specyficzny sposób definiujemy jakąś funkcję - pełny snipped będzie super działać,
+2. Spec Prompting:
+	1. Kilku słowny prompt nie wystarczy aby dostarczyć wystarczająco dużo informacji,
+	2. Określenie wysoko poziomowych oczekiwań, niższych. Dostarczenie technicznych notatek, referencji jeśli już istnieją - zabiera to więcej czasu na początku wymaga od nas polatania po plikach, spędzenie czasu na przekazanie informacji, jednak zaoszczędzi go na koniec - dostosowywania wygenerowanego rozwiązania do naszych oczekiwań,
+	3. Pętla:
+		1. analiza wymagań, kodu,
+		2. Q&A,
+		3. Wydaje się to głupie ale pokazuje co nie przekazaliśmy, albo gdzie AI zle interpretuje rozwiązanie
+3. Przerywaj najszybciej kiedy widzisz, że kierunek nie jest najlepszy,
+	1. Nie idz na kawę, śledź proces rozwiązywania problemu,
+	2. A jeśli już masz taką potrzebę, użyj "plan mode" przeanalizuj ten plan i dopiero go zaakceptuj
+4. A teraz najprostsze:
+	1. Bezpośrednia referencja do pliku poprzez prefix @ do pełnej ścieżki
+5. I najtrudniejsze: definiowanie subagentów - w niedalekiej przyszłości podzielę się doświadczeniem jak robić to efektywnie
 
 ### Draft
 
