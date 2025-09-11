@@ -56,3 +56,27 @@ Jednak są uniwersalne podejścia i workflow które działają do obu podejść:
 ### Draft
 
 ### Final
+
+👨‍💻 **Budowanie z AI od PoC po dojrzałe projekty – dwa zupełnie inne światy**
+Na co dzień pracuję w projekcie rozwijanym od ponad roku. Mamy tam sprawdzone:
+- konwencje kodu,
+- architekturę,
+- testy,
+- wypracowane utils’y.
+
+⚙️ Każdy feature to wyzwanie: trzeba pamiętać o istniejących komponentach, zachować konwencje i unikać niepotrzebnych dodatków. Problemem jest często ogromny kontekst – łatwo o pominięcie gotowych rozwiązań albo... duplikację kodu.
+
+Po godzinach często tworzę PoC – projekty stawiane od zera. Tu z kolei wyzwanie jest odwrotne: brak kontekstu. AI łatwo zaczyna dodawać własne pomysły – dodatkowe funkcjonalności, inne UI albo technologie, których nie planowałem.
+
+👉 Ale są workflow’y, które działają w obu przypadkach:
+- Stała pamięć – CLAUDE.md np. z architekturą, struktura hexagonalna opisana plik po pliku, konwencje testowe, proste snippety rozwizwiązań
+- Spec Prompting – im dokładniej zdefiniujesz oczekiwania, tym mniej poprawiania na końcu.
+- Iteracja i Q&A – pozwala wykryć niedopowiedzenia i nieporozumienia z AI.
+- Wczesne przerywanie – jeśli kierunek jest błędny, zatrzymaj proces zamiast czekać na efekt.
+- Bezpośrednie referencje – wskazanie konkretnego pliku przez @path/to/file.
+- Subagenci – temat na osobny wpis, ale to game-changer w złożonych projektach.
+
+💡 Wniosek?
+W dojrzałym i w świeżym kodzie wyzwania są inne, ale dobre workflow z AI pozwala oswoić oba światy.
+
+#AI #SoftwareDevelopment #Automation #ClaudeCode  #programujzai
