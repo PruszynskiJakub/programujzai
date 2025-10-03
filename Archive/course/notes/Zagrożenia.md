@@ -1,4 +1,0 @@
-- Rules Files Backdoor - https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents
-- Prompt puppetry - https://sekurak.pl/prompt-puppetry-technika-ktora-lamie-zabezpieczenia-wiekszosci-llmow/
-- Env variable leakage
-- 

@@ -1,6 +1,0 @@
----
-tags:
-  - references
-categories:
-  - "[[Author]]"
----

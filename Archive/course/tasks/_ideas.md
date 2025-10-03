@@ -1,1 +1,0 @@
-- Odwrócone ćwiczenie na podstawie prompta i kodu , dobierz odpowiedni context

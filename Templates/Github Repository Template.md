@@ -1,6 +1,0 @@
----
-github: 
-tags:
-  - references
-category:
----

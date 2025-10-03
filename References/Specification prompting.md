@@ -1,5 +1,0 @@
----
-tags:
-  - references
-category: "[[Technique]]"
----
