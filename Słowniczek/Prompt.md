@@ -9,7 +9,6 @@ tags:
 created: 2025-12-21
 ---
 *Opublikowane 2025-12-21*
-
 ### Prompt
 
 ^a7e802
