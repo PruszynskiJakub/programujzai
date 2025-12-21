@@ -1,6 +1,10 @@
+---
+permalink: jak-organizowac-slash-commands-przed-chaosem
+---
 *Opublikowane 2025-12-21* 
+### Jak organizować i budować slash commands, zanim zamienią się w chaos
+---
 
-## Jak organizować i budować slash commands, zanim zamienią się w chaos
 
 Od początku 
 
