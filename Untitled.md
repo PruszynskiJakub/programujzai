@@ -1,11 +1,15 @@
-MCP zżerają kontekst.
+
 
 Framework do narzędzi Claude Code
 Potrzebujesz zewnętrznych danych? (Jira, bazy danych)  
-👉🏻 MCP  
+👉🏻 MCP  MCP zżerają kontekst.
   
 Potrzebujesz uruchomić coś ręcznie? (plany, szkielety UI)  
 👉🏻 Slash commands  
+Reverse prompt engineering
+"Oto co ten prompt wygenerował i oto jego pierwotny cel. Zrekonstruuj prompt."  
+
+
   
 Potrzebujesz głębokiej analizy? (przeglądy, audyty)  
 👉🏻 Subagenty  
@@ -31,16 +35,7 @@ Teraz każdy prompt to funkcja:
 
 
 
-Reverse prompt engineering
-"Oto co ten prompt wygenerował i oto jego pierwotny cel. Zrekonstruuj prompt."  
-  
-Wkleiłem output i cel.  
-Dostałem z powrotem prompt identyczny w 90% z tym, co straciłem.  
-  
-To działa przy:  
-👉🏻 Odzyskiwaniu własnych skasowanych promptów  
-👉🏻 Uczeniu się z outputów, które podziwiasz  
-👉🏻 Zrozumieniu, dlaczego coś zadziałało
+
 
 
 Przestrzenie nazw komend. 🔥  
@@ -53,3 +48,16 @@ Model mentalny. Każdy prompt należy do jednego z dwóch kubełków:
   
 Teraz nie szukam komend.  
 Myślę "Jestem w fazie Plan" 🤔 👉🏻 /plan: ..-> zrobione.
+
+
+
+
+
+  
+Wkleiłem output i cel.  
+Dostałem z powrotem prompt identyczny w 90% z tym, co straciłem.  
+  
+To działa przy:  
+👉🏻 Odzyskiwaniu własnych skasowanych promptów  
+👉🏻 Uczeniu się z outputów, które podziwiasz  
+👉🏻 Zrozumieniu, dlaczego coś zadziałało
