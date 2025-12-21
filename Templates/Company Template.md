@@ -1,5 +1,7 @@
 ---
-categories: "[[Companies]]"
+categories:
+  - "[[Companies]]"
+  - "[[Pages]]"
 created: "{{date}}"
 website:
 tags:

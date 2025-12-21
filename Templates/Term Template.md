@@ -1,5 +1,7 @@
 ---
-categories: "[[Term]]"
+categories:
+  - "[[Terms]]"
+  - "[[Pages]]"
 tags:
   - references
   - terms

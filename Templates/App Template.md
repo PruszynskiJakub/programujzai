@@ -3,5 +3,8 @@ created: "{{date}}"
 tags:
   - references
   - apps
-categories: "[[Apps]]"
+categories:
+  - "[[Apps]]"
+  - "[[Pages]]"
+website:
 ---

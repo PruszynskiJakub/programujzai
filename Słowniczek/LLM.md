@@ -1,17 +1,14 @@
 ---
-permalink: prompt
 categories:
-  - "[[Terms]]"
   - "[[Pages]]"
+  - "[[Terms]]"
 tags:
   - references
   - terms
+  - pages
 created: 2025-12-21
+permalink: llm
 ---
 *Opublikowane 2025-12-21*
-
-### Prompt
-
-^a7e802
-
+### LLM
 ---

@@ -1,17 +1,21 @@
 ---
-permalink: jak-organizowac-slash-commands-przed-chaosem
+permalink: jak-organizowac-prompty-agentow-przed-chaosem
+categories:
+  - "[[Pages]]"
+created: 2025-12-21
+tags:
+  - pages
 ---
-*Opublikowane 2025-12-21* 
-### Jak organizować i budować slash commands, zanim zamienią się w chaos
+ *Opublikowane 2025-12-21* 
+### Jak organizować i budować prompty dla swoich agentów, zanim zamienią się w chaos
 ---
 
+Od pamiętnej premiery [[ChatGPT]] od [[OpenAI]] w listopadzie 2020 roku minęło już ponad 5 lat.
+Powiedzieć, że sporo się zmieniło od tego czasu, to powiedzieć nic. W ciągu tego okresu duże modele językowe ( [[Słowniczek/LLM|Large Language Models]] ) nie tylko zyskały nowe umiejętności jak możliwość generowania, obrazów czy dźwięków, ale przede wszystkim stały się wszechobecnym elementem naszych żyć. W naturalny sposób uległy zatem zmianie nasze przyzwyczajenia oraz sposób komunikacji z aplikacjami, a [[Prompt|prompty]] stał się podstawową jednostką informacji.
 
-Od początku 
+Branżą IT w oczywisty sposób uległa największej transformacji podczas tego umysłowego przewrotu. Dziś programiści już nie programują, oni promptują, natomiast asystenci AI do programowania pojawiają się na każdym kroku, stając się standardem, któremu nie można się już przeciwstawić.
 
-
-
-
-
+Sam jestem wielkim zwolennikiem narzędzia [[Claude Code]] od [[Anthropic]]
 
 
 
