@@ -2,7 +2,7 @@
 
 ## Jak organizować i budować slash commands, zanim zamienią się w chaos
 
-
+Od początku 
 
 
 
