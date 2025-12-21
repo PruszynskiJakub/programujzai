@@ -6,5 +6,5 @@ tags:
   - pages
 ---
 *Opublikowane {{date:YYYY-MM-DD}}*
-### Title
+# Title
 ---

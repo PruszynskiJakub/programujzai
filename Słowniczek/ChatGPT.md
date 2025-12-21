@@ -9,5 +9,5 @@ website:
 permalink: chat-gpt
 ---
 *Opublikowane 2025-12-21*
-### ChatGPT
+# ChatGPT
 ---

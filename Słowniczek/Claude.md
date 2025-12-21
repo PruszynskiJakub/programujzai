@@ -7,5 +7,5 @@ tags:
 author: "[[Anthropic]]"
 ---
 *Opublikowane 2025-12-21*
-### Claude
+# Claude
 ---

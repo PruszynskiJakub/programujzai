@@ -9,5 +9,5 @@ website: https://cursor.com/
 permalink: cursor
 ---
 *Opublikowane 2025-12-21*
-### Cursor
+# Cursor
 ---

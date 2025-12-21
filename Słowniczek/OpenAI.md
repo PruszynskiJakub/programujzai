@@ -9,5 +9,5 @@ tags:
 permalink: openai
 ---
 *Opublikowane 2025-12-21*
-### OpenAI
+# OpenAI
 ---
