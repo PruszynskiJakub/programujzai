@@ -22,3 +22,13 @@ Potrzebujesz automatycznej transformacji? (dokumenty, obrazy)
 👉🏻 Skills  
   
 Ten prosty framework oszczędza mi ciągłego zastanawiania się za każdym razem. ⏳
+
+
+
+
+
+
+
+
+
+

@@ -1,22 +1,23 @@
+*Opublikowane 2025-12-21* 
+
+## Jak organizować i budować slash commands, zanim zamienią się w chaos
 
 
-Framework do narzędzi Claude Code
-Potrzebujesz zewnętrznych danych? (Jira, bazy danych)  
-👉🏻 MCP  MCP zżerają kontekst.
-  
-Potrzebujesz uruchomić coś ręcznie? (plany, szkielety UI)  
-👉🏻 Slash commands  
-Reverse prompt engineering
-"Oto co ten prompt wygenerował i oto jego pierwotny cel. Zrekonstruuj prompt."  
 
 
-  
-Potrzebujesz głębokiej analizy? (przeglądy, audyty)  
-👉🏻 Subagenty  
-  
-Potrzebujesz automatycznej transformacji? (dokumenty, obrazy)  
-👉🏻 Skills
 
+
+
+
+
+
+
+
+
+
+
+
+---
 
 Prompt to funkcja 
 Moje prompty robiły dwie rzeczy naraz:  
@@ -33,11 +34,21 @@ Teraz każdy prompt to funkcja:
 ✅ Maksymalnie 3 argumenty  
 ✅ Komponowalny z innymi promptam
 
+---
 
 
+Reverse prompt engineering
+"Oto co ten prompt wygenerował i oto jego pierwotny cel. Zrekonstruuj prompt."  
 
+Wkleiłem output i cel.  
+Dostałem z powrotem prompt identyczny w 90% z tym, co straciłem.  
+  
+To działa przy:  
+👉🏻 Odzyskiwaniu własnych skasowanych promptów  
+👉🏻 Uczeniu się z outputów, które podziwiasz  
+👉🏻 Zrozumieniu, dlaczego coś zadziałało
 
-
+---
 Przestrzenie nazw komend. 🔥  
 Podfolder w .claude/commands = automatyczny prefiks.  
 /plan:feature zamiast /feature-planning-thing. 👀  
@@ -48,16 +59,3 @@ Model mentalny. Każdy prompt należy do jednego z dwóch kubełków:
   
 Teraz nie szukam komend.  
 Myślę "Jestem w fazie Plan" 🤔 👉🏻 /plan: ..-> zrobione.
-
-
-
-
-
-  
-Wkleiłem output i cel.  
-Dostałem z powrotem prompt identyczny w 90% z tym, co straciłem.  
-  
-To działa przy:  
-👉🏻 Odzyskiwaniu własnych skasowanych promptów  
-👉🏻 Uczeniu się z outputów, które podziwiasz  
-👉🏻 Zrozumieniu, dlaczego coś zadziałało

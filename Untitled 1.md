@@ -1,1 +1,0 @@
-Mój framework wyboru narzędzi
