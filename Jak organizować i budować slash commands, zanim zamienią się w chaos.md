@@ -12,7 +12,7 @@ Od pamiętnej premiery [[ChatGPT]] od [[OpenAI]] w listopadzie 2022 roku minęł
 
 Branża IT w oczywisty sposób uległa największej transformacji podczas tego umysłowego przewrotu. Dziś programiści już nie tylko programują — oni promptują. Asystenci AI do programowania pojawiają się na każdym kroku, stając się standardem, którego nie można ignorować.
 
-Sam jestem wielkim zwolennikiem narzędzia [[Claude Code ]]od [[Anthropic]], w sumie z dwóch względów:
+Sam jestem wielkim zwolennikiem narzędzia [[Claude Code]] od [[Anthropic]], w sumie z dwóch względów:
 
 1. Uwielbiam rodzinę modeli Claude za ich styl i jakość generowanych odpowiedzi, mimo że nie są one niskobudżetowe.
 2. Historycznie pracowałem przy aplikacjach mobilnych i potrzebowałem agenta dostępnego jednocześnie w Xcode i Android Studio — stąd padło na AI w terminalu.
@@ -111,7 +111,3 @@ Organizacja promptów to inwestycja, która zwraca się szybko. Dwa modele myśl
     
 
 Zacznij od małego — wybierz jeden powtarzalny workflow, który wykonujesz regularnie, i zamień go w kompozycję 2-3 promptów. Zobaczysz różnicę.
-
----
-
-_Masz własne sprawdzone sposoby na organizację promptów? Podziel się nimi w komentarzach lub napisz do mnie bezpośrednio — chętnie poznam inne podejścia._
