@@ -6,6 +6,36 @@ https://langfuse.com/blog/2025-11-06-experiment-interpretation
 https://hamel.dev/blog/posts/evals-faq/?ck_subscriber_id=3836412167
 
 
+# Jak rozpocząć ewaluację aplikacji AI, kiedy nie wiesz gdzie zacząć
+
+## Dlaczego ewaluować, kiedy  i czego potrzebujesz
+Ewaluować trzeba aby zrozumieć czy wprowadzane przez nas zmiany oraz jakość samego agenta rośnie czy też nie. Potrzebujemy aplikacji AI z podpiętym narzędziem observability oraz zestawu danych, na których możemy przeprowadzić ewaluację.
+
+## Cały proces w skrócie
+
+Cały proces obejmuje dwa cykle, krótszy (Open Codes + Axial Codes) i dłuższy (LLM as a Judge + usprawnienia)
+
+## Budowanie datasetu
+
+Dataset jest kluczowy aby rozpocząć jakąkolwiek ewaluacjię. Może być zbudowany z danych produkcyjnych jak i syntentycznych.
+
+## Po prostu spójrz na dane - Open Codes 
+Przejrzyj wyselekcjonowane tracy, przeczytaj każdy uważnie i następnie zanotuj pierwszy zaoobserowany błąd czytając od góry
+
+## Określ kierunki błędów - Axial Codes
+Sklastruj wszystkie zanotowane błędy z pomocą AI lub samemu
+
+## Kiedy i jak stworzyć automatyczny ewalutor
+Gdy już przeszliśmy parę iteracji, rozumiemy błędy i manualna ewaluacja jest zbyt kosztowna wówczas dopiero warto się zastanowić nad tworzeniem automatu.
+
+## Poziomy ewaluacji
+
+Są trzy poziomy ewaluacji BlackBox (na poziomie odpowiedzi agenta) , GlassBox( na poziomie wywołania narzędzia, prawidłowej trajektorii), WhiteBox ( na poziomie pojedynczej obserwacji)
+
+
+
+
+
 Ewaluacja to testy zachowania promptów, na podstawie ich inputu i oczekiwanego wyniku
 
 LLM as a Judge generuje score i umozliwia automatyczną ewaluację przeszłych i przyszłych traców przy czym prompt ewaluacyjny możemy ograniczyć do zagnieżdzonych obserwacji
