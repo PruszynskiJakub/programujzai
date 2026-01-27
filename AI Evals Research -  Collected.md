@@ -15,6 +15,12 @@ Ewaluować trzeba aby zrozumieć czy wprowadzane przez nas zmiany oraz jakość 
 
 Cały proces obejmuje dwa cykle, krótszy (Open Codes + Axial Codes) i dłuższy (LLM as a Judge + usprawnienia)
 
+
+1. Wstępny prompt
+	1. Wygenerowanie danych syntetycznych
+2. Analiza zróżnicowanych traces 
+3. 
+
 ## Budowanie datasetu
 
 Dataset jest kluczowy aby rozpocząć jakąkolwiek ewaluacjię. Może być zbudowany z danych produkcyjnych jak i syntentycznych.
