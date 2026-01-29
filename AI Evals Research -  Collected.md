@@ -94,7 +94,17 @@ Na potrzeby Open Codes potrzebujemy  jeden taki binarny score config Pass-Fail.
 [[Attachments/AI Evals Research -  Collected/bc7912a323a09d8d66e0983feb2a8ca5_MD5.jpeg|Open: Screenshot 2026-01-29 at 08.13.47.png]]
 ![[Attachments/AI Evals Research -  Collected/bc7912a323a09d8d66e0983feb2a8ca5_MD5.jpeg]]
 
-Potrzebujemy również utworzyć "Annotation Queue"
+Potrzebujemy również utworzyć "Annotation Queue" - wymagana jest nazwa (proponuje Open Codes) oraz score config. Langfuse niestety w wersji Hobby pozwala wyłącznie na jedną kolejkę.
+
+Następnie wybieramy interesujące nas trace lub wybieramy wszystkie z danego okresu, dodajemy je do kolejki, a następnie przechodzimy do manualnej ewaluacji.
+
+Dla każdego elementu wybieramy wartość Pass lub Fail. W wypadku tego drugiego dodajemy koniecznie komentarz w postaci pierwszej zaobserwowanej od góry nieprawidłowości.
+
+W ten sposób po zakończeniu procesu otrzymaliśmy tzw [Open Codes ](https://en.wikipedia.org/wiki/Open_coding).
+
+Następnie eksportujemy wszystkie trace z wynikiem Fail. Na podstawie komentarzy zbudujemy tzw [Axial Codes](https://en.wikipedia.org/wiki/Axial_coding)
+
+
 ## Budowanie datasetu
 
 Datasety to zbiory par danych wejściowych i wyjściowych, mogą obejmować :
