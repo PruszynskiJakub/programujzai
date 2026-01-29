@@ -146,3 +146,4 @@ Są trzy poziomy ewaluacji BlackBox (na poziomie odpowiedzi agenta) , GlassBox( 
 
 
 
+Langfuse wyświetla na liście traców ładnie tylko te json które mają role i content, format od Langchain jest chujowo wyświetlany
