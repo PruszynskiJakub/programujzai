@@ -80,6 +80,21 @@ flowchart TD
 > Trace inaczej ścieżka czyli uporządkowana seria obserwacji, niektórych równoległych i innych zagnieżdzonych, pozwalająca prześledzić krok po kroku zachowanie aplikacji.
 > Trace jest najczęściej powiązany z jakąś sesją oraz użytkownikiem oraz składają się na niego obserwacje różnego typu: zdarzenia (events), generacje (generations), wywołania narzędzi (tooling), odcinki (spans).
 
+
+[[Attachments/AI Evals Research -  Collected/2e622fd009ba4ce84c771b15fdb1272d_MD5.jpeg|Open: Screenshot 2026-01-29 at 08.00.26.png]]
+![[Attachments/AI Evals Research -  Collected/2e622fd009ba4ce84c771b15fdb1272d_MD5.jpeg]]
+
+#### Od Trace do Open Codes w Langfuse
+W wypadku Langfuse w procesie selekcjonowania oraz późniejszej analizy pomaga możliwość dodawania traces do "Annotation Queue".
+"Annotation Queue" w momencie tworzenia wymaga od Nas tzw ScoreConfig, czyli zestawu metryk, które będą dostępne podczas manualnej ewaluacji. 
+Na potrzeby Open Codes potrzebujemy  jeden taki binarny score config Pass-Fail.
+
+> W miarę możliwości stawiaj na metryki binarne - łatwe do interpretacji i nie podlegające aż tak subiektywnej ocenie, jak np dyskretna skala Likerta ( 1-10 ) czy też wartości rzeczywiste w przedziale od 0 do 1
+
+[[Attachments/AI Evals Research -  Collected/bc7912a323a09d8d66e0983feb2a8ca5_MD5.jpeg|Open: Screenshot 2026-01-29 at 08.13.47.png]]
+![[Attachments/AI Evals Research -  Collected/bc7912a323a09d8d66e0983feb2a8ca5_MD5.jpeg]]
+
+Potrzebujemy również utworzyć "Annotation Queue"
 ## Budowanie datasetu
 
 Datasety to zbiory par danych wejściowych i wyjściowych, mogą obejmować :
@@ -91,7 +106,7 @@ Datasety to zbiory par danych wejściowych i wyjściowych, mogą obejmować :
 	2. Danymi wyjściowymi będzie odpowiedź LLM na te dane
 
 > Co powiniśmy przekazywać jako input i output w ramach obserwacji, i dlaczego ma to znaczenie na dalszym etapie ?
-> Powinniśmy przekazywać wszystkie dane wymagane przez ten fragment naszej aplikacji
+> Powinniśmy przekazywać wszystkie dane wymagane przez ten fragment naszej aplikacji oraz te dane dane, które są przydatne konieczne do analizy trace.
 
 > Po co budować datasety ? 
 > 1. Aby móc w kontrolowany i powtarzalny sposób dokonywać ewaluacji, obserwacji zachowań naszej aplikacji na wyselekcjonowane dane obejmujące możliwe szerokie spektrum dróg którymi aplikacja może podążyć
@@ -99,8 +114,15 @@ Datasety to zbiory par danych wejściowych i wyjściowych, mogą obejmować :
 
 Dataset jest kluczowy aby rozpocząć jakąkolwiek ewaluacjię. Może być zbudowany z danych produkcyjnych jak i syntentycznych.
 
+
+
+
 ## Po prostu spójrz na dane - Open Codes 
 Przejrzyj wyselekcjonowane tracy, przeczytaj każdy uważnie i następnie zanotuj pierwszy zaoobserowany błąd czytając od góry
+
+
+
+
 
 ## Określ kierunki błędów - Axial Codes
 Sklastruj wszystkie zanotowane błędy z pomocą AI lub samemu
