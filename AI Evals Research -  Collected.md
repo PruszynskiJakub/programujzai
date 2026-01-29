@@ -90,7 +90,6 @@ Datasety to zbiory par danych wejściowych i wyjściowych, mogą obejmować :
 	1. Danymi wejściowymi będą wszystkie dane wymagane przez tą obserwację np. dla generacji będą to wszystkie zmienne prompta oraz potencjalnie wiadomości konwersacji
 	2. Danymi wyjściowymi będzie odpowiedź LLM na te dane
 
-
 > Co powiniśmy przekazywać jako input i output w ramach obserwacji, i dlaczego ma to znaczenie na dalszym etapie ?
 > Powinniśmy przekazywać wszystkie dane wymagane przez ten fragment naszej aplikacji
 
