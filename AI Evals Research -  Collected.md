@@ -223,9 +223,9 @@ Trace jest najczęściej powiązany z sesją i użytkownikiem. Składa się z ob
 
 ### Uwagi praktyczne
 
-- Langfuse wyświetla na liście traces ładnie tylko JSON z polami `role` i `content` - format od Langchain jest słabo wyświetlany
+- Langfuse wyświetla na liście traces ładnie tylko JSON z polami `role` i `content` - format od Langchain jest słabo wyświetlany, na widoku szczegółów już jest dobrze
 - Eksperymenty przez UI to prompt eksperymenty
-- Datasety przez UI są tylko do testowania promptów
+- Datasety możemy wykorzytywać w kodzie jak i na UI
 - Prompty typu chat pozwalają przekazywać historię konwersacji
 
 ---
