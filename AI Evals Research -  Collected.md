@@ -12,10 +12,19 @@ https://hamel.dev/blog/posts/evals-faq/?ck_subscriber_id=3836412167
 
 > Ewaluacja - proces ciągłego mierzenia wyników w celu utrzymywania, analizowania i podnoszenia jakości
 
+> Ewaluacja i testowanie to dwa osobne procesy, testowanie ma zawsze charakter binarny i ma na celu zabezpieczenie przed regresją oraz jest ograniczone raczej do programistycznych walidacji - poprzez regex, słowa kluczowe, sprawdzanie formatowania. Ewaluacja mówi jak dobrze coś zadziałało, a testowanie czy zadziałało.
+
+### Trzy poziomy walidacji
+
+| Black Box - finalna odpowiedź                            | Glass Box - trajektoria działania                        | White Box - pojedyńcza obserwacja                                     |            |
+| -------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------- | ---------- |
+| Did the agent return the correct final answer?           | Did the agent call the right tools in the right order?   | Given this context, did this single step produce the expected output? | Testowanie |
+| How good is the answer? How does it compare across runs? | How efficient was the path? Were tool calls well-formed? | How well does the model reason at each decision point?                | Ewaluacja  |
+
 Ewaluacja w kontekście aplikacji opartych o LLM jest szczególnie kluczowa ze względu na niedeterministyczne zachowanie dużych modeli językowych oraz nie dające się przewidzieć zachowanie użytkownika. 
 Innymi słowy chcąc budować aplikację AI w sposób rzetelny oraz ukierunkowany, potrzebujemy podejścia, które połączy jednocześnie praktyki na przecięciu: 
 1. programowania - ciągłego testowania, redefiniowania problemu, rozbijania go na mniejsze
-2. budowania produktu - zrozumienia użytkownika,  domeny problemu,  jak i stosowania metryk świadczących o kondycji produktu
+2. budowania produktu - zrozumienia użytkownika,  domeny problemu,  stosowania metryk świadczących o kondycji produktu
 3. nauk społecznych - metodologii i praktyk dla spraw niepodlegających jasnym definicjom czy standardom
 Konieczność balansowania pomiędzy tymi trzeba zestawami umiejętności powoduje, że to zadanie jest niełatwe, wymaga elastyczności oraz zaakceptowanie faktu, że klasyczne binarne podejście do programowania nie ma tu miejsca - tj. nie możemy jednoznacznie i z pełną stanowczością stwierdzić ten asystent czy agenta jest zakończoną funkcjonalnością, możemy jedynie stwierdzić, że w dniu dzisiejszym jest on skuteczny w X procentach.
 
@@ -24,7 +33,7 @@ Co jest konieczne aby wdrożyć proces ewaluacji do swojej aplikacji AI lub zacz
 2. Platforma typu Langfuse lub jakaś inna forma pozwalająca nam logowanie obserwacji wynikłych podczas działania aplikacji
 Mając tylko te dwie rzeczy, możemy rozpocząć proces doskonalenia.
 
-Pochodną ewaluacji jest ciągła potrzeba zrozumienie danych czyli zrozumienie działań użytkownika oraz reagowania aplikacji na te działania.
+>Pochodną ewaluacji jest ciągła potrzeba zrozumienie danych czyli zrozumienie działań użytkownika oraz reagowania aplikacji na te działania.
 
 ## Cały proces w skrócie
 
@@ -77,14 +86,53 @@ flowchart TD
 	2. Dodaj komentarz pierwszej napotkanej nieprawidłowości patrząc od góry,
 3. Następnie zbierz wszystkie komentarze i skategoryzuj je (to tak zwana analiza Axial Codes) - w tym momencie określiłeś kierunki w których Twój agent popełnia błędy
 
+---
 > Trace inaczej ścieżka czyli uporządkowana seria obserwacji, niektórych równoległych i innych zagnieżdzonych, pozwalająca prześledzić krok po kroku zachowanie aplikacji.
 > Trace jest najczęściej powiązany z jakąś sesją oraz użytkownikiem oraz składają się na niego obserwacje różnego typu: zdarzenia (events), generacje (generations), wywołania narzędzi (tooling), odcinki (spans).
 
+> W wypadku chatbotów lub podobnych aplikacji traces powinny zostać powiązane ze sobą poprzez identyfikator sesji/konwersacji oraz identyfikator użytkownika. W takich aplikacjach jest również kluczowe aby trace otrzymywał zawsze cała konwersację w ramach inputu aby można było skutecznie taką ściężkę analizować
 
-[[Attachments/AI Evals Research -  Collected/2e622fd009ba4ce84c771b15fdb1272d_MD5.jpeg|Open: Screenshot 2026-01-29 at 08.00.26.png]]
+---
+## Budowanie zbiorów danych (aka datesetów)
+
+Datasety to zbiory par danych wejściowych i wyjściowych, mogą obejmować :
+1. Cały trace 
+	1. Danymi wejściowymi będą wszystkie dane których aplikacja oczekuje aby rozpocząć procesowanie, w najprostszym scenariuszu będzie to wyłącznie wiadomość użytkownika
+	2. Danymi wyjściowymi będzie odpowiedź aplikacji
+2. Pojedynczą obserwację lub zestaw zagnieżdzonych obserwacji 
+	1. Danymi wejściowymi będą wszystkie dane wymagane przez tą obserwację np. dla generacji będą to wszystkie zmienne prompta oraz potencjalnie wiadomości konwersacji
+	2. Danymi wyjściowymi będzie odpowiedź LLM na te dane
+
+> Co powiniśmy przekazywać jako input i output w ramach obserwacji, i dlaczego ma to znaczenie na dalszym etapie ?
+> Powinniśmy przekazywać wszystkie dane wymagane przez ten fragment naszej aplikacji oraz te dane dane, które są przydatne konieczne do analizy trace.
+
+> Po co budować datasety ? 
+> 1. Aby móc w kontrolowany i powtarzalny sposób dokonywać ewaluacji, obserwacji zachowań naszej aplikacji na wyselekcjonowane dane obejmujące możliwe szerokie spektrum dróg którymi aplikacja może podążyć
+> 2. Aby na podstawie tych danych weryfikować działanie automatycznych ewaluatorów (LLM as. Judge)
+
+Dataset jest kluczowy aby rozpocząć jakąkolwiek ewaluacjię. Może być zbudowany z danych produkcyjnych jak i syntentycznych.
+
+## Po prostu spójrz na dane - Open Codes 
+Przejrzyj wyselekcjonowane tracy, przeczytaj każdy uważnie i następnie zanotuj pierwszy zaoobserowany błąd czytając od góry
+
+
+## Określ kierunki błędów - Axial Codes
+Sklastruj wszystkie zanotowane błędy z pomocą AI lub samemu
+
+## Kiedy i jak stworzyć automatyczny ewalutor
+Gdy już przeszliśmy parę iteracji, rozumiemy błędy i manualna ewaluacja jest zbyt kosztowna wówczas dopiero warto się zastanowić nad tworzeniem automatu.
+
+**Missing Instructions:** The first type are errors caused by vague or incomplete instructions in your prompt. For instance if your agent uses too many bullet points or doesn’t ask follow-up questions, and you never instructed it to do so, the first step is to fix the prompt. Creating an evaluator for a failure that a simple prompt tweak can solve is often unnecessary effort.
+
+**Model Limitations:** The second type occur when the LLM fails to perform correctly despite receiving clear and precise instructions. These are the ideal candidates for automated evaluation because they represent the model’s inherent limitations, not a misunderstanding of your intent.
+
+## Poziomy ewaluacji
+
+Są trzy poziomy ewaluacji BlackBox (na poziomie odpowiedzi agenta) , GlassBox( na poziomie wywołania narzędzia, prawidłowej trajektorii), WhiteBox ( na poziomie pojedynczej obserwacji)
+
+
+## Od Trace do Open Codes w Langfuse
 ![[Attachments/AI Evals Research -  Collected/2e622fd009ba4ce84c771b15fdb1272d_MD5.jpeg]]
-
-#### Od Trace do Open Codes w Langfuse
 W wypadku Langfuse w procesie selekcjonowania oraz późniejszej analizy pomaga możliwość dodawania traces do "Annotation Queue".
 "Annotation Queue" w momencie tworzenia wymaga od Nas tzw ScoreConfig, czyli zestawu metryk, które będą dostępne podczas manualnej ewaluacji. 
 Na potrzeby Open Codes potrzebujemy  jeden taki binarny score config Pass-Fail.
@@ -104,48 +152,8 @@ W ten sposób po zakończeniu procesu otrzymaliśmy tzw [Open Codes ](https://en
 
 Następnie eksportujemy wszystkie trace z wynikiem Fail. Na podstawie komentarzy zbudujemy tzw [Axial Codes](https://en.wikipedia.org/wiki/Axial_coding)
 
-
-## Budowanie datasetu
-
-Datasety to zbiory par danych wejściowych i wyjściowych, mogą obejmować :
-1. Cały trace 
-	1. Danymi wejściowymi będą wszystkie dane których aplikacja oczekuje aby rozpocząć procesowanie, w najprostszym scenariuszu będzie to wyłącznie wiadomość użytkownika
-	2. Danymi wyjściowymi będzie odpowiedź aplikacji
-2. Pojedynczą obserwację lub zestaw zagnieżdzonych obserwacji 
-	1. Danymi wejściowymi będą wszystkie dane wymagane przez tą obserwację np. dla generacji będą to wszystkie zmienne prompta oraz potencjalnie wiadomości konwersacji
-	2. Danymi wyjściowymi będzie odpowiedź LLM na te dane
-
-> Co powiniśmy przekazywać jako input i output w ramach obserwacji, i dlaczego ma to znaczenie na dalszym etapie ?
-> Powinniśmy przekazywać wszystkie dane wymagane przez ten fragment naszej aplikacji oraz te dane dane, które są przydatne konieczne do analizy trace.
-
-> Po co budować datasety ? 
-> 1. Aby móc w kontrolowany i powtarzalny sposób dokonywać ewaluacji, obserwacji zachowań naszej aplikacji na wyselekcjonowane dane obejmujące możliwe szerokie spektrum dróg którymi aplikacja może podążyć
-> 2. Aby na podstawie tych danych weryfikować działanie automatycznych ewaluatorów (LLM as. Judge)
-
-Dataset jest kluczowy aby rozpocząć jakąkolwiek ewaluacjię. Może być zbudowany z danych produkcyjnych jak i syntentycznych.
-
-
-
-
-## Po prostu spójrz na dane - Open Codes 
-Przejrzyj wyselekcjonowane tracy, przeczytaj każdy uważnie i następnie zanotuj pierwszy zaoobserowany błąd czytając od góry
-
-
-
-
-
-## Określ kierunki błędów - Axial Codes
-Sklastruj wszystkie zanotowane błędy z pomocą AI lub samemu
-
-## Kiedy i jak stworzyć automatyczny ewalutor
-Gdy już przeszliśmy parę iteracji, rozumiemy błędy i manualna ewaluacja jest zbyt kosztowna wówczas dopiero warto się zastanowić nad tworzeniem automatu.
-
-## Poziomy ewaluacji
-
-Są trzy poziomy ewaluacji BlackBox (na poziomie odpowiedzi agenta) , GlassBox( na poziomie wywołania narzędzia, prawidłowej trajektorii), WhiteBox ( na poziomie pojedynczej obserwacji)
-
-
-
 Langfuse wyświetla na liście traców ładnie tylko te json które mają role i content, format od Langchain jest chujowo wyświetlany
 
+Eksperymenty przez UI to prompt eksperymenty
 Datasety przez Ui są tylko do testowania promptów
+Prompty typu chat pozwalają przekazywać historię konwersacji

@@ -42,9 +42,9 @@ Innymi słowy chat prompt w langfuse nie przyjmuje contentu w postaci tablicy, c
 
 Trackujemy to co faktycznie wchodzi do prompta i z niego wychodzi, nic więcej nic mniej, ewentualnie jako metadane coś ekstra
 
-Eksperymenty przez UI to prompt eksperymenty
 
-Prompty typu chat pozwalają przekazywać historię konwersacji
+
+
 
 kciuki w dół i w góre jako anotacje odpowiedzi od modelu.- user feedback
 
