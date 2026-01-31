@@ -1,7 +1,12 @@
-# Ewaluacja aplikacji AI - Zebrane lekcje
-
-> Wszystko co chciałbym wiedzieć na temat ewaluacji budując aplikacje AI
-
+---
+permalink: wiedza-podstawowa-o-ewaluacji-aplikacji-ai
+created: 2026-01-31
+categories: "[[Pages]]"
+tags:
+  - pages
+---
+*Opublikowane 2026-01-31*
+# Co chciałbym wiedzieć o ewaluacji aplikacji AI na początek ?
 ---
 
 ## Spis treści
@@ -13,8 +18,7 @@
 5. [Budowanie datasetów](#budowanie-datasetów)
 6. [Analiza błędów: Open Codes i Axial Codes](#analiza-błędów-open-codes-i-axial-codes)
 7. [Kiedy automatyzować ewaluację](#kiedy-automatyzować-ewaluację)
-8. [Praktyka w Langfuse](#praktyka-w-langfuse)
-9. [Źródła i materiały](#źródła-i-materiały)
+8. [Źródła i materiały](#źródła-i-materiały)
 
 ---
 
@@ -44,7 +48,7 @@ Budując aplikację AI w sposób rzetelny i ukierunkowany, potrzebujemy podejśc
 
 > **Testowanie** ma zawsze charakter **binarny** i ma na celu zabezpieczenie przed regresją. Jest ograniczone do programistycznych walidacji - regex, słowa kluczowe, sprawdzanie formatowania.
 >
-> **Ewaluacja** mówi **jak dobrze** coś zadziałało, a testowanie - **czy** zadziałało.
+> **[[Ewaluacja]]** mówi **jak dobrze** coś zadziałało, a testowanie - **czy** zadziałało.
 
 ---
 
@@ -60,6 +64,16 @@ Budując aplikację AI w sposób rzetelny i ukierunkowany, potrzebujemy podejśc
 
 ## Proces ewaluacji krok po kroku
 
+
+> **Trace** (ścieżka) - uporządkowana seria obserwacji (niektórych równoległych, innych zagnieżdżonych), pozwalająca prześledzić krok po kroku zachowanie aplikacji.
+
+Trace jest najczęściej powiązany z sesją i użytkownikiem. Składa się z obserwacji różnego typu:
+- **Events** - zdarzenia dyskretne, np zapytanie do bazki, czy zapytanie do zewnętrzne sewisu
+- **Generations** - generacje (AI)
+- **Tooling** - wywołania narzędzi
+- **Spans** - odcinki zgrupowane działania np. pojedyncza iteracja w pętli agenta
+
+> **Dla chatbotów:** Traces powinny być powiązane identyfikatorem sesji/konwersacji oraz użytkownika. Trace powinien otrzymywać całą konwersację jako input, aby móc skutecznie analizować ścieżkę.
 ### Co jest potrzebne na start
 
 1. **Aplikacja AI** - czy to pojedynczy prompt systemowy czy złożony agent ReAct
@@ -106,7 +120,7 @@ flowchart TD
 
    <!-- TODO: Dodać przykład takiego prompta -->
 
-3. **Przeprocesuj każdy element** przez aplikację - otrzymasz zestaw odpowiedzi oraz ścieżek (traces)
+3. **Przeprocesuj każdy element** przez aplikację - otrzymasz zestaw odpowiedzi oraz ścieżek ([[Trace|traces]])
 
 4. **Manualna analiza każdego trace** (analiza Open Codes):
    - Dodaj binarną adnotację Pass/Fail
@@ -146,7 +160,7 @@ flowchart TD
 - *Input:* wszystkie dane wymagane przez obserwację (np. dla generacji: zmienne prompta oraz wiadomości konwersacji)
 - *Output:* odpowiedź LLM
 
-> **Zasada:** Przekazuj jako input/output wszystkie dane wymagane przez fragment aplikacji oraz dane konieczne do analizy trace.
+> **Zasada:** Przekazuj jako input/output wszystkie dane wymagane przez fragment aplikacji/prompt oraz dane konieczne do analizy trace.
 
 ---
 
@@ -183,53 +197,6 @@ Definicja: [Axial coding (Wikipedia)](https://en.wikipedia.org/wiki/Axial_coding
 
 ---
 
-## Praktyka w Langfuse
-
-### Trace - definicja
-
-> **Trace** (ścieżka) - uporządkowana seria obserwacji (niektórych równoległych, innych zagnieżdżonych), pozwalająca prześledzić krok po kroku zachowanie aplikacji.
-
-Trace jest najczęściej powiązany z sesją i użytkownikiem. Składa się z obserwacji różnego typu:
-- **Events** - zdarzenia
-- **Generations** - generacje
-- **Tooling** - wywołania narzędzi
-- **Spans** - odcinki
-
-> **Dla chatbotów:** Traces powinny być powiązane identyfikatorem sesji/konwersacji oraz użytkownika. Trace powinien otrzymywać całą konwersację jako input, aby móc skutecznie analizować ścieżkę.
-
-### Workflow w Langfuse
-
-![[Attachments/AI Evals Research -  Collected/2e622fd009ba4ce84c771b15fdb1272d_MD5.jpeg]]
-
-1. **Selekcja traces** - dodaj interesujące traces do "Annotation Queue"
-
-2. **Konfiguracja Score Config:**
-   - Potrzebujesz binarnego score config Pass-Fail
-   - W miarę możliwości stawiaj na metryki binarne - łatwe do interpretacji i mniej subiektywne niż skala Likerta (1-10) czy wartości rzeczywiste (0-1)
-
-![[Attachments/AI Evals Research -  Collected/bc7912a323a09d8d66e0983feb2a8ca5_MD5.jpeg]]
-
-3. **Utwórz Annotation Queue:**
-   - Wymagana nazwa (np. "Open Codes") oraz score config
-   - *Uwaga:* Langfuse w wersji Hobby pozwala tylko na jedną kolejkę
-
-4. **Manualna ewaluacja:**
-   - Dla każdego elementu wybierz Pass lub Fail
-   - Przy Fail - dodaj komentarz z pierwszą zaobserwowaną nieprawidłowością
-
-5. **Eksport i kategoryzacja:**
-   - Eksportuj traces z wynikiem Fail
-   - Na podstawie komentarzy zbuduj Axial Codes
-
-### Uwagi praktyczne
-
-- Langfuse wyświetla na liście traces ładnie tylko JSON z polami `role` i `content` - format od Langchain jest słabo wyświetlany, na widoku szczegółów już jest dobrze
-- Eksperymenty przez UI to prompt eksperymenty
-- Datasety możemy wykorzytywać w kodzie jak i na UI
-- Prompty typu chat pozwalają przekazywać historię konwersacji
-
----
-
 ## Źródła i materiały
 
 - [Error Analysis to Evaluate LLM Applications - Langfuse](https://langfuse.com/blog/2025-08-29-error-analysis-to-evaluate-llm-applications)
@@ -237,4 +204,3 @@ Trace jest najczęściej powiązany z sesją i użytkownikiem. Składa się z ob
 - [Testing LLM Applications - Langfuse](https://langfuse.com/blog/2025-10-21-testing-llm-applications)
 - [Synthetic Datasets Cookbook - Langfuse](https://langfuse.com/guides/cookbook/example_synthetic_datasets)
 - [Experiment Interpretation - Langfuse](https://langfuse.com/blog/2025-11-06-experiment-interpretation)
-- [Evals FAQ - Hamel Husain](https://hamel.dev/blog/posts/evals-faq/?ck_subscriber_id=3836412167)
