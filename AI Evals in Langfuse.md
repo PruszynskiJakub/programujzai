@@ -1,4 +1,8 @@
-## Praktyka w Langfuse
+Trace
+
+
+
+
 
 ### Trace - definicja
 
