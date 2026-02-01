@@ -1,3 +1,38 @@
+
+**1. Wstęp - kontekst**
+
+- Krótkie nawiązanie do poprzedniego artykułu (link)
+- Co daje Langfuse vs inne opcje (dlaczego akurat Langfuse?)
+
+**2. Anatomia Langfuse** (szybkie podstawy)
+
+- Trace, Span, Generation, Event - co jest czym
+- Jak wygląda dobrze ustrukturyzowany trace
+
+**3. Integracja Langchain ↔ Langfuse** (tu jest unikalna wartość!)
+
+- Co działa out-of-the-box
+- **Pułapki:** format placeholderów, słabe wyświetlanie na liście, różnice w strukturze
+- Przykłady kodu z obejściami
+
+**4. Workflow ewaluacji w praktyce**
+
+- Score Config (dlaczego binarny > Likert)
+- Annotation Queues (z uwagą o limitach Hobby/Core)
+- Eksport i analiza
+
+**5. Datasety i eksperymenty**
+
+- Datasety przez UI vs w kodzie
+- Prompt experiments vs testowanie całych agentów
+
+**6. Praktyczne wskazówki**
+
+- Jak formatować input żeby ładnie się wyświetlał (JSON z `role` i `content`)
+- Tagowanie i filtrowanie traces
+
+
+----
 Rodzaje obserwacji w Langfuse
 Prompty chat vs text
 Jak testować prompty  a jak testować złożone flow lub agenta ?
@@ -13,15 +48,7 @@ Spinanie Langchain z Langfuse, co działa co nie działa
 	 format dla placeholderów jest różny
 	 
 
-
-
-
-
 ### Trace - definicja
-
-
-
-
 
 ### Workflow w Langfuse
 
