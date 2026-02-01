@@ -1,4 +1,17 @@
-Trace
+Rodzaje obserwacji w Langfuse
+Prompty chat vs text
+Jak testować prompty  a jak testować złożone flow lub agenta ?
+Datasety do testowania przez UI i w kodzie
+Tworzenie Score Configu
+Tworzenie Annotation Queue do ręcznej analizy
+	   - *Uwaga:* Langfuse w wersji Hobby pozwala tylko na jedną kolejkę
+	   - w wersji Core są to już 3 
+Langfuse wyświetla na liście traces ładnie tylko JSON z polami `role` i `content` -
+
+Spinanie Langchain z Langfuse, co działa co nie działa
+	 format od Langchain jest słabo wyświetlany, na widoku szczegółów już jest dobrze
+	 format dla placeholderów jest różny
+	 
 
 
 
@@ -24,7 +37,7 @@ Trace
 
 3. **Utwórz Annotation Queue:**
    - Wymagana nazwa (np. "Open Codes") oraz score config
-   - *Uwaga:* Langfuse w wersji Hobby pozwala tylko na jedną kolejkę
+
 
 4. **Manualna ewaluacja:**
    - Dla każdego elementu wybierz Pass lub Fail
@@ -36,7 +49,7 @@ Trace
 
 ### Uwagi praktyczne
 
-- Langfuse wyświetla na liście traces ładnie tylko JSON z polami `role` i `content` - format od Langchain jest słabo wyświetlany, na widoku szczegółów już jest dobrze
+- 
 - Eksperymenty przez UI to prompt eksperymenty
 - Datasety możemy wykorzytywać w kodzie jak i na UI
 - Prompty typu chat pozwalają przekazywać historię konwersacji
