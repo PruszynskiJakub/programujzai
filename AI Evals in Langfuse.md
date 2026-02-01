@@ -32,6 +32,12 @@
 - Tagowanie i filtrowanie traces
 
 
+
+
+Jak tworzyć datasets skutecznie ???
+
+
+
 ----
 Rodzaje obserwacji w Langfuse
 Prompty chat vs text
