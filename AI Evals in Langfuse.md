@@ -22,7 +22,6 @@ Jeżeli potrzebujemy również utworzyć filtry po których możemy jeszcze bard
 
 Podejście z wieloma projektami - innymi słowy mamy środowisko per projekt w Langfuse, nie ma wg mnie żadnych zalet, a jedynie dostarcza złożoności.
 
-
 Sam Langfuse wspiera również Prompt Management.
 Są dwa typu promptów wg Langfuse:
 1. Text - prompt zawierający treść oraz placeholdery w ramach treści, nie przyjmuje on natomiast żadnej historii konwersacji więc zostosowanie go dalej w ewaluacjach jest mocno ograniczone zwłaszcza dla aplikacji chatowych, bo masz wpływ i możesz ewaluować wyłącznie względem placeholderów
@@ -32,10 +31,38 @@ To jaki typ wybierzemy jest nieedytowalne.
 A zależy od tego chociażby jak będziemy w stanie odpalać eksperymenty.
 
 Innymi słowy:
-1. Wybieraj typ "Text" w wypadku gdy
-	1. Potrzebujesz wersjonowany prompt, którego nie potrzebujesz ewaluować w inny sposób niż przez placeholdery np podsumowanie artykuły gdzie w ramach treści prompt poprzez placeholder przekażesz treść artykułu
-2. Wybieraj typ "Chat" w wypadku gdy zależy Ci na przetestowania prompta systemowego, który jest cześcią konwersacji, daje on większą elastykę ale również tworzenie jest trochę bardziej upierdliwe, zwłaszcza, gdy Langfuse w ramach placeholdera konwersacji przyjmuje wyłącznie format 
+1. Wybieraj typ "Text" w wypadku gdy -  Potrzebujesz wersjonowany prompt, którego nie potrzebujesz ewaluować w inny sposób niż przez placeholdery np podsumowanie artykuły gdzie w ramach treści prompt poprzez placeholder przekażesz treść artykułu
+2. Wybieraj typ "Chat" w wypadku gdy zależy Ci na przetestowania prompta systemowego, który jest cześcią konwersacji, daje on większą elastykę ale również tworzenie jest trochę bardziej upierdliwe, zwłaszcza, gdy Langfuse w ramach placeholdera konwersacji przyjmuje wyłącznie format {"role": "...", "content": "string"}  co znów wprowadza kolejne ograniczenia, bo wiadomości z Langchain przez to że mają inny format, albo bardziej złożonych wiadomości z plikami nie obsłużymy
 
+Podsumowując wg mnie zabawa z  promptami przez UI czy to przez eksperymenty czy przez playground, jest mało wartościowa albo kompletnie  bezwartościowa biorąc pod uwagę ograniczenia w postaci formatu więc i platground i budowanie datesets pod to nie ma sensu.
+
+Osobiście mimo wszystko preferuje wykorzystanie promptów typu "Text" mimo i używanie ich wyłącznie jako system prompty. Same eksperymenty, czy testowanie różnych wersji robię wyłącznie przez kod. 
+
+Czyli buduje datasety przez platformę, niewykorzystuje ich do ewaluacji przez UI, ale przez kod. Wówczas mam dowolność :
+1. To ja decyduje czy ewaluuje pojedynczy prompt czy całego agenta z dostępem do prawdziwych narzędzi
+2. Format nie ma tutaj znaczenia
+
+
+Gdzie w kodzie umieszczać eksperymenty ? 
+Dla mnie brzmią one dla mnie trochę jak migracje w ramach bazki.
+Tutaj migrujemy pomiędzy jednym promptem i drugim i zależy nam utrzymaniu spójności z jednoznaczym usprawnieniem.
+
+Eksperymentować możemy z
+1. ustawieniami modeli
+2. promptem
+3. ustawieniami narzędzi
+4. dodaniem nowego narzędzia
+5. usunięciem narzędzia
+6. dodaniem kolejnej warstwy AI, podzapytanie
+
+Z poziomu, czyli jak zmiana wpływa na :
+1. całego agenta - gdy zależy nam na jakości finalnej odpowiedzi
+2. wykorzystanie pojedynczego narzędzia - agent z jednym toolem który chcemy usprawnić
+3. trajektorią narzędzi
+
+Poprzez: 
+1. pojedyncze zapytania
+2. zapytanie od środka konwersacji 
 
 
 **3. Integracja Langchain ↔ Langfuse** (tu jest unikalna wartość!)
