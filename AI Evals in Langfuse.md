@@ -4,10 +4,39 @@
 - Krótkie nawiązanie do poprzedniego artykułu (link)
 - Co daje Langfuse vs inne opcje (dlaczego akurat Langfuse?)
 
+
 **2. Anatomia Langfuse** (szybkie podstawy)
 
 - Trace, Span, Generation, Event - co jest czym
 - Jak wygląda dobrze ustrukturyzowany trace
+
+
+
+
+
+Budując pełnoprawne produkty zapewne będzie wspierać różne środowiska - deweloperskie, produkcyjne, testowe.
+Tym samym w takim układzie będzie nam zależeć aby w łatwy sposób móc wyszukiwać. 
+ Robimy to przez pole env (rekomendowany) - polegający na ustawieniu zmiennej środowiskowej `LANGFUSE_TRACING_ENVIRONMENT`, jest to rozwiązanie najbardziej praktyczne i elastyczne, bo mamy zarazem prosty sposób filtrowania po środowiskach, jednocześnie mogąc ewaluować odpowiedzi na wszystkich
+
+Jeżeli potrzebujemy również utworzyć filtry po których możemy jeszcze bardziej zgranulować wyszukiwanie wówczas dostępne mamy tagi, które możemy programistycznie zaprogramować.
+
+Podejście z wieloma projektami - innymi słowy mamy środowisko per projekt w Langfuse, nie ma wg mnie żadnych zalet, a jedynie dostarcza złożoności.
+
+
+Sam Langfuse wspiera również Prompt Management.
+Są dwa typu promptów wg Langfuse:
+1. Text - prompt zawierający treść oraz placeholdery w ramach treści, nie przyjmuje on natomiast żadnej historii konwersacji więc zostosowanie go dalej w ewaluacjach jest mocno ograniczone zwłaszcza dla aplikacji chatowych, bo masz wpływ i możesz ewaluować wyłącznie względem placeholderów
+2. Chat - prompt zawierający treść oraz placeholdery oraz przyjmujący konwersację lub jej placeholder. Dla tego typu możemy - przekazać również wiadomości, możesz ewaluować względem placeholderów w treści oraz samej konwersacji
+
+To jaki typ wybierzemy jest nieedytowalne.
+A zależy od tego chociażby jak będziemy w stanie odpalać eksperymenty.
+
+Innymi słowy:
+1. Wybieraj typ "Text" w wypadku gdy
+	1. Potrzebujesz wersjonowany prompt, którego nie potrzebujesz ewaluować w inny sposób niż przez placeholdery np podsumowanie artykuły gdzie w ramach treści prompt poprzez placeholder przekażesz treść artykułu
+2. Wybieraj typ "Chat" w wypadku gdy zależy Ci na przetestowania prompta systemowego, który jest cześcią konwersacji, daje on większą elastykę ale również tworzenie jest trochę bardziej upierdliwe, zwłaszcza, gdy Langfuse w ramach placeholdera konwersacji przyjmuje wyłącznie format 
+
+
 
 **3. Integracja Langchain ↔ Langfuse** (tu jest unikalna wartość!)
 
@@ -25,6 +54,8 @@
 
 - Datasety przez UI vs w kodzie
 - Prompt experiments vs testowanie całych agentów
+
+Datasety w zależnie od naszej intencji mogą pomóc na w ewaluacji pojedynczych promptów
 
 **6. Praktyczne wskazówki**
 
