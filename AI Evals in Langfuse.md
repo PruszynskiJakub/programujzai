@@ -48,10 +48,10 @@ Dla mnie brzmią one dla mnie trochę jak migracje w ramach bazki.
 Tutaj migrujemy pomiędzy jednym promptem i drugim i zależy nam utrzymaniu spójności z jednoznaczym usprawnieniem.
 
 Eksperymentować możemy z
-1. ustawieniami modeli
+1. ustawieniami modeli - temperatura, top-p, 
 2. promptem
 3. ustawieniami narzędzi
-4. dodaniem nowego narzędzia
+4. dodaniem nowego narzędzia - 
 5. usunięciem narzędzia
 6. dodaniem kolejnej warstwy AI, podzapytanie
 
@@ -70,6 +70,9 @@ Poprzez:
 - Co działa out-of-the-box
 - **Pułapki:** format placeholderów, słabe wyświetlanie na liście, różnice w strukturze
 - Przykłady kodu z obejściami
+
+
+
 
 **4. Workflow ewaluacji w praktyce**
 
