@@ -71,6 +71,12 @@ Poprzez:
 - **Pułapki:** format placeholderów, słabe wyświetlanie na liście, różnice w strukturze
 - Przykłady kodu z obejściami
 
+Placeholdery w Langfuse mają format {{placeholder}}.
+Placeholdery w Langchain mają natomiast {placeholders}.
+
+
+Nie udało mi się powiązać prompta z tool używanym przez agenta.
+Nie przekażemy bezpośrednio uuid jako trace id trzeba zmodyfikować usuwając znaki "-".
 
 
 
@@ -115,6 +121,9 @@ Spinanie Langchain z Langfuse, co działa co nie działa
 	 format dla placeholderów jest różny
 	 
 
+Komentarze do traces są tragicznie wyświetlane, trzeba na nie najechać 
+[[Attachments/AI Evals in Langfuse/ed32b45a3362d439aa5cff17e4e817a7_MD5.jpeg|Open: Screenshot 2026-02-03 at 22.05.07.png]]
+![[Attachments/AI Evals in Langfuse/ed32b45a3362d439aa5cff17e4e817a7_MD5.jpeg]]
 ### Trace - definicja
 
 ### Workflow w Langfuse
