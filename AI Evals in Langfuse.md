@@ -4,6 +4,7 @@
 - Krótkie nawiązanie do poprzedniego artykułu (link)
 - Co daje Langfuse vs inne opcje (dlaczego akurat Langfuse?)
 
+Langfuse jest rozwiązaniem open source pozwalającym na self hosting oraz w wypadku hostowania przez twórców ceny nie są wygórowane.
 
 **2. Anatomia Langfuse** (szybkie podstawy)
 
@@ -82,7 +83,7 @@ Nie przekażemy bezpośrednio uuid jako trace id trzeba zmodyfikować usuwając 
 Nie można trzymać definicji narzędzi więc jakiekolwiek próby testowania przez UI mają dodatkowy narzut w postaci duplikowania narzędzi itd.
 
 
-Eksperymenty powodują wygenerowanie traces, które znów warto byłoby dodatkowy wyróżnić w jakiś sposób.
+Eksperymenty powodują wygenerowanie traces, które znów warto byłoby dodatkowy wyróżnić w jakiś sposób - działa wyłącznie gdy datasets są trzymane u nich. 
 
 
 Co chcemy aby obejmowały testy:
