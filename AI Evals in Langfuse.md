@@ -134,6 +134,8 @@ Langfuse wyświetla na liście traces ładnie tylko JSON z polami `role` i `cont
 Spinanie Langchain z Langfuse, co działa co nie działa
 	 format od Langchain jest słabo wyświetlany, na widoku szczegółów już jest dobrze
 	 format dla placeholderów jest różny
+
+Expected output jest też wskazówką dla nas czego oczekujemy od takiej odpowiedzi
 	 
 
 Komentarze do traces są tragicznie wyświetlane, trzeba na nie najechać 
