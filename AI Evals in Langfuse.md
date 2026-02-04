@@ -79,6 +79,20 @@ Nie udało mi się powiązać prompta z tool używanym przez agenta.
 Nie przekażemy bezpośrednio uuid jako trace id trzeba zmodyfikować usuwając znaki "-".
 
 
+Nie można trzymać definicji narzędzi więc jakiekolwiek próby testowania przez UI mają dodatkowy narzut w postaci duplikowania narzędzi itd.
+
+
+Eksperymenty powodują wygenerowanie traces, które znów warto byłoby dodatkowy wyróżnić w jakiś sposób.
+
+
+Co chcemy aby obejmowały testy:
+1. Konkretny ton wypowiedzi
+2. Reakcje na nieprzewidziane zapytania
+3. Zadania jedno i wieloetapowe "Wyślij maila", "Wyślij maila i wrzuć przypomnienie do kalendarza"
+4. Niemożliwość wykonania zadania
+5. Próby prompt injection
+6. Działanie pojedynczych narzedzi gdy one bazują na LLM np. jak działa generator serper query w odosobnieniu oraz jak działa całość od wygenerowania zapytań do pozyskania wyników
+
 
 **4. Workflow ewaluacji w praktyce**
 
