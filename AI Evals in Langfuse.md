@@ -120,6 +120,9 @@ Jak tworzyć datasets skutecznie ???
 Reference free vs reference based evaluation
 
 
+Jaki label powinien wykorzystać apka do zaciągania odpowiedniego prompt
+
+
 ----
 Rodzaje obserwacji w Langfuse
 Prompty chat vs text
