@@ -1,3 +1,211 @@
+# AI Evals in Langfuse - Moje doświadczenia i wnioski
+
+## Wstęp
+
+Langfuse to open-source'owe rozwiązanie do observability i ewaluacji aplikacji AI. Wybrałem je ze względu na możliwość self-hostingu oraz rozsądne ceny w wersji hostowanej. Ten artykuł to zbiór moich osobistych doświadczeń, wyciągniętych wniosków i otwartych pytań po pracy z platformą.
+
+**Kluczowy wniosek na start:** Langfuse UI pozwala tylko na "prompt experiments" - dla bardziej złożonych eksperymentów (np. testowanie agentów) niezbędne jest SDK.
+
+---
+
+## Anatomia Langfuse
+
+Podstawowe elementy observability: Trace, Span, Generation, Event. Dobrze ustrukturyzowany trace to podstawa do późniejszej analizy i ewaluacji.
+
+### Środowiska i filtrowanie
+
+Budując produkt wspieramy różne środowiska (dev, staging, prod). Aby łatwo filtrować traces:
+
+**Rekomendowane podejście - zmienna środowiskowa:**
+Ustawienie `LANGFUSE_TRACING_ENVIRONMENT` to najbardziej praktyczne rozwiązanie - proste filtrowanie po środowiskach, jednocześnie możliwość ewaluacji odpowiedzi ze wszystkich.
+
+**Tagi dla granularnego filtrowania:**
+Programistyczne tagowanie traces pozwala na dodatkowe wymiary wyszukiwania. Warto tagować np. czy trace pochodzi z eksperymentu lub testu - dzięki temu możemy je odfiltrować z normalnego ruchu.
+
+**Podejście z wieloma projektami:**
+Osobny projekt per środowisko - nie widzę w tym zalet, a jedynie dodatkową złożoność.
+
+---
+
+## Typy promptów: Text vs Chat
+
+Langfuse wspiera dwa typy promptów (typ jest nieedytowalny po utworzeniu):
+
+### Text
+Prompt zawierający treść z placeholderami. Nie przyjmuje historii konwersacji - zastosowanie w ewaluacjach mocno ograniczone dla aplikacji chatowych.
+
+**Kiedy używać:** Wersjonowany prompt bez potrzeby ewaluacji konwersacji, np. podsumowanie artykułu gdzie placeholder przyjmuje treść.
+
+### Chat
+Prompt z treścią, placeholderami i możliwością przekazania konwersacji.
+
+**Kiedy używać:** Testowanie prompta systemowego będącego częścią konwersacji.
+
+**Problem:** Langfuse w placeholderze konwersacji przyjmuje wyłącznie format `{"role": "...", "content": "string"}`. Langchain używa innego formatu ("type" zamiast "role", "human" zamiast "user"). Przez to:
+- Wiadomości z Langchain nie są kompatybilne
+- Bardziej złożone wiadomości (np. z plikami) nie są obsługiwane
+- Efektywne testowanie przez UI jest praktycznie niemożliwe, chyba że prompt jest self-contained
+
+### Moja decyzja
+
+**Używam wyłącznie promptów typu "Text" jako system prompty. Eksperymenty prowadzę wyłącznie przez kod.**
+
+Dzięki temu:
+1. Sam decyduję czy ewaluuję pojedynczy prompt czy całego agenta z prawdziwymi narzędziami
+2. Format nie ma znaczenia - pełna dowolność
+
+---
+
+## Moja hipoteza: 3 wymiary eksperymentów
+
+Doszedłem do wniosku, że eksperymenty AI można opisać w trzech wymiarach:
+
+### 1. Głębokość (Depth)
+Na jakim poziomie eksperymentujemy:
+- Główny agent - gdy zależy nam na jakości finalnej odpowiedzi
+- Subagent - izolowane testowanie części systemu
+- Łańcuch promptów - sekwencja wywołań
+- Pojedynczy prompt - atomowa jednostka
+
+### 2. Zakres (Scope)
+Co zmieniamy w eksperymencie:
+- Nowy/zmodyfikowany prompt
+- Ustawienia modelu (temperatura, top-p)
+- Schema narzędzia (nazwa, opis)
+- Format odpowiedzi narzędzia
+- Dodanie nowego narzędzia
+- Usunięcie narzędzia
+- Dodanie nowej warstwy AI (np. klasyfikacja intencji przed głównym agentem)
+
+### 3. Typ zapytania (Query type)
+Jak testujemy:
+- Pojedyncze zapytanie
+- Wiele zapytań
+- Zapytanie od środka konwersacji
+
+**Datasety powinny reprezentować niezbędny zestaw informacji do uruchomienia eksperymentu w zależności od tych 3 wymiarów.**
+
+---
+
+## Co powinny obejmować eksperymenty
+
+Zidentyfikowałem kluczowe scenariusze testowe:
+
+1. **Ton wypowiedzi** - czy agent zachowuje spójny głos
+2. **Próby prompt injection** - bezpieczeństwo
+3. **Różna złożoność zadań:**
+   - Jednoetapowe: "Wyślij maila"
+   - Wieloetapowe: "Wyślij maila i dodaj przypomnienie do kalendarza"
+4. **Reakcja na błędy** - graceful handling
+5. **Niemożliwość wykonania zadania** - co agent robi gdy nie może pomóc
+6. **Nieprzewidziane zapytania** - edge cases
+7. **Działanie pojedynczych narzędzi** - np. jak działa generator query dla Serper w izolacji vs w całym flow
+
+---
+
+## Integracja Langchain ↔ Langfuse
+
+### Co działa out-of-the-box
+Podstawowe trace'owanie wywołań LLM.
+
+### Pułapki i problemy
+
+**Formaty placeholderów są różne:**
+- Langfuse: `{{placeholder}}`
+- Langchain: `{placeholder}`
+
+**Powiązanie promptów z narzędziami:**
+Udało mi się powiązać prompt z głównym agentem, ale nie z promptami używanymi w narzędziach. To denerwujące gdy chcę zobaczyć w Langfuse jaki prompt został użyty do generacji.
+
+**Trace ID:**
+Nie można przekazać bezpośrednio UUID jako trace ID - trzeba usunąć znaki "-".
+
+**Wyświetlanie wiadomości:**
+- Na liście traces - format Langchain wyświetla się słabo
+- Na szczegółach pojedynczego trace - działa poprawnie
+- Langfuse wyświetla ładnie tylko JSON z polami `role` i `content`
+
+**Definicje narzędzi:**
+Langfuse nie pozwala trzymać definicji narzędzi - testowanie przez UI wymaga duplikowania konfiguracji.
+
+---
+
+## Datasety i eksperymenty przez kod
+
+### Kluczowy wniosek
+Eksperymenty generują traces widoczne na liście **tylko gdy datasety są przechowywane na platformie Langfuse**. W przeciwnym razie otrzymujemy tylko "experiment run" bez pełnej widoczności.
+
+### Moje podejście
+Buduję datasety przez platformę Langfuse, ale nie wykorzystuję ich do ewaluacji przez UI - robię to przez kod. Daje mi to pełną dowolność.
+
+### Gdzie umieszczać eksperymenty w kodzie?
+Dla mnie eksperymenty przypominają migracje bazodanowe - migrujemy między jednym promptem a drugim, dbając o spójność i jednoznaczne usprawnienie.
+
+---
+
+## Ewaluacja manualna w Langfuse
+
+### Score Config
+**Rekomendacja: metryki binarne (Pass/Fail) zamiast skali Likerta (1-10)**
+- Łatwiejsze do interpretacji
+- Mniej subiektywne
+
+### Annotation Queues
+**Uwaga na ograniczenia planów:**
+- Hobby: tylko 1 kolejka
+- Core: 3 kolejki
+
+W realnym projekcie może to być problematyczne.
+
+### Workflow
+1. Selekcja traces - dodaj do Annotation Queue
+2. Manualna ewaluacja - Pass/Fail
+3. Przy Fail - dodaj komentarz z pierwszą zaobserwowaną nieprawidłowością
+4. Eksport traces z Fail i kategoryzacja na podstawie komentarzy
+
+### Problem z komentarzami
+Komentarze do traces są tragicznie wyświetlane - trzeba na nie najechać, co utrudnia szybki przegląd.
+
+![[Attachments/AI Evals in Langfuse/ed32b45a3362d439aa5cff17e4e817a7_MD5.jpeg]]
+
+---
+
+## Powiązania i kontekst
+
+Kluczowe jest prawidłowe łączenie danych:
+- **Feedback → User:** powiązanie oceny z konkretnym użytkownikiem
+- **Trace ID → Message:** powiązanie trace z konkretną wiadomością w aplikacji
+- **Session ID → Conversation:** powiązanie sesji z konkretną konwersacją
+- **Environment variable → Trace env:** spójność środowiska aplikacji z Langfuse
+
+---
+
+## Otwarte pytania
+
+1. Jak tworzyć datasety skutecznie?
+2. Reference-free vs reference-based evaluation - kiedy które?
+3. Jaki label powinien być używany przez aplikację do zaciągania odpowiedniego prompta?
+4. Jak najlepiej testować złożone flow wieloagentowe?
+
+---
+
+## Podsumowanie
+
+Zabawa z promptami przez UI (eksperymenty, playground) jest dla mnie mało wartościowa ze względu na ograniczenia formatu. **Moje podejście:** datasety na platformie, eksperymenty w kodzie, prompty typu Text jako system prompty.
+
+Langfuse jest dobrym narzędziem, ale wymaga świadomości jego ograniczeń - szczególnie w integracji z Langchain i przy bardziej złożonych scenariuszach agentowych.
+
+---
+
+![[Attachments/AI Evals Research -  Collected/2e622fd009ba4ce84c771b15fdb1272d_MD5.jpeg]]
+
+----
+
+
+
+
+
+
 
 **1. Wstęp - kontekst**
 
@@ -43,6 +251,8 @@ Czyli buduje datasety przez platformę, niewykorzystuje ich do ewaluacji przez U
 1. To ja decyduje czy ewaluuje pojedynczy prompt czy całego agenta z dostępem do prawdziwych narzędzi
 2. Format nie ma tutaj znaczenia
 
+
+Warto spiąć tag prompta ze środowiskiem celem eksperymentów
 
 Gdzie w kodzie umieszczać eksperymenty ? 
 Dla mnie brzmią one dla mnie trochę jak migracje w ramach bazki.
