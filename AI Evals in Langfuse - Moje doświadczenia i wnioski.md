@@ -42,7 +42,8 @@ Ze względu na istniejący już backend w języku Python zdecydowałem się na w
 - Langchain - framework do zbudowania agenta oraz jego toolingu
 - Langfuse - zarządzenie promptami, ekspertymenty, ewaluacja
 
-Pierwsza obserwacja mimo, że Langfuse chwali się integracją z Langchain to nadal jest sporo 
+Mimo, że Langfuse chwali się integracją z Langchain to nadal jest sporo 
+nieścisłości i niedoróbek wg mnie, które powodują, że ten duet nie jest idealny.
 
 
 
