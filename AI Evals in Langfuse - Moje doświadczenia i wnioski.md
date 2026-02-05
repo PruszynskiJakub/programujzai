@@ -13,7 +13,7 @@ Oto pytania, na które szukałem odpowiedzi — i na które chciałbym znać odp
 
 
 
-
+	
 
 ----
 Lista pytań na które szukałem odpowiedzi lub chciałbym znać odpowiedzi na początku pracy z projektami AI:
