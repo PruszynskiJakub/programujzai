@@ -12,6 +12,9 @@ Oto pytania, na które szukałem odpowiedzi — i na które chciałbym znać odp
 7. Czy w eksperymentach używać produkcyjnych narzędzi czy mocków?
 
 
+
+
+
 ----
 Lista pytań na które szukałem odpowiedzi lub chciałbym znać odpowiedzi na początku pracy z projektami AI:
 1. Jak skutecznie przeprowadzać eksperymenty ?
