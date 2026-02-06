@@ -206,7 +206,7 @@ Moje podejście:
 ## Powiązania i kontekst
 
 Kluczowe jest prawidłowe łączenie danych:
-- **Feedback → User:** powiązanie oceny z konkretnym użytkownikiem
+- **Feedback → User:** powiązanie oceny z konkretną wiadomością
 - **Trace ID → Message:** powiązanie trace z konkretną wiadomością w aplikacji
 - **Session ID → Conversation:** powiązanie sesji z konkretną konwersacją
 - **Environment variable → Trace env:** spójność środowiska aplikacji z Langfuse
