@@ -44,8 +44,9 @@ Ze względu na istniejący już backend w języku Python zdecydowałem się na w
 
 Mimo, że Langfuse chwali się integracją z Langchain to nadal jest sporo 
 nieścisłości i niedoróbek wg mnie, które powodują, że ten duet nie jest idealny.
-
-
+To te na które sam natrafiłem:
+1. Nieprzyjazne wyświetlanie input/output na liście traces, ze względu na różne formaty. Mianowicie Langchain ma swój specyficzny format inny niż wyrosły samoistnie standard role + content. Na szczęście na szczegółach trace dane są wyświetlane w przyjaznej formie
+2. Nieoczywista konfiguracja dla "automatycznego" logowania do Langfuse oparta o instancję CallbackHandlera. Niestety, nie pozwala ona z automatu na zmiany identyfikatora sesji czy użytkownika, tym samym trzeba stosować obejścia w postaci wykorzystania innych metod m.in `propagate_attributes`. Ponadto, nie rozgryzłem jeszcze jak sprawić aby narzędzia w s 
 
 
 
