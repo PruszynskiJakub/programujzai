@@ -162,7 +162,7 @@ Eksperymenty generują traces widoczne na liście **tylko gdy datasety są przec
 ### Moje podejście
 
 Buduję datasety przez platformę Langfuse, ale nie wykorzystuję ich do ewaluacji przez UI — robię to przez kod. Daje mi to pełną dowolność:
-1. To ja decyduję czy ewaluuję pojedynczy prompt czy całego agenta z dostępem do  narzędzi
+1. To ja decyduję czy ewaluuję pojedynczy prompt czy całego agenta z dostępem do prawdziwych narzędzi
 2. Format nie ma znaczenia
 
 Expected output w datasecie to również wskazówka dla nas samych — czego oczekujemy od odpowiedzi agenta.
