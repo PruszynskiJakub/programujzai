@@ -79,3 +79,6 @@ Eksperymenty mają pomóc decyzję czy np zmienić model, czy nowa wersja prompt
 W razie porównania i niejasnych wyników lub wymagających doprecyzowania może poszczególne wyniki anotować
 
 Score może mieć swój start w anotacji oraz w ewaluacji
+
+
+![[Attachments/Strona główna/127a4d1a17418c55afa536e0b837f908_MD5.jpeg]]

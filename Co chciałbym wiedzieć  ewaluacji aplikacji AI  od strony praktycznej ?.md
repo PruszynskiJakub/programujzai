@@ -1,3 +1,14 @@
+---
+permalink: wiedza-podstawowa-o-ewaluacji-aplikacji-ai-cz-2
+created: 2026-02-07
+categories: "[[Pages]]"
+tags:
+  - pages
+---
+
+*Opublikowane 2026-02-07*
+# Co chciałbym wiedzieć  ewaluacji aplikacji AI  od strony praktycznej ?
+---
 W [[Co chciałbym wiedzieć o ewaluacji aplikacji AI na początek ?|poprzednim artykule]] opisałem ramy koncepcyjne ewaluacji aplikacji AI — czym jest, czym różni się od testowania, jak wygląda proces krok po kroku i kiedy warto sięgać po automatyzację. Ten artykuł to druga część: **praktyczne doświadczenia z Langfuse**, narzędziem które wybrałem do realizacji tego procesu.
 
 Buduję aplikację konwersacyjnego agenta AI mającego dostęp do pokaźnego zbioru narzędzi. Ze względu na istniejący już backend w języku Python zdecydowałem się na kombinację:
@@ -133,9 +144,8 @@ Co zmieniamy w eksperymencie:
 
 ### 3. Typ zapytania (Query type)
 Jak testujemy:
-- Pojedyncze zapytanie
-- Wiele zapytań
-- Zapytanie od środka konwersacji
+- Single-turn zapytanie
+- Multi-turn zapytań
 
 **Datasety powinny reprezentować niezbędny zestaw informacji do uruchomienia eksperymentu w zależności od tych 3 wymiarów.**
 
