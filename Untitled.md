@@ -8,4 +8,6 @@ Kiedy powinien nastąpić zapis bloków ?
 Czy istnieją reference-based wiadomości w aplikacji chatowej ?
 Kiedy zbudować CI dla LLM ?
 Jak odpalać eksperymenty na CI i je walidować ?
+System tagów dla aplikacji ?
+
 
