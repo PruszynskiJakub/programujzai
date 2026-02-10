@@ -10,4 +10,4 @@ Kiedy zbudować CI dla LLM ?
 Jak odpalać eksperymenty na CI i je walidować ?
 System tagów dla aplikacji ?
 
-
+Jak organizować eksperymenty i ewaluacje w kodzie ?
