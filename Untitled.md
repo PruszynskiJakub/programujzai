@@ -47,3 +47,5 @@ mam hipotezę, która potrzebuje zmiany prompta
 tworzę nową wersję albo tworzę nowy prompt i używam go w zastępstwie
 odpalam eksperymenty i robię analizę czy hipoteza jest potwierdzona czy nie
 wprowadzam LLM as judge aby wraz z rosnącą złożonością obsługiwać to sprawnie
+
+prompt nie jest częścią feature'a — jest infrastrukturą, która feature'y konsumują
