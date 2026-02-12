@@ -13,10 +13,6 @@ System tagów dla aplikacji ?
 Jak organizować eksperymenty i ewaluacje w kodzie ?
 
 
-Wersjonowanie promptów per środowisko
-np max-production, max-development
-w takim wypadku możemy niezależnie wersjonować i testować sobie prompty zależnie od środowiska
-
 
 
 https://www.youtube.com/watch?v=R_HnI9oTv3c
@@ -57,3 +53,4 @@ Twój szkic jest dobry, doprecyzowałbym go:
 3. **Ewaluacja offline** — odpalam dataset, porównuję wyniki nowej wersji vs obecnej `production`. Tu wchodzi LLM-as-judge dla kryteriów, które trudno sprawdzić regexem (np. "czy odpowiedź brzmi naturalnie").
 4. **Analiza regresji** — nie tylko "czy nowy case przechodzi", ale "czy stare case'y nie zostały zepsute". To jest krytyczne i łatwo o tym zapomnieć.
 5. **Promotion** — jeśli metryki się zgadzają, przesuwam label `production` na nową wersję. To jest niezależne od jakiejkolwiek storki.
+
