@@ -34,6 +34,18 @@ Czy zatem prompty w ogóle powinny być powiązane z storkami ? czy też powinny
 
 
 Podejścia:
-1. Jeden prompt, dwie etykiety development i production, wybór na podstawie środowiska odpowiadającego etykiecie - w takim scenariuszu może nastąpić case z tego co wyżej, mam wersję development i nie chcemy jej jeszcze oznaczać jako produkcyjną
+1. Jeden prompt, dwie etykiety development i production, wybór na podstawie środowiska odpowiadającego etykiecie - w takim scenariuszu może nastąpić case z tego co wyżej, mam wersję development i nie chcemy jej jeszcze oznaczać jako produkcyjną 
 2. Prompt per środowisko unikamy problemu, łatwo wprowadzać hot fixy, większa złożoność w postaci przenoszenia prompta w aplikacji wersjonującej , tu również możemy mieć label production i in-progress
 3. Prompty nie stanowią części storek są osobnym streamem
+
+Innymi słowy rozwój promptów powinien być niezależny od storek.
+Wyobraźmy sobie sytuację gdy kilku deweloperów pracuje nad aplikacją AI, wówczas jest są streamy per storka oraz stream z promptami.
+
+jak zatem eksperymentować ?
+mam prompt w langfuse oraz dataset
+mam hipotezę, która potrzebuje zmiany prompta
+tworzę nową wersję albo tworzę nowy prompt i używam go w zastępstwie
+odpalam eksperymenty i robię analizę czy hipoteza jest potwierdzona czy nie
+wprowadzam LLM as judge aby wraz z rosnącą złożonością obsługiwać to sprawnie
+
+a zatem ważne aby zdefiniował sobie jutro 
