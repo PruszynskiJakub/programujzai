@@ -49,3 +49,11 @@ odpalam eksperymenty i robię analizę czy hipoteza jest potwierdzona czy nie
 wprowadzam LLM as judge aby wraz z rosnącą złożonością obsługiwać to sprawnie
 
 prompt nie jest częścią feature'a — jest infrastrukturą, która feature'y konsumują
+
+Twój szkic jest dobry, doprecyzowałbym go:
+
+1. **Hipoteza** — np. "dodanie few-shot examples poprawi formatowanie tabel w 90% przypadków"
+2. **Nowa wersja prompta** w Langfuse (nie nowy prompt — chcesz zachować historię wersji)
+3. **Ewaluacja offline** — odpalam dataset, porównuję wyniki nowej wersji vs obecnej `production`. Tu wchodzi LLM-as-judge dla kryteriów, które trudno sprawdzić regexem (np. "czy odpowiedź brzmi naturalnie").
+4. **Analiza regresji** — nie tylko "czy nowy case przechodzi", ale "czy stare case'y nie zostały zepsute". To jest krytyczne i łatwo o tym zapomnieć.
+5. **Promotion** — jeśli metryki się zgadzają, przesuwam label `production` na nową wersję. To jest niezależne od jakiejkolwiek storki.
