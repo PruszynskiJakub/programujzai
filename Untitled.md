@@ -1,4 +1,4 @@
-Data driven development aka Evals Driven Development - decyzje o dodawaniu narzędzi, o ich zmianie, o modyfikacji promptów powinny wynikać z rzeczywistych zapytań uzytkownika
+Data driven development aka Evals Driven Development - decyzje o dodawaniu narzędzi, o ich zmianie, o modyfikacji promptów powinny wynikać z rzeczywistych zapytań uzytkownika oraz nowych hipotez
 
 Reference free and reference based data sets - co innego znajdzie sie w expected output. 
 
