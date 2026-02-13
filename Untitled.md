@@ -53,16 +53,3 @@ Twój szkic jest dobry, doprecyzowałbym go:
 4. **Analiza regresji** — nie tylko "czy nowy case przechodzi", ale "czy stare case'y nie zostały zepsute". To jest krytyczne i łatwo o tym zapomnieć.
 5. **Promotion** — jeśli metryki się zgadzają, przesuwam label `production` na nową wersję. To jest niezależne od jakiejkolwiek storki.
 
-
-Jakie datasetu powinien mieć każdy projekt prawdopodobnie ?
-
-
-Za co de facto ludzie mi płacą i co to znaczy mierzyć nisko ?
-Za dowożenie wartości. Czyli ?
-Innymi słowy to co dostarczam jest dla nich wartościowe bo:
-Bo na tym zarabiają więcej
-Bo nie są w stanie zrobić tego sami.
-
-A co ja właściwie dostarczam ?
-Usługę.
-Jaka ?
