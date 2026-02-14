@@ -1,5 +1,13 @@
+---
+permalink: prompt-to-nie-feature
+created: 2026-02-14
+categories: "[[Pages]]"
+tags:
+  - pages
+---
+*Opublikowane 2026-02-14*
 # Prompt nie jest feature'em
-
+---
 ## Historia, która zmieniła nasz sposób pracy
 
 Pracujemy nad aplikacją z podsystemem AI. Nic egzotycznego — agent przetwarza dane, zwraca odpowiedź w formacie markdown, frontend ją wyświetla. Jedna ze storek dotyczyła ulepszenia sposobu prezentowania wyników na frontendzie. Storka dojrzała, została doprecyzowana, miała w subtaskach scenariusze testowe opisujące jak powinien wyglądać finalny wynik. Klasyczny układ.
