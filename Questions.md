@@ -10,7 +10,7 @@ Jak wyglądałaby moja idealna codzienność ?
 Dlaczego warto przekładać praktyki z innych dziedzin na pozostałe  - konsekwentność we wspinaniu na programowanie ? Rozgrzewka, trening, trening funkcjonalny, rozciąganie ?
 Co to znaczy być najlepszym lub ekspertem w danej dziedzinie na przykładzie robienia mobilek lub wspinania ?
 Dlaczego nie automatyzuje rzeczy wokół mnie ? - brak nawyku, brak uważności
-Kiedy warto robić analizę post factum ?
+Transkrypcja post factum vs real time ?
 
 
 
