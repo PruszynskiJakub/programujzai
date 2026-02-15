@@ -18,7 +18,10 @@ Czym jest JSON-RPC ?
 RPC to **Remote Procedure Call**
 Ideologicznie pozwala na wywołanie funkcji w innym programie jak lokalną funkcję.
 JSON bo odpowiedź i prośba są w tym formacie
+JSON RPC jest agnostyczny względem formy komunikacji stad jego zaleta.
+W JSON RPC mamy id do powiązania odpowiedzi z żądaniem.
 
+Brak id oznacza brak konieczności odpowiedzi niezależnie od kierunku, dając możliwość powiadamiania o postępie lub zmianie/statusie/stanie
 
 
 
