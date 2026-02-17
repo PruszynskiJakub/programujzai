@@ -31,3 +31,4 @@ Poza toolami, prompta i zasobami wspiera też logowanie, prośbe o dodatkowe inf
 Czym się różni od Function Calling ?
 Function Calling pozwalało agentowi wywoływać funkcję które pobierały dane z zewnątrz bez zmiany głównej logiki agenta.
 
+Projektowanie MCP powinno bardziej 
