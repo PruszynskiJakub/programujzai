@@ -27,7 +27,7 @@ Scenariusze dla budżetu domowego:
 	3. 
 
 
-
+Na podstawie scenariuszy możemy następnie utworzyć przykładowe zapytania
 
 
 
