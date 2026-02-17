@@ -1,5 +1,16 @@
 Tydzień zakończony wiedzą apropo Model Context Protocol oraz YNAB MCP.
 
+Od czego zacząć świadome budowanie MCP ?
+
+
+
+
+
+
+
+
+
+
 
 Czym jest MCP, jak działa i do czego służy ? 
 Jest to otwarty protokół pozwalający na komunikację aplikacji AI z zewnętrznymi źródłami. 
@@ -31,4 +42,4 @@ Poza toolami, prompta i zasobami wspiera też logowanie, prośbe o dodatkowe inf
 Czym się różni od Function Calling ?
 Function Calling pozwalało agentowi wywoływać funkcję które pobierały dane z zewnątrz bez zmiany głównej logiki agenta.
 
-Projektowanie MCP powinno bardziej 
+Projektowanie MCP powinno bardziej przypominać nowy przestrzeń możliwości w naszej aplikacji a nie być naiwną nakładką na API.
