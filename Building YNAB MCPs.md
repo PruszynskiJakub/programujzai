@@ -12,7 +12,19 @@ Scenariusze dla budżetu domowego:
 	2. Chcę zarejestrować kilka transakcji które dziś poczyniłem na koniec dnia
 	3. Chcę zarejestrować cykliczną transakcję, gdy wykupiłem subskrypcję do HBO Max
 	4. Chcę zarejestrować przelew pomiędzy kontami
-	5. Chcę zarejestrować 
+	5. Chcę wyrównać stan konta z realnym stanem
+	6. Chcę przenieść pieniądze między kategoriami
+	7. Chcę zarejestrować wydatek w oparciu o fakturze na poczcie
+	8. Chcę wystawić fakturę która będzie zaplanowana jako przychód dla daty płatności
+	9. Chcę podsumowanie wszystkich moich wydatków w danej kategorii
+	10. Gdy dodaję transakcję w danej kategorii chcę dowiedzieć się robię overspent lub ile mi zostało
+	11. Chcę spytać AI czy stać mnie na wydatek X w tym miesiącu i jeśli nie przesunąć go na kolejny miesiąc jeśli to ważne
+	12. Chcę aby AI mnie ostrzegł gdy widzi trend wydawania zbyt dużo
+	13. 
+2. Pośrednie
+	1. Utworzenie celu w danej kategorii w reakcji na zaplanowane zdarzenie prowadzące do wydatków np. marzenie wyjazdowe, zbliżające się urodziny widoczne w kalendarzu, 
+	2. Agent rozumie, że np moje wyjście na ściankę czy bachatę generuje transakcję więc proaktywnie mi o nich przypomina na podstawie kalendarza lub lokalizacji
+	3. 
 
 
 
