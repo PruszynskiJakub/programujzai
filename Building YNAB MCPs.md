@@ -24,7 +24,7 @@ Scenariusze dla budżetu domowego:
 2. Pośrednie
 	1. Utworzenie celu w danej kategorii w reakcji na zaplanowane zdarzenie prowadzące do wydatków np. marzenie wyjazdowe, zbliżające się urodziny widoczne w kalendarzu, 
 	2. Agent rozumie, że np moje wyjście na ściankę czy bachatę generuje transakcję więc proaktywnie mi o nich przypomina na podstawie kalendarza lub lokalizacji
-	3. 
+		1. 
 
 
 Na podstawie scenariuszy możemy następnie utworzyć przykładowe zapytania
