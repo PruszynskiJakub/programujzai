@@ -20,15 +20,41 @@ Scenariusze dla budżetu domowego:
 	10. Gdy dodaję transakcję w danej kategorii chcę dowiedzieć się robię overspent lub ile mi zostało
 	11. Chcę spytać AI czy stać mnie na wydatek X w tym miesiącu i jeśli nie przesunąć go na kolejny miesiąc jeśli to ważne
 	12. Chcę aby AI mnie ostrzegł gdy widzi trend wydawania zbyt dużo
-	13. 
+	13. Chcę spytać jakie są nadchodzące transakcję
 2. Pośrednie
 	1. Utworzenie celu w danej kategorii w reakcji na zaplanowane zdarzenie prowadzące do wydatków np. marzenie wyjazdowe, zbliżające się urodziny widoczne w kalendarzu, 
 	2. Agent rozumie, że np moje wyjście na ściankę czy bachatę generuje transakcję więc proaktywnie mi o nich przypomina na podstawie kalendarza lub lokalizacji
-	3. 
 
 
 Na podstawie scenariuszy możemy następnie utworzyć przykładowe zapytania:
+- "Zapłaciłem 230 zł u dentysty kartą mBanku"
+- "Dzisiaj: Biedronka 67 zł, obiad w kantynie 22 zł, Allegro paczka 145 zł, ścianka 35 zł"
+- "Netflix podniósł cenę z 43 na 60 zł"
+- "Przelałem 2000 z mBanku na Revolut"
+- "Revolut pokazuje 890 zł, wyrównaj"
+- "Groceries mi się skończyło, przerzuć 150 z Dining Out"
+- "Wystawiłem fakturę na 8000 zł netto, termin płatności 14 dni"
+- "Porównaj moje wydatki na jedzenie miesiąc do miesiąca"
+- "Chcę kupić monitor za 2500 — da radę w tym miesiącu? Jeśli nie, przesuń na przyszły"
+- _(agent widzi "Ścianka" w kalendarzu i wie że Jakub zawsze płaci 35 zł)_ → "Dziś ścianka — rejestruję 35 zł jak zwykle?"
 
+Warto następnie zidentyfikować płaszczyzny w których nasz zestaw narzędzi może nie domagać:
+- Date scope 
+	- Agent błędnie zinterpretuje datę transakcji
+	- Przykładowe wartości: today, yesterday, next month, on wednesday
+- Category Misalignment 
+	- Agent błędnie przypisze kategorię
+	- Przykładowe sytuacje: 
+		- Zajęcia bachaty to hobby czy fitness,
+		- Wspinaczka to hobby czy fitness
+		- Nurkowanie na wyjezdzie to vacation czy hobby 
+		- Kolacja z partnerką to eating out czy goi
+		- Co w sytuacji gdy istnieje specyficzna kategoria dla użytkownika
+- Accounts Misalignment
+	- Agent nie będzie wiedział jakiego konta użyć dla specyficznych sytuacji oczywistych dla użytkownika
+	- Przykład:
+		- PC zapłaciło mi fakturę XYZ - jest to wpłata na konto biznes czego on może nie wymyśleć by default
+- 
 
 
 
