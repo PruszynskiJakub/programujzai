@@ -47,6 +47,7 @@ Teraz indentyfikujemy potencjalne narzędzia, prompty i zasoby:
 	5. Modify scheduled transaction - 
 	6. Get accounts 
 	7. Get categories
+2. Prompts
 
 Warto następnie zidentyfikować płaszczyzny w których nasz zestaw narzędzi może nie domagać:
 - Date scope 
