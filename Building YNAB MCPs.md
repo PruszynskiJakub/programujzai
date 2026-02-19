@@ -78,6 +78,8 @@ Następnie na podstawie tego generujemy zapytania mające zwiększone prawdopodo
 
 
 
+
+
 Czym jest MCP, jak działa i do czego służy ? 
 Jest to otwarty protokół pozwalający na komunikację aplikacji AI z zewnętrznymi źródłami. 
 Pozwalające w sposób agnostyczny względem narzędzia udostępniać kontekst w postaci zasobów, promptów oraz narzędzi.
