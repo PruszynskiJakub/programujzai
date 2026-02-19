@@ -38,6 +38,16 @@ Na podstawie scenariuszy możemy następnie utworzyć przykładowe zapytania:
 - "Chcę kupić monitor za 2500 — da radę w tym miesiącu? Jeśli nie, przesuń na przyszły"
 - _(agent widzi "Ścianka" w kalendarzu i wie że Jakub zawsze płaci 35 zł)_ → "Dziś ścianka — rejestruję 35 zł jak zwykle?"
 
+Teraz indentyfikujemy potencjalne narzędzia, prompty i zasoby:
+1. Narzędzia:
+	1. Record transaction - dodaje jedną lub więcej transakcji, cyklicznych lub nie
+	2. Move money - przenosi pieniądze pomiędzy kontami
+	3. Schedule transaction - dodaje jedną lub więcej transakcji cyklicznych
+	4. Modify transaction - 
+	5. Modify scheduled transaction - 
+	6. Get accounts 
+	7. Get categories
+
 Warto następnie zidentyfikować płaszczyzny w których nasz zestaw narzędzi może nie domagać:
 - Date scope 
 	- Agent błędnie zinterpretuje datę transakcji
@@ -54,7 +64,12 @@ Warto następnie zidentyfikować płaszczyzny w których nasz zestaw narzędzi m
 	- Agent nie będzie wiedział jakiego konta użyć dla specyficznych sytuacji oczywistych dla użytkownika
 	- Przykład:
 		- PC zapłaciło mi fakturę XYZ - jest to wpłata na konto biznes czego on może nie wymyśleć by default
-- 
+
+Następnie na podstawie tego generujemy zapytania mające zwiększone prawdopodobieństwo błędnego działania:
+
+...
+
+
 
 
 
