@@ -66,12 +66,31 @@ Warto następnie zidentyfikować płaszczyzny w których nasz zestaw narzędzi m
 	- Przykład:
 		- PC zapłaciło mi fakturę XYZ - jest to wpłata na konto biznes czego on może nie wymyśleć by default
 
-Następnie na podstawie tego generujemy zapytania mające zwiększone prawdopodobieństwo błędnego działania:
-
-...
+Następnie na podstawie tego generujemy zapytania mające zwiększone prawdopodobieństwo błędnego działania.
 
 
+W praktyce do czego to prowadzi obrazuje przykład:
+Jeżeli spojrzymy na [API ynab ](https://api.ynab.com/v1#/) zobaczymy, że podstawowym endpointem jest `/transactions`, które między innymi obsługuje przelewy pomiędzy kontami tj. 
+Przelewając pieniądze realnie używam jednego konta jako `account`, a drugiego jak `payee`. 
+Warto również mieć na uwadze że w sytuacji gdy przenosimy pieniądze pomiędzy `Checking accounts` wówczas kategoria transakcji nie jest wymagana.
 
+W naiwnym "oczywistym" podejściu nasze MCP otrzyma narzędzie `record_transactions`, które odwzoruje powyższe zachowanie.
+W takim scenariuszu zostawiamy sporo miejsca na potencjalne błędy:
+- AI musi prawidłowo odgadnąć czy kategoria jest wymaga czy też nie dlatego przelewu na podstawie typów kont biorących udział w transakcji
+- AI musi prawidłowo określić konto z którego i do którego następuje przelew i ich relacje w tej transakcji
+- AI może również wywołać nadmiarowe narzędzia 
+	- Konta -> Payee -> Przelew
+	- Konta -> Payee -> Kategoria -> Przelew
+	- Kategoria -> Konta -> Payee -> Przelew // nadmiarowe zapytanie o kategorie gdy przelew nie wymaga
+
+Alternatywą było i jest zaobserwowanie tego jak komunikuje swoje zapytania użytkownik.
+On nie mówi: "Zapłaciłem 500PLN  z konta X na rzecz konta Y" albo "Zarejestruj transakcję 500PLN z konta X na konto Y" - dla jasności są to jak najbardziej prawidłowe wiadomości. Są one jednak nienaturalne uzytkownik raczej powie "Zrobiłem przelew pomiędzy kontami X i Y", "Przenieść 500PLN z X na Y".
+Widać stąd w naturalny sposób wyłania się osobne narzędzie `move_money`.
+Co do nam właściwie daje ?
+Daje nam to przestrzeń na uproszczenie i usprawnienie tego w jaki sposób AI korzysta z naszych narzędzi. Pozwala nam to również umieścić na końcu odpowiedzi narzędzi zupełni inny zestaw wskazówek jak ta odpowiedź może być wykorzystana, co przekłada się na skuteczniejszy i przyjaźniejszy UX.
+
+
+Inny jeszcze bardziej oczywisty przykład jeżeli naiwnie zaimplementujemy pobieranie kategorii lub kont wówczas szansa błędu i niezadowolenia użytkownika jest bardzo wysoka - w YNAB kategorie i konta, nie mają opisów, oczywiście możemy dać deskryptywne nazwy kategorii i podkategorii, ale z doświadczenia wiem, że skuteczność jest jak w totalizatorze sportowym 50 na 50. Dużo skuteczniejszym podejściem jest rozszerzenie naszego MCP o proces inicjalizacji tak aby w ramach MCP utworzyć opisy wygenerowane wraz z  użytownikiem.
 
 
 
