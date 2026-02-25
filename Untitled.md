@@ -87,19 +87,19 @@ class AgentMemory {
 function resolvePointers(
     input: Record<string, unknown>,
     memory: AgentMemory,
-  ): Record<string, unknown> {
-    const resolved: Record<string, unknown> = {};
+): Record<string, unknown> {
+const resolved: Record<string, unknown> = {};
 
-    for (const [key, value] of Object.entries(input)) {
-      if (typeof value === "string" && memory.has(value)) {
-        resolved[key] = memory.get(value);
-      } else {
-        resolved[key] = value;
-      }
-    }
-
-    return resolved;
+for (const [key, value] of Object.entries(input)) {
+  if (typeof value === "string" && memory.has(value)) {
+	resolved[key] = memory.get(value);
+  } else {
+	resolved[key] = value;
   }
+}
+
+return resolved;
+}
     
 ```
 
