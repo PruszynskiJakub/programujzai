@@ -104,9 +104,7 @@ Agent może błędnie przypisać kategorię. Przykłady niejednoznacznych sytuac
 ### Przypisanie konta
 
 Agent może nie wiedzieć, jakiego konta użyć w sytuacjach oczywistych dla użytkownika. Przykład: „PC zapłaciło mi fakturę XYZ" — to wpłata na konto firmowe, czego agent domyślnie może nie wywnioskować.
-*Opublikowane 2026-02-21*
-# Title
----
+
 
 Na podstawie tych obszarów generujemy zapytania o zwiększonym prawdopodobieństwie błędnego działania — i testujemy je.
 

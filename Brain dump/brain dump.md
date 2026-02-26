@@ -1,3 +1,8 @@
+prowadzić dziennik pomysłów, rzeczy które mnie spotkały ciekawych tego dnia, przemyslenia na ich temat
+
+
+
+
 
 Even now thinking keywords matters in slash commands
 
