@@ -11,3 +11,5 @@ Dlaczego warto przekładać praktyki z innych dziedzin na pozostałe  - konsekwe
 Co to znaczy być najlepszym lub ekspertem w danej dziedzinie na przykładzie robienia mobilek lub wspinania ?
 Dlaczego nie automatyzuje rzeczy wokół mnie ? - brak nawyku, brak uważności
 Transkrypcja post factum vs real time ?
+
+
