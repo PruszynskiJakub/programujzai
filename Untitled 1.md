@@ -6,7 +6,7 @@ Tworzyłem podagentów.
 
 Zauważyłem, że często robię podagenta ale również jednocześnie command, który go wykorzystuje. Innymi słowy nie chcę być skazany na skuteczność autonomicznego wyboru narzędzi przez AI
 
-Zawsze gdy chcę zrobić "X i Y i Z" wówczas zastnawiam się jaka jest relacja między nimi czy są to rzeczy niezależne czy też może jedne są konsekwencją innych.
+Zawsze gdy chcę zrobić "X i Y i Z" wówczas zastnaawiam się jaka jest relacja między nimi czy są to rzeczy niezależne czy też może jedne są konsekwencją innych.
 Przykład: Proces i Edge Cases i Ryzyka na podstawie source material.
 Pierwotnie wszystko działało się za pomocą jednego prompta.
 Po chwili zorientowałem się że Edge Cases i Ryzyka są negative space dla Procesu, a zatem musi on istnieć wcześniej i musi być wysokojakościowy aby pozostałe artefakty miały również szansę takie być.
@@ -20,7 +20,7 @@ Jeżeli mam command, który obejmuje wielokrokowy proces, wówczas w momencie ze
 idempotency -  prompty powinny to zawierać co się wydarzy w sytuacji gdy ich rezultat już istnieje.
 
 
-Fajną rzeczą jest również self healing czyli po proszenie AI o przeanalzowanie swoich komend, skill czy subagentów z adnotacją co nieprawidłowego zaobserwowaliśmy wówczas agenta, jest w stanie zide ntfikować przyczynę i wprowadzić zmiany w swoim toolsecie. 
+Fajną rzeczą jest również self healing czyli poproszenie AI o przeanalzowanie swoich komend, skill czy subagentów z adnotacją co nieprawidłowego zaobserwowaliśmy wówczas agenta, jest w stanie zidentfikować przyczynę i wprowadzić zmiany w swoim toolsecie. 
 
 Jakie lekcje z tego wyciągnąłem ?
 
