@@ -20,3 +20,8 @@ Czy one działają sekwencyjnie na swoich wynikach ?
 Czy działają niezależnie ? Czy możemy je zrównoleglić ?
 
 Zauważyłem, że często robię podagenta ale również jednocześnie command, który go wykorzystuje. Innymi słowy nie chcę być skazany na skuteczność autonomicznego wyboru narzędzi przez AI.
+
+
+
+Czy wszyscy w zespole mogą zmieniać rzeczy ?
+Czy wszyscy będą pamiętać i wiedzieć jak działa proces ?
