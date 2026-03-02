@@ -30,3 +30,6 @@ Tracimy mnóstwo kontekstu pomiędzy w komunikacji.
 Organizację wg mnie są w tyle, nie względu na to, że wdrożenia AI jest trudne tylko dlatego, że procesy które już powinny być zakorzenione wcale takie nie są, a wymaga tego efektywa praca z AI, bo inaczej trochę jedziemy na pierwszym biegu w lambo, wciskając po prostu mocniej pedał gazu.
 
 
+
+
+
