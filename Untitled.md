@@ -35,3 +35,7 @@ Pierwsza służy do logiki, filtrowania i api.
 Druga jest zoptymalizowana pod reasoning i personalizację.
 
 Ponadto mamy pamięć sesyjną i pamięć globalną
+
+
+Temat następnej publikacji to :
+Zrozumienie jak Proces, Flow i User Stories przeplatają się.
