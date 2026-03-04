@@ -25,3 +25,13 @@ Zauważyłem, że często robię podagenta ale również jednocześnie command, 
 
 Czy wszyscy w zespole mogą zmieniać rzeczy ?
 Czy wszyscy będą pamiętać i wiedzieć jak działa proces ?
+
+
+
+
+
+Mamy dwa rodzaje pamięci ustruktoryzowaną i nieustrukturyzowaną.
+Pierwsza służy do logiki, filtrowania i api.
+Druga jest zoptymalizowana pod reasoning i personalizację.
+
+Ponadto mamy pamięc sesyjną i pamięć globalną
