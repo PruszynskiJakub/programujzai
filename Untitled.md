@@ -34,4 +34,4 @@ Mamy dwa rodzaje pamięci ustruktoryzowaną i nieustrukturyzowaną.
 Pierwsza służy do logiki, filtrowania i api.
 Druga jest zoptymalizowana pod reasoning i personalizację.
 
-Ponadto mamy pamięc sesyjną i pamięć globalną
+Ponadto mamy pamięć sesyjną i pamięć globalną
