@@ -33,3 +33,6 @@ Organizację wg mnie są w tyle, nie względu na to, że wdrożenia AI jest trud
 
 
 
+Agent powinien odpowiadać za orkiestracje nie odpowiadanie.
+Dla scenariusza pobierania treści z internetu i odpowiadanie na pytanie, powinnośmy zapisać plik na w pamięci, i mieć osobny tool o nazwie `answer_question` przyjmujący identyfikatory dokumentów.
+Innymi słowy wszystko co możliwe wyciągamy z głównej pętli do dedykowanych narzędzi lub metod pomocniczych.
