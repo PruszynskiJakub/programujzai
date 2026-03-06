@@ -5,7 +5,7 @@ categories: "[[Pages]]"
 tags:
   - pages
 ---
-*Opublikowane 2026-02-28*
+	*Opublikowane 2026-02-28*
 # Bottleneck Twojej organizacji to nie AI — to przepływ informacji
 ---
 
