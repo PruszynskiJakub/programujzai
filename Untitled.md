@@ -30,3 +30,14 @@ Dla takiego przykładu prawdopodobnie nie potrzebujemy w ogóle agenta, zapewne 
 
 #### Dojrzalsze
 Tworzymy dedykowane narzędzie per format plików zachowując jednocześnie dowolność w ich strukturze. Wadą tego podejścia jest konieczność dodawania 
+
+
+
+
+
+Czy na wszystkie narzędzia możemy określić jako discovery lub delivery ?
+Wszystkie narzędzia które budujemy dla agenta czy to w postaci MCP czy natywnych narzędzi mają jedno zadanie umożliwić agentowi - wykonanie zleconego zadania.
+To stwierdzenie jest tak samo prawdziwe dla agentów których budujemy sami jak i agentów z których korzystamy.
+Z mojego doświadczenia aby ułatwić sobie projektowanie narzędzi warto również rozpatrywać je z dwóch dodatkowych kategorii - Discovery oraz Delivery. 
+Narzędzia które nazwiemy discovery to narzędzi, które pomagają nam odkrywać dane, struktury, ale same w sobie nie wnoszą wartości do finalnego wyniku wykonanego zadania.
+Narzędzia które nazwiemy delivery mają natomiast za zadanie wykonać jakąś operację 
