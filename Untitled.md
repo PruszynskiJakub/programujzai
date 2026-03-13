@@ -19,6 +19,10 @@ Złożoność ta wynika z dowolności która możemy rozpatrywać przez dwie sk�
 1. dowolność formatów danych
 2. dowolności struktur wewnątrz tych plików
 
+kombinatoryczny wybuch złożoności.
+
+Rozwiązanie polega na **separacji dwóch kroków**: najpierw _odkrycie struktury_, potem _transformacja na jednolitym modelu danych_.
+
 #### Naiwne 
 Innymi słowy projektujemy narzędzie obejmujące wyłącznie jeden proces, z góry znaną ograniczoną liczbą formatów plików oraz struktur.
 Wówczas nasze narzędzia możemy organizować wyłącznie wokół tego i rozpatrując je z perspektywy ich miejsca oraz zastosowania w tym procesie.
