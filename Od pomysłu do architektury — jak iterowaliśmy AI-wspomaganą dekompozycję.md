@@ -84,4 +84,6 @@ To rozwiązanie stanowi fundament, na którym możemy budować dalej. Jest elast
 
 Ale to, co uważam za najważniejsze: zachowuje użytkownika zaangażowanym. Pętle są krótkie i pozwalają na szybki feedback. Zamiast jednego wielkiego „wrzuć i czekaj" mamy serię małych, zrozumiałych kroków — każdy z nich daje poczucie kontroli i postępu.
 
-To dokładnie ta lekcja, którą wynieśliśmy z kilku iteracji: AI w kontekście organizacyjnym nie potrzebuje więcej autonomii — potrzebuje lepszych punktów styku z człowiekiem.
+Jest jeszcze jedna lekcja, być może najważniejsza: nie wolno mieszać procesu z tym, jak chcemy dochodzić do jego wartościowych artefaktów. Dekompozycja — od materiałów, przez procesy, po user stories — to nasz proces. Ale sposób, w jaki AI pomaga nam wydobywać z niego wartość (skanowanie, zderzanie, konsolidacja), to osobna warstwa. Wcześniejsze iteracje zawodziły właśnie dlatego, że te dwie rzeczy były ze sobą splecione — skille próbowały jednocześnie realizować logikę dekompozycji i produkować artefakty. Rozdzielenie ich było tym, co odkleiło całość.
+
+To w zasadzie dwie kluczowe lekcje z tych iteracji: AI w kontekście organizacyjnym nie potrzebuje więcej autonomii — potrzebuje lepszych punktów styku z człowiekiem. A projektując te punkty styku, trzeba jasno oddzielić „co robimy" od „jak AI nam w tym pomaga".
