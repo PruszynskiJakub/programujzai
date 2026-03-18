@@ -119,7 +119,7 @@ Schemat z części pierwszej (selekcja → adnotacja → komentarz → kategoryz
 
 Komentarze do traces są tragicznie wyświetlane — trzeba na nie najechać, co utrudnia szybki przegląd. Krok 4 (kategoryzacja) wymaga przez to eksportu danych poza Langfuse.
 
-![[Attachments/AI Evals in Langfuse/ed32b45a3362d439aa5cff17e4e817a7_MD5.jpeg]]
+![[ed32b45a3362d439aa5cff17e4e817a7_MD5.jpeg]]
 
 ## Moja hipoteza: 3 wymiary eksperymentów
 

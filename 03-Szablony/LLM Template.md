@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Categories/LLM|LLM]]"
+  - "[[02-Kategorie/LLM|LLM]]"
 tags:
   - references
   - llms
