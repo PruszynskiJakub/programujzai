@@ -12,6 +12,7 @@ Od pamiętnej premiery [[ChatGPT]] od [[OpenAI]] w listopadzie 2022 roku minęł
 
 Branża IT w oczywisty sposób uległa największej transformacji podczas tego umysłowego przewrotu. Dziś programiści już nie tylko programują — oni promptują. Asystenci AI do programowania pojawiają się na każdym kroku, stając się standardem, którego nie można ignorować.
 
+
 Sam jestem wielkim zwolennikiem narzędzia [[Claude Code]] od [[Anthropic]], w sumie z dwóch względów:
 
 1. Uwielbiam rodzinę modeli Claude za ich styl i jakość generowanych odpowiedzi, mimo że nie są one niskobudżetowe.

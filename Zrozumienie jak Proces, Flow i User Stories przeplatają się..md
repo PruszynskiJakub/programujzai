@@ -1,6 +1,6 @@
 ---
 permalink: proces-flow-user-stories
-created: "2026-03-06"
+created: 2026-03-06
 categories: "[[Pages]]"
 tags:
   - pages
@@ -68,3 +68,5 @@ Dekompozycja działa. Gdy PM dostaje do recenzji procesy biznesowe zamiast surow
 To podejście wymusza też coś, czego większość narzędzi AI nie robi — idempotentność transformacji. Jeśli poprawimy opis procesu i ponownie wygenerujemy scenariusze, powinniśmy dostać przewidywalnie lepsze wyniki, nie losowo inne.
 
 Nadal jesteśmy na wczesnym etapie. Ale jedno jest już dla mnie jasne: wartość AI w kontekście organizacji nie leży w generowaniu artefaktów — leży w strukturyzowaniu myślenia o nich.
+
+Branża IT w oczywisty sposób uległa największej transformacji podczas tego umysłowego przewrotu. Dziś programiści już nie tylko programują — oni promptują. Asystenci AI do programowania pojawiają się na każdym kroku, stając się standardem, którego nie można 
