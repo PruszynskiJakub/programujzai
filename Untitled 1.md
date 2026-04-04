@@ -1,4 +1,24 @@
 
+Chaotyczne, złożone, skomplikowane, proste. Które z tych słów opisuje sposób, w jaki dziś pracujesz z AI — i czy to Twój świadomy wybór, czy po prostu nawyk? 
+Bo różnica między „pracuję z jednym oknem czatu" a „zadania dzieją się w tle" to nie kwestia lepszego narzędzia. To kwestia tego, jak dojrzały jest system, któremu ufasz.  
+Na dzień dzisiejszy możemy wyróżnić 4 modele pracy z AI.
+
+
+
+Jaki jest Twój model pracy z AI? Zanim odpowiesz — zastanów się, czy to naprawdę Twój wybór, czy po prostu nawyk. 
+
+
+
+Rok przed wejściem w drugie milenium Dave Snowden 
+
+
+
+
+AI to dźwignia wymagająca przyłożenia odpowiedniej siły w odpowiednim czasie.
+
+Jaki jest Twój model pracy z AI? 
+To na pierwszy rzut oka proste pytania, ma mimo wszystko są swoją głębię
+Chaos, Complex, Complicated, Simple. Te cztery słowa 
 
 
 
