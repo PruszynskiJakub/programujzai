@@ -1,3 +1,7 @@
+
+
+
+
 Modele pracy z AI:  
 Synchroniczna < Równoległa < Asynchroniczna < W tle  
   
@@ -33,6 +37,8 @@ Zacznijmy od pytania bazowego: co właściwie musi być "dojrzałe" żeby można
 
 [[00-Załączniki/Untitled 1/2463b949efd2beda737ad323b48eeb2a_MD5.jpeg|Open: Pasted image 20260404115336.png]]
 ![[00-Załączniki/Untitled 1/2463b949efd2beda737ad323b48eeb2a_MD5.jpeg]]
+
+
 
 [[00-Załączniki/Untitled 1/0754dcecda122ea8792f7eb53ae8ca97_MD5.jpeg|Open: Screenshot 2026-04-04 at 11.26.42.png]]
 ![[00-Załączniki/Untitled 1/0754dcecda122ea8792f7eb53ae8ca97_MD5.jpeg]]
