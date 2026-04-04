@@ -3,6 +3,7 @@ permalink: strona-glowna
 ---
 ### Spis treści
 
+2026-04-04 - [[Praca z AI to ciągła nawigacja]]
 2026-03-28 - [[AI to najlepsza franczyza jaka istnieje]]
 2026-03-21 - [[Może AI nie jest jeszcze dla Ciebie — i to jest okay]]
 2026-03-14 - [[Od pomysłu do architektury — jak iterowaliśmy AI-wspomaganą dekompozycję]]
