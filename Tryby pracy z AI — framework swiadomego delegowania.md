@@ -8,7 +8,13 @@ Różnica między "pracuję z jednym oknem czatu" a "zadania dzieją się w tle 
 
 Każdy system pracy z AI, niezależnie od narzędzi, stacku czy organizacji, ma jeden wspólny wymiar: **tryb pracy**. Są cztery, ułożone na osi rosnącej autonomii.
 
-Synchroniczna: pracujesz z jedną instancją AI w czasie rzeczywistym. Ty prowadzisz, AI asystuje. Równoległa: kilka instancji jednocześnie, kilka terminali, git worktrees. Ty koordynujesz. Dyrygent, nie pianista. Asynchroniczna: zlecasz zadanie i wracasz po wynik. Jules, Claude Code Web, Cursor Agents. Przychodzi PR, robisz review, mergujesz albo odrzucasz. W tle: praca dzieje się bez Twojego udziału. Cron, Webhook, `/loop`, `/dispatch`. Ty dowiadujesz się o efektach, nie o procesie.
+Synchroniczna: pracujesz z jedną instancją AI w czasie rzeczywistym. Ty prowadzisz, AI asystuje. 
+
+Równoległa: kilka instancji jednocześnie, kilka terminali, git worktrees. Ty koordynujesz. Dyrygent, nie pianista. 
+
+Asynchroniczna: zlecasz zadanie i wracasz po wynik. Jules, Claude Code Web, Cursor Agents. Przychodzi PR, robisz review, mergujesz albo odrzucasz. 
+
+W tle: praca dzieje się bez Twojego udziału. Cron, Webhook, `/loop`, `/dispatch`. Ty dowiadujesz się o efektach, nie o procesie.
 
 Każdy tryb to inny poziom zaufania do narzędzia, do procesu, do siebie. **Im dalej w prawo potrafisz świadomie przesunąć swoją pracę, tym skuteczniejszy jesteś.** Ty i Twoja organizacja. Słowo "świadomie" jest tu kluczowe. Przesunięcie w prawo bez zrozumienia kosztu to nie odwaga. To niedbałość.
 
@@ -68,7 +74,13 @@ Dojrzałość procesu to nie kolejny wymiar do zważenia. To warunek wstępny, b
 
 ## Wchodzą też inne rzeczy
 
-Są jeszcze wymiary które w konkretnych sytuacjach potrafią zdominować decyzję. Czasochłonność: pięciominutowy fix na którego opisanie potrzebujesz piętnastu minut nie ma sensu delegować asynchronicznie. Zaufanie do AI w danej domenie: nie do AI ogólnie, ale w konkretnym zastosowaniu. Testowałeś, widziałeś wyniki, wiesz gdzie model jest mocny a gdzie kłamie. Zaufanie bez danych to wiara, a wiara nie jest strategią inżynieryjną. Intencja uczenia się: delegowanie czegoś czego nie rozumiesz tworzy kruche fundamenty. Działa, dopóki nie musisz debugować.
+Są jeszcze wymiary które w konkretnych sytuacjach potrafią zdominować decyzję. 
+
+Czasochłonność: pięciominutowy fix na którego opisanie potrzebujesz piętnastu minut nie ma sensu delegować asynchronicznie. 
+
+Zaufanie do AI w danej domenie: nie do AI ogólnie, ale w konkretnym zastosowaniu. Testowałeś, widziałeś wyniki, wiesz gdzie model jest mocny a gdzie kłamie. Zaufanie bez danych to wiara, a wiara nie jest strategią inżynieryjną.
+
+Intencja uczenia się: delegowanie czegoś czego nie rozumiesz tworzy kruche fundamenty. Działa, dopóki nie musisz debugować.
 
 Każdy wymiar sugeruje swój próg. I tu docieramy do sedna.
 
@@ -78,7 +90,11 @@ Jak złożyć te wszystkie wymiary w jedną decyzję? **Finalny tryb to najbardz
 
 Mosty oblicza się pod najgorsze obciążenie, nie pod średnie.
 
-Dlatego ten sam typ zadania może wymagać innego trybu w innym kontekście. I dlatego pytanie "jaki tryb pasuje do tego rodzaju pracy?" jest złym pytaniem. To pytanie naiwne. Raz ustalone, stosowane mechanicznie. Kod → asynchronicznie. Konfiguracja → w tle. Architektura → synchronicznie.
+Dlatego ten sam typ zadania może wymagać innego trybu w innym kontekście. I dlatego pytanie "jaki tryb pasuje do tego rodzaju pracy?" jest złym pytaniem. To pytanie naiwne. Raz ustalone, stosowane mechanicznie. 
+
+Kod → asynchronicznie. 
+Konfiguracja → w tle. 
+Architektura → synchronicznie.
 
 Lepsze pytanie brzmi: co mi mówi każdy wymiar kontekstu i który z nich jest dziś najbardziej ograniczający?
 
