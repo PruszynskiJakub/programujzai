@@ -16,6 +16,8 @@ Asynchroniczna: zlecasz zadanie i wracasz po wynik. Jules, Claude Code Web, Curs
 
 W tle: praca dzieje się bez Twojego udziału. Cron, Webhook, `/loop`, `/dispatch`. Ty dowiadujesz się o efektach, nie o procesie.
 
+![[00-Załączniki/Untitled 1/3e17492233773f08c3b8ca4412531f9c_MD5.jpeg]]
+
 Każdy tryb to inny poziom zaufania do narzędzia, do procesu, do siebie. **Im dalej w prawo potrafisz świadomie przesunąć swoją pracę, tym skuteczniejszy jesteś.** Ty i Twoja organizacja. Słowo "świadomie" jest tu kluczowe. Przesunięcie w prawo bez zrozumienia kosztu to nie odwaga. To niedbałość.
 
 Naturalną konsekwencją tego stwierdzenia jest pytanie: kiedy i z czym mogę pracować w poszczególnych trybach? To trudniejsze pytanie niż wygląda. Zacznijmy od prostej analogii, która częściowo na nie odpowiada.
@@ -24,13 +26,20 @@ Naturalną konsekwencją tego stwierdzenia jest pytanie: kiedy i z czym mogę pr
 
 Te cztery słowa, którymi zaczęliśmy, to nie przypadek. To domeny Cynefin, modelu który opisuje jak podejmujemy decyzje w zależności od tego, jak dobrze rozumiemy sytuację. Spotkałem się z nim po raz pierwszy na szkoleniu SCRUM-owym i to właśnie jego pamiętam z tych warsztatów najmocniej.
 
-Proste (Clear): wiesz co robić, robisz. Skomplikowane (Complicated): nie wiesz od razu, ale ekspert znajdzie rozwiązanie. Złożone (Complex): nikt nie wie z góry, musisz próbować i obserwować. Chaotyczne (Chaotic): najpierw gaś pożar, potem myśl.
+![[00-Załączniki/Untitled 1/eaa20eee58f0ca3e1044ebb54f0cbc8c_MD5.jpeg]]
+
+Proste (Clear): wiesz co robić, robisz. 
+Skomplikowane (Complicated): nie wiesz od razu, ale ekspert znajdzie rozwiązanie. 
+Złożone (Complex): nikt nie wie z góry, musisz próbować i obserwować. 
+Chaotyczne (Chaotic): najpierw gaś pożar, potem myśl.
 
 Naturalne skojarzenie narzuca się natychmiast:
 Proste → W tle.
 Skomplikowane → Asynchroniczna.
 Złożone → Równoległa.
 Chaotyczne → Synchroniczna.
+
+![[00-Załączniki/Untitled 1/64a6d4be43d7bb0a993fb69a1ca954b2_MD5.jpeg]]
 
 I to skojarzenie jest... użyteczne. Ale nieprecyzyjne. Kiedy zacząłem je testować na własnej pracy, szybko się rozleciało.
 
@@ -54,7 +63,10 @@ Te dwa składniki nie kompensują się nawzajem. **Łatwa odwracalność nie neu
 
 Gorszy z dwóch składników determinuje Twój maksymalny tryb. Krytyczna konsekwencja *albo* niemożliwa odwracalność, i jesteś z powrotem w synchronicznej, z człowiekiem w pętli.
 
-Mogłoby się wydawać, że te dwa wymiary (złożoność i ryzyko) wystarczą. Proste i bezpieczne? W tle. Złożone i ryzykowne? Synchronicznie. Ale jest jeszcze jedna rzecz, o której nikt nie mówi.
+Mogłoby się wydawać, że te dwa wymiary (złożoność i ryzyko) wystarczą.
+Proste i bezpieczne? W tle. 
+Złożone i ryzykowne? Synchronicznie. 
+Ale jest jeszcze jedna rzecz, o której nikt nie mówi.
 
 ## Agent jest tak dobry jak proces, w który go wsadzisz
 
