@@ -9,4 +9,24 @@ W tle - praca po prostu dzieje się ze względu na Cron, Webhook etc np Claude C
   
 Im dalej  jesteś w stanie przesunąć swoją pracę w PRAWO i im więcej, tym skuteczniejszy jesteś czy też organizacja
 
-Zmiana założeń procesów u podstaw d
+Tryby pracy
+
+Cynefin
+
+Typ zadania
+	Złożoność
+
+
+
+
+Ryzyka
+	Odwracalność
+	Konsekwencje
+
+
+
+
+[[00-Załączniki/Untitled 1/0754dcecda122ea8792f7eb53ae8ca97_MD5.jpeg|Open: Screenshot 2026-04-04 at 11.26.42.png]]
+![[00-Załączniki/Untitled 1/0754dcecda122ea8792f7eb53ae8ca97_MD5.jpeg]]
+[[00-Załączniki/Untitled 1/35b461c8bf3561a48ebc6c000ee4e92f_MD5.jpeg|Open: Screenshot 2026-04-04 at 11.34.27.png]]
+![[00-Załączniki/Untitled 1/35b461c8bf3561a48ebc6c000ee4e92f_MD5.jpeg]]
