@@ -1,5 +1,5 @@
 ---
-permalink: marketerzy-wiedzą-o-ai
+permalink: marketerzy-wiedza-o-ai
 created: 2026-04-12
 categories: "[[Pages]]"
 tags:
