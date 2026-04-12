@@ -1,6 +1,5 @@
 https://www.youtube.com/watch?v=6SXCJhqXubU
 
-
 This video features Rory Sutherland, Vice Chairman of Ogilvy UK, sharing his predictions for 2026. He focuses on how AI and automation are being integrated into the business world, specifically highlighting the risks of focusing on cost reduction at the expense of human value and user experience.
 
 **The "Doorman Fallacy" and AI**
@@ -34,3 +33,7 @@ URL: [https://www.youtube.com/watch?v=6SXCJhqXubU](https://www.youtube.com/watch
 
 **„Trzy fazy. I dlaczego jesteś pewnie w pierwszej, chociaż myślisz, że w trzeciej"**. Bierzesz trójpodział Sutherlanda (same but cheaper → same but better → reinvention) i używasz go jako diagnostyki. To byłby brat bliźniak Twojego tekstu o franczyzie — ten sam poziom konfrontacyjny, tylko z inną diagnozą. Większość firm (i ludzi), które uważają, że „zrobiły transformację AI", siedzi w fazie pierwszej i udaje, że nie. Objawy fazy pierwszej: liczysz zaoszczędzone godziny. Objawy fazy drugiej: liczysz, ile klientów zostało. Objawy fazy trzeciej: nie liczysz starych metryk, bo już Ci się nie przydają. Twój AI Project Brain — i to jest moim zdaniem _właściwa pointa_ — jest próbą budowania w fazie trzeciej, tylko nigdy tego tak nie nazwałeś. Ten tekst dałby Ci ramę, w której cała Twoja dotychczasowa praca nagle układa się w jedną opowieść.
 
+
+
+AI zadziała gdy mamy procesy. AI ma różne tryby pracy - synchroniczny, równoległy, asynchroniczny i w tle. 
+A jak wyglądają same fazy transformacji w AI. W znalezieniu odpowiedzi na to pytanie mogą nam pomóc..marketerzy. Rory Sutherland jest znanym ekonomistą behawioralnym, niedawno podzielił się on swoimi predykacjami na rok 2026
