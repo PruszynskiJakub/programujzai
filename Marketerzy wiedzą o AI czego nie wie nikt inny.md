@@ -32,13 +32,23 @@ I tak dowiadujemy się, że na przestrzeni wieków rynek wchłaniał nowinki tec
 2. Tak samo, ale lepiej
 3. Kompletnie inaczej
 
-Zderzając te etapy z AI, możemy znaleźć silne analogie.
-Etap pierwszy to redukcja oraz optymalizacja kosztów, czytaj masowe zwolnienia.
-Etap drugi to wykorzystanie AI niczym trampoliny do lepszych doświadczeń klienta. Tutaj jest teraz moja organizacja, chcąc dostarczać więcej wartości.
-Etap trzeci cóż jeszcze nie wiem jak wygląda, Rory jak przykład podał innowację silnika elektrycznego w fabrykach, który dał prawdziwą wartość dopiero w momencie przeprojektowania całych fabryk pod tą nową na tamten czas technologię.
+Przyłóż to do AI, a zobaczysz znajomy wzorzec. Faza pierwsza - redukcja kosztów, czytaj masowe zwolnienia. Faza druga - AI jako trampolina do lepszych doświadczeń klienta. Tutaj jest teraz moja organizacja: narracja przesunęła się z „róbmy taniej" na „dostarczajmy więcej wartości". Faza trzecia? Nie wiem jeszcze, jak wygląda. I szczerze - myślę, że nikt w pełni nie wie.
 
+Ale jest trop, który mnie zatrzymał. Silnik elektryczny w fabrykach. Przez lata fabryki po prostu wymieniali maszynę parową na elektryczną - ten sam układ hal, te same taśmy, tylko inne źródło energii. Prawdziwa rewolucja przyszła dopiero wtedy, **gdy ktoś przeprojektował całą fabrykę pod możliwości, które silnik elektryczny dawał** — mniejsze maszyny, elastyczne linie, zupełnie inny flow produkcji. Zastanów się — czy Twoja organizacja nie robi teraz dokładnie tego z AI? Wymienia silnik parowy na elektryczny, ale hala wygląda tak samo. 
+
+Przykładem firmy, która faktycznie przeprojektowała swoją halę, jest Stripe. Opisali to na blogu w dwóch publikacjach — i tym, co mnie wciągnęło, nie była skala, tylko podejście. Nazywają to armią Minionków [^3]. **Kluczem jest delegacja setek drobnych zadań do agentów AI — każde na tyle małe, że agent ogarnia je na podstawie jednego polecenia.** Ale prawdziwa zmiana nie leży w samych Minionkach. Leży w tym, że stały się integralną częścią całego firmowego ekosystemu, w którym agenci mają dostęp do tego samego zestawu narzędzi i kontekstu co deweloperzy.
+
+I tu pojawia się paradoks, którego nie spodziewałem się usłyszeć od kogoś, kto właśnie opowiadał o trzech fazach automatyzacji. Sutherland mówi: **im więcej automatyzujemy, tym więcej warte staje się to, czego zautomatyzować się nie da.**
+
+Portier w hotelu. Zapewnia bezpieczeństwo, rozpoznaje stałych gości, przywołuje taksówkę — funkcje, których maszyna nie odtworzy. Nie dlatego, że są technicznie trudne. Dlatego, że ich nieuchwytna wartość tkwi w tym, że robi to człowiek.
+
+Sutherland argumentuje, że kiedy automatyzacja staje się powszechna, ludzki element wymiany zaczyna nieproporcjonalnie napędzać satysfakcję klienta. 
+Brzmi jak kontrpunkt do całej narracji o Minionkach — ale to jest właśnie ta trzecia faza. Nie „zastąp człowieka", nie „wspomóż człowieka". 
+
+**Przeprojektuj układ tak, żeby człowiek robił to, co tylko człowiek potrafi — a resztę oddaj maszynom.**
 
 
 
 [^1]: https://www.youtube.com/watch?v=CZs8J1ZD0CE
 [^2]: https://www.youtube.com/watch?v=6SXCJhqXubU
+[^3]: https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents
