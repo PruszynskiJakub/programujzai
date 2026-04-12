@@ -27,6 +27,8 @@ Musiałem myśleć dość głośno, bo świat usłyszał. Parę dni później w 
 
 Ich wyróżnikiem jest perspektywa. Większość przewidywań o AI, które czytam, brzmi jak ekstrapolacja benchmarków — szybciej, więcej, taniej. Sutherland patrzy z drugiej strony. Nie pyta „co technologia będzie umiała?" tylko „jak zmieni się to, czego ludzie oczekują?".
 
+To jest dokładnie to, czym marketerzy zajmują się od zawsze. Nie optymalizują funkcji — optymalizują znaczenie. Nie pytają „co produkt robi?", tylko „co klient czuje, gdy przestaje go potrzebować?" Inżynierowie widzą możliwości. Finansiści widzą koszty. Marketerzy widzą percepcję — i właśnie dlatego w rozmowie o AI to oni mają odpowiedź, której inni szukają w benchmarkach.
+
 I tak dowiadujemy się, że na przestrzeni wieków rynek wchłaniał nowinki technologiczne w trzech fazach.
 1. Tak samo, ale taniej
 2. Tak samo, ale lepiej
@@ -34,9 +36,9 @@ I tak dowiadujemy się, że na przestrzeni wieków rynek wchłaniał nowinki tec
 
 Przyłóż to do AI, a zobaczysz znajomy wzorzec. Faza pierwsza - redukcja kosztów, czytaj masowe zwolnienia. Faza druga - AI jako trampolina do lepszych doświadczeń klienta. Tutaj jest teraz moja organizacja: narracja przesunęła się z „róbmy taniej" na „dostarczajmy więcej wartości". Faza trzecia? Nie wiem jeszcze, jak wygląda. I szczerze - myślę, że nikt w pełni nie wie.
 
-Ale jest trop, który mnie zatrzymał. Silnik elektryczny w fabrykach. Przez lata fabryki po prostu wymieniali maszynę parową na elektryczną - ten sam układ hal, te same taśmy, tylko inne źródło energii. Prawdziwa rewolucja przyszła dopiero wtedy, **gdy ktoś przeprojektował całą fabrykę pod możliwości, które silnik elektryczny dawał** — mniejsze maszyny, elastyczne linie, zupełnie inny flow produkcji. Zastanów się — czy Twoja organizacja nie robi teraz dokładnie tego z AI? Wymienia silnik parowy na elektryczny, ale hala wygląda tak samo. 
+Ale jest trop, który mnie zatrzymał. Silnik elektryczny w fabrykach. Przez lata fabryki po prostu wymieniali maszynę parową na elektryczną - ten sam układ hal, te same taśmy, tylko inne źródło energii. Prawdziwa rewolucja przyszła dopiero wtedy, **gdy ktoś przeprojektował całą fabrykę pod możliwości, które silnik elektryczny dawał** - mniejsze maszyny, elastyczne linie, zupełnie inny flow produkcji.  **Marketer powiedziałby: problem nie był techniczny. Był percepcyjny - wszyscy widzieli „halę produkcyjną", zamiast zapytać, co w ogóle chcą wyprodukować.** Zastanów się - czy Twoja organizacja nie robi teraz dokładnie tego z AI? Wymienia silnik parowy na elektryczny, ale hala wygląda tak samo. 
 
-Przykładem firmy, która faktycznie przeprojektowała swoją halę, jest Stripe. Opisali to na blogu w dwóch publikacjach — i tym, co mnie wciągnęło, nie była skala, tylko podejście. Nazywają to armią Minionków [^3]. **Kluczem jest delegacja setek drobnych zadań do agentów AI — każde na tyle małe, że agent ogarnia je na podstawie jednego polecenia.** Ale prawdziwa zmiana nie leży w samych Minionkach. Leży w tym, że stały się integralną częścią całego firmowego ekosystemu, w którym agenci mają dostęp do tego samego zestawu narzędzi i kontekstu co deweloperzy.
+Przykładem firmy, która faktycznie przeprojektowała swoją halę, jest Stripe. Opisali to na blogu w dwóch publikacjach — i tym, co mnie wciągnęło, nie była tylko skala, ale też podejście. Nazywają to armią Minionków [^3]. **Kluczem jest delegacja setek drobnych zadań do agentów AI -każde na tyle małe, że agent ogarnia je na podstawie jednego polecenia.**  Ale prawdziwa zmiana nie leży w samych Minionkach. Leży w tym, że stały się integralną częścią całego firmowego ekosystemu, w którym agenci mają dostęp do tego samego zestawu narzędzi i kontekstu co deweloperzy.
 
 I tu pojawia się paradoks, którego nie spodziewałem się usłyszeć od kogoś, kto właśnie opowiadał o trzech fazach automatyzacji. Sutherland mówi: **im więcej automatyzujemy, tym więcej warte staje się to, czego zautomatyzować się nie da.**
 
@@ -46,8 +48,6 @@ Sutherland argumentuje, że kiedy automatyzacja staje się powszechna, ludzki el
 Brzmi jak kontrpunkt do całej narracji o Minionkach — ale to jest właśnie ta trzecia faza. Nie „zastąp człowieka", nie „wspomóż człowieka". 
 
 **Przeprojektuj układ tak, żeby człowiek robił to, co tylko człowiek potrafi — a resztę oddaj maszynom.**
-
-
 
 [^1]: https://www.youtube.com/watch?v=CZs8J1ZD0CE
 [^2]: https://www.youtube.com/watch?v=6SXCJhqXubU
