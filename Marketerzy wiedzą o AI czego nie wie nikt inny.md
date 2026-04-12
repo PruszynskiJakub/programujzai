@@ -14,7 +14,7 @@ To zdanie Kenta Becka z ostatniego The Pragmatic Summit zostało ze mną na dłu
 
 Rok 2023. Moja organizacja, podobnie jak zapewne Twoja, na hura rusza w transformację AI. Gdzieś w odmęcie zakładek pewnie nadal mam linki do spreadsheetów z metrykami używania GitHub Copilota, które budowałem na potrzeby firmy. Albo przewodnik po prompt engineeringu, który sam pisałem — z przekonaniem, że właśnie tworzymy coś trwałego.
 
-![[00-Załączniki/Co wiedzą marketerzy o AI czego nie wie nikt inny/a1bff9463e7a18773adbb7b87f9181ff_MD5.jpeg|670]]
+![[a1bff9463e7a18773adbb7b87f9181ff_MD5.jpeg|670]]
 *Zrzut ze statystyk używania Github Copilota*
 
 Ironia polega na tym, że **niemal dokładnie te same słowa wypowiedziałem kiedyś do swojego przełożonego**. Chciał ode mnie konkretny plan wdrożeń — ogólnofirmowe szkolenia, materiały, harmonogram. A ja stałem z poczuciem, że kleimy mapę terenu, który zmienia się szybciej niż schnie atrament. Szybko się rozstaliśmy.
