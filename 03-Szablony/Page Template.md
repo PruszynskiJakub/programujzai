@@ -5,6 +5,6 @@ categories: "[[Pages]]"
 tags:
   - pages
 ---
-*Opublikowane {{date:YYYY-MM-DD}}*
+*Napisane przez człowieka, zrecenzowane przez AI, opublikowane {{date:YYYY-MM-DD}}*
 # Title
 ---

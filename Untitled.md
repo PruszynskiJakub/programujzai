@@ -32,27 +32,3 @@ URL: [https://www.youtube.com/watch?v=6SXCJhqXubU](https://www.youtube.com/watch
 
 
 **„Trzy fazy. I dlaczego jesteś pewnie w pierwszej, chociaż myślisz, że w trzeciej"**. Bierzesz trójpodział Sutherlanda (same but cheaper → same but better → reinvention) i używasz go jako diagnostyki. To byłby brat bliźniak Twojego tekstu o franczyzie — ten sam poziom konfrontacyjny, tylko z inną diagnozą. Większość firm (i ludzi), które uważają, że „zrobiły transformację AI", siedzi w fazie pierwszej i udaje, że nie. Objawy fazy pierwszej: liczysz zaoszczędzone godziny. Objawy fazy drugiej: liczysz, ile klientów zostało. Objawy fazy trzeciej: nie liczysz starych metryk, bo już Ci się nie przydają. Twój AI Project Brain — i to jest moim zdaniem _właściwa pointa_ — jest próbą budowania w fazie trzeciej, tylko nigdy tego tak nie nazwałeś. Ten tekst dałby Ci ramę, w której cała Twoja dotychczasowa praca nagle układa się w jedną opowieść.
-
-
-
-„Ludzie chcą odpowiedzi… a odpowiedź się zmienia."
-
-To zdanie Kenta Becka z ostatniego The Pragmatic Summit zostało ze mną na dłużej niż cokolwiek innego z tej konferencji. Nie dlatego, że było mądre. Dlatego, że wywołało uśmiech -taki z rozpoznania.
-
-Rok 2023. Moja organizacja, podobnie jak zapewne Twoja, na hura rusza w AI-ową transformację. Gdzieś w odmęcie zakładek pewnie nadal mam linki do spreadsheetów z metrykami używania GitHub Copilota, które budowałem na potrzeby firmy. Albo przewodnik po prompt engineeringu, który sam pisałem — z przekonaniem, że właśnie tworzymy coś trwałego.
-
-Ironia polega na tym, że **niemal dokładnie te same słowa wypowiedziałem kiedyś do swojego przełożonego**. Chciał ode mnie konkretny plan wdrożeń — ogólnofirmowe szkolenia, materiały, harmonogram. A ja stałem z poczuciem, że kleimy mapę terenu, który zmienia się szybciej niż schnie atrament. Szybko się rozstaliśmy.
-
-Trzy lata później mgła na mapie częściowo opadła. Technologia rozwinęła się niesamowicie, a my jesteśmy szczyptę mądrzejsi. Wiemy już, że **AI wymaga [[AI to najlepsza franczyza jaka istnieje|lepszych procesów]] niż jakiekolwiek narzędzie przed nim** - warstwa farby na wilgotną ścianę nadal się nie trzyma. Mamy dowolność w wyborze [[Praca z AI to ciągła nawigacja|trybów pracy]]. I - co najciekawsze  zaobserwowałem ostatnio zmianę narracji w organizacji. Z „róbmy szybciej, taniej" na „dostarczajmy więcej wartości". Kiedy to usłyszałem, zrozumiałem, że jesteśmy krok dalej.
-
-Gdy to do mnie dotarło zacząłem naturalnie zastanawiać co nastąpi później. W końcu jak mawiał Mark Twain historia się nie powtarza, ale się rymuje. Musiałem myśleć dość głośno bo świat usłyszał i parę dni później w moich proponowych na Youtube znalazłem odpowiedź...od marketera.
-
-Rory Sutherland bo to o nim mowa, jest znanym ekonomistą behawioralnym oraz 
-
-
-
-
-
-Na początku marca, gdy przedstawiałem propozycję zmian 
-AI zadziała gdy mamy procesy. AI ma różne tryby pracy - synchroniczny, równoległy, asynchroniczny i w tle. 
-A jak wyglądają same fazy transformacji w AI. W znalezieniu odpowiedzi na to pytanie mogą nam pomóc..marketerzy. Rory Sutherland jest znanym ekonomistą behawioralnym, niedawno podzielił się on swoimi predykacjami na rok 2026. 
