@@ -12,10 +12,10 @@ tags:
 
 To zdanie Kenta Becka z ostatniego The Pragmatic Summit zostało ze mną na dłużej niż cokolwiek innego z tej konferencji[^1]. Nie dlatego, że było mądre. Dlatego, że wywołało uśmiech - taki z rozpoznania.
 
-Rok 2023. Moja organizacja, podobnie jak zapewne Twoja, na hura rusza w AI-ową transformację. Gdzieś w odmęcie zakładek pewnie nadal mam linki do spreadsheetów z metrykami używania GitHub Copilota, które budowałem na potrzeby firmy. Albo przewodnik po prompt engineeringu, który sam pisałem — z przekonaniem, że właśnie tworzymy coś trwałego.
+Rok 2023. Moja organizacja, podobnie jak zapewne Twoja, na hura rusza w transformację AI. Gdzieś w odmęcie zakładek pewnie nadal mam linki do spreadsheetów z metrykami używania GitHub Copilota, które budowałem na potrzeby firmy. Albo przewodnik po prompt engineeringu, który sam pisałem — z przekonaniem, że właśnie tworzymy coś trwałego.
 
 ![[00-Załączniki/Co wiedzą marketerzy o AI czego nie wie nikt inny/a1bff9463e7a18773adbb7b87f9181ff_MD5.jpeg|670]]
-*Zrzut ze statystyk używania* Github Copilota
+*Zrzut ze statystyk używania Github Copilota*
 
 Ironia polega na tym, że **niemal dokładnie te same słowa wypowiedziałem kiedyś do swojego przełożonego**. Chciał ode mnie konkretny plan wdrożeń — ogólnofirmowe szkolenia, materiały, harmonogram. A ja stałem z poczuciem, że kleimy mapę terenu, który zmienia się szybciej niż schnie atrament. Szybko się rozstaliśmy.
 
@@ -25,10 +25,17 @@ Gdy to do mnie dotarło, zacząłem się naturalnie zastanawiać — co nastąpi
 
 Musiałem myśleć dość głośno, bo świat usłyszał. Parę dni później w proponowanych na YouTube znalazłem wskazówkę - i to od marketera. Rory Sutherland, znany ekonomista behawioralny i człowiek, który potrafi wyjaśnić ludzkie decyzje lepiej niż większość technologów, podzielił się kilka tygodni temu swoimi przewidywaniami w obszarze sztucznej inteligencji [^2] .
 
-Większość przewidywań o AI, które czytam, brzmi jak ekstrapolacja benchmarków — szybciej, więcej, taniej. Sutherland patrzy z drugiej strony. Nie pyta „co technologia będzie umiała?" tylko „jak zmieni się to, czego ludzie oczekują?". I to jest pytanie, które powinniśmy sobie zadawać częściej. 
+Ich wyróżnikiem jest perspektywa. Większość przewidywań o AI, które czytam, brzmi jak ekstrapolacja benchmarków — szybciej, więcej, taniej. Sutherland patrzy z drugiej strony. Nie pyta „co technologia będzie umiała?" tylko „jak zmieni się to, czego ludzie oczekują?".
 
+I tak dowiadujemy się, że na przestrzeni wieków rynek wchłaniał nowinki technologiczne w trzech fazach.
+1. Tak samo, ale taniej
+2. Tak samo, ale lepiej
+3. Kompletnie inaczej
 
-
+Zderzając te etapy z AI, możemy znaleźć silne analogie.
+Etap pierwszy to redukcja oraz optymalizacja kosztów, czytaj masowe zwolnienia.
+Etap drugi to wykorzystanie AI niczym trampoliny do lepszych doświadczeń klienta. Tutaj jest teraz moja organizacja, chcąc dostarczać więcej wartości.
+Etap trzeci cóż jeszcze nie wiem jak wygląda, Rory jak przykład podał innowację silnika elektrycznego w fabrykach, który dał prawdziwą wartość dopiero w momencie przeprojektowania całych fabryk pod tą nową na tamten czas technologię.
 
 
 
